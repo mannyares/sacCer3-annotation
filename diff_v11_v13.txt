@@ -1,0 +1,1847 @@
+#diff sacCer3_ares_v11.txt sacCer3_ares_v13.txt
+1c1
+< track name='ares lab xcripts gtf v11' description='Ares lab defined transcripts v11' genome=sacCer3 priority=0.021 visibility=pack color=204,121,167  								
+---
+> #track name='ares lab xcripts gtf v13' description='transcripts v13' genome=sacCer3 priority=0.021 visibility=pack color=98,166,92  								
+39c39
+< chrVI	tmp.gp	exon	53260	54696	.	-	.	gene_id "ACT1"; transcript_id "ACT1_2"; exon_number "1"; exon_id "ACT1_2.1";
+---
+> chrVI	tmp.gp	exon	53260	54816	.	-	.	gene_id "ACT1"; transcript_id "ACT1_2"; exon_number "1"; exon_id "ACT1_2.1";
+41c41
+< chrVI	tmp.gp	exon	54687	54696	.	-	.	gene_id "ACT1"; transcript_id "ACT1"; exon_number "2"; exon_id "ACT1.2";
+---
+> chrVI	tmp.gp	exon	54687	54816	.	-	.	gene_id "ACT1"; transcript_id "ACT1"; exon_number "2"; exon_id "ACT1.2";
+53c53
+< chrVII	tmp.gp	exon	56482	58890	.	+	.	gene_id "ADE5,7"; transcript_id "ADE5,7"; exon_number "1"; exon_id "ADE5,7.1";
+---
+> chrVII	tmp.gp	exon	56482	58890	.	+	.	gene_id "ADE5-7"; transcript_id "ADE5-7"; exon_number "1"; exon_id "ADE5-7.1";
+116c116
+< chrV	tmp.gp	exon	347912	348400	.	-	.	gene_id "AIM11"; transcript_id "AIM11_2"; exon_number "1"; exon_id "AIM11_2.1";
+---
+> chrV	tmp.gp	exon	347912	348413	.	-	.	gene_id "AIM11"; transcript_id "AIM11_2"; exon_number "1"; exon_id "AIM11_2.1";
+118c118
+< chrV	tmp.gp	exon	348277	348400	.	-	.	gene_id "AIM11"; transcript_id "AIM11"; exon_number "2"; exon_id "AIM11.2";
+---
+> chrV	tmp.gp	exon	348277	348413	.	-	.	gene_id "AIM11"; transcript_id "AIM11"; exon_number "2"; exon_id "AIM11.2";
+190,191c190,191
+< chrVII	tmp.gp	exon	945145	947019	.	+	.	gene_id "AMA1"; transcript_id "AMA1_2"; exon_number "1"; exon_id "AMA1_2.1";
+< chrVII	tmp.gp	exon	945145	946327	.	+	.	gene_id "AMA1"; transcript_id "AMA1"; exon_number "1"; exon_id "AMA1.1";
+---
+> chrVII	tmp.gp	exon	945037	947019	.	+	.	gene_id "AMA1"; transcript_id "AMA1_2"; exon_number "1"; exon_id "AMA1_2.1";
+> chrVII	tmp.gp	exon	945037	946327	.	+	.	gene_id "AMA1"; transcript_id "AMA1"; exon_number "1"; exon_id "AMA1.1";
+212,213c212,213
+< chrXI	tmp.gp	exon	154991	158232	.	+	.	gene_id "APE2"; transcript_id "APE2_2"; exon_number "1"; exon_id "APE2_2.1";
+< chrXI	tmp.gp	exon	154991	155271	.	+	.	gene_id "APE2"; transcript_id "APE2"; exon_number "1"; exon_id "APE2.1";
+---
+> chrXI	tmp.gp	exon	154966	158232	.	+	.	gene_id "APE2"; transcript_id "APE2_2"; exon_number "1"; exon_id "APE2_2.1";
+> chrXI	tmp.gp	exon	154966	155271	.	+	.	gene_id "APE2"; transcript_id "APE2"; exon_number "1"; exon_id "APE2.1";
+235c235
+< chrX	tmp.gp	exon	395931	396592	.	-	.	gene_id "APS3"; transcript_id "APS3_2"; exon_number "1"; exon_id "APS3_2.1";
+---
+> chrX	tmp.gp	exon	395931	396634	.	-	.	gene_id "APS3"; transcript_id "APS3_2"; exon_number "1"; exon_id "APS3_2.1";
+237c237
+< chrX	tmp.gp	exon	396571	396592	.	-	.	gene_id "APS3"; transcript_id "APS3"; exon_number "2"; exon_id "APS3.2";
+---
+> chrX	tmp.gp	exon	396571	396634	.	-	.	gene_id "APS3"; transcript_id "APS3"; exon_number "2"; exon_id "APS3.2";
+264c264
+< chrV	tmp.gp	exon	295410	298001	.	+	.	gene_id "ARG5,6"; transcript_id "ARG5,6"; exon_number "1"; exon_id "ARG5,6.1";
+---
+> chrV	tmp.gp	exon	295410	298001	.	+	.	gene_id "ARG5-6"; transcript_id "ARG5-6"; exon_number "1"; exon_id "ARG5-6.1";
+288,289c288,289
+< chrIV	tmp.gp	exon	399340	400638	.	+	.	gene_id "ARP2"; transcript_id "ARP2_2"; exon_number "1"; exon_id "ARP2_2.1";
+< chrIV	tmp.gp	exon	399340	399361	.	+	.	gene_id "ARP2"; transcript_id "ARP2"; exon_number "1"; exon_id "ARP2.1";
+---
+> chrIV	tmp.gp	exon	399319	400638	.	+	.	gene_id "ARP2"; transcript_id "ARP2_2"; exon_number "1"; exon_id "ARP2_2.1";
+> chrIV	tmp.gp	exon	399319	399361	.	+	.	gene_id "ARP2"; transcript_id "ARP2"; exon_number "1"; exon_id "ARP2.1";
+297,298c297,298
+< chrXIII	tmp.gp	exon	337788	339277	.	+	.	gene_id "ARP9"; transcript_id "ARP9_2"; exon_number "1"; exon_id "ARP9_2.1";
+< chrXIII	tmp.gp	exon	337788	337817	.	+	.	gene_id "ARP9"; transcript_id "ARP9"; exon_number "1"; exon_id "ARP9.1";
+---
+> chrXIII	tmp.gp	exon	337744	339277	.	+	.	gene_id "ARP9"; transcript_id "ARP9_2"; exon_number "1"; exon_id "ARP9_2.1";
+> chrXIII	tmp.gp	exon	337744	337817	.	+	.	gene_id "ARP9"; transcript_id "ARP9"; exon_number "1"; exon_id "ARP9.1";
+308c308
+< chrXIII	tmp.gp	exon	499456	500688	.	-	.	gene_id "ASC1"; transcript_id "ASC1_2"; exon_number "1"; exon_id "ASC1_2.1";
+---
+> chrXIII	tmp.gp	exon	499456	500717	.	-	.	gene_id "ASC1"; transcript_id "ASC1_2"; exon_number "1"; exon_id "ASC1_2.1";
+310c310
+< chrXIII	tmp.gp	exon	500152	500688	.	-	.	gene_id "ASC1"; transcript_id "ASC1"; exon_number "2"; exon_id "ASC1.2";
+---
+> chrXIII	tmp.gp	exon	500152	500717	.	-	.	gene_id "ASC1"; transcript_id "ASC1"; exon_number "2"; exon_id "ASC1.2";
+443c443
+< chrIX	tmp.gp	exon	347946	348505	.	-	.	gene_id "BET1"; transcript_id "BET1_2"; exon_number "1"; exon_id "BET1_2.1";
+---
+> chrIX	tmp.gp	exon	347946	348544	.	-	.	gene_id "BET1"; transcript_id "BET1_2"; exon_number "1"; exon_id "BET1_2.1";
+445c445
+< chrIX	tmp.gp	exon	348495	348505	.	-	.	gene_id "BET1"; transcript_id "BET1"; exon_number "2"; exon_id "BET1.2";
+---
+> chrIX	tmp.gp	exon	348495	348544	.	-	.	gene_id "BET1"; transcript_id "BET1"; exon_number "2"; exon_id "BET1.2";
+448c448
+< chrX	tmp.gp	exon	386368	387438	.	-	.	gene_id "BET4"; transcript_id "BET4_2"; exon_number "1"; exon_id "BET4_2.1";
+---
+> chrX	tmp.gp	exon	386368	387500	.	-	.	gene_id "BET4"; transcript_id "BET4_2"; exon_number "1"; exon_id "BET4_2.1";
+450c450
+< chrX	tmp.gp	exon	387436	387438	.	-	.	gene_id "BET4"; transcript_id "BET4"; exon_number "2"; exon_id "BET4.2";
+---
+> chrX	tmp.gp	exon	387436	387500	.	-	.	gene_id "BET4"; transcript_id "BET4"; exon_number "2"; exon_id "BET4.2";
+465c465
+< chrVIII	tmp.gp	exon	314874	315968	.	-	.	gene_id "BIG1"; transcript_id "BIG1_2"; exon_number "1"; exon_id "BIG1_2.1";
+---
+> chrVIII	tmp.gp	exon	314874	316000	.	-	.	gene_id "BIG1"; transcript_id "BIG1_2"; exon_number "1"; exon_id "BIG1_2.1";
+467c467
+< chrVIII	tmp.gp	exon	315859	315968	.	-	.	gene_id "BIG1"; transcript_id "BIG1"; exon_number "2"; exon_id "BIG1.2";
+---
+> chrVIII	tmp.gp	exon	315859	316000	.	-	.	gene_id "BIG1"; transcript_id "BIG1"; exon_number "2"; exon_id "BIG1.2";
+484,485d483
+< chrIV	tmp.gp	exon	652652	652780	.	+	.	gene_id "BMH2"; transcript_id "BMH2_3"; exon_number "1"; exon_id "BMH2_3.1";
+< chrIV	tmp.gp	exon	653491	654428	.	+	.	gene_id "BMH2"; transcript_id "BMH2_3"; exon_number "2"; exon_id "BMH2_3.2";
+504c502
+< chrXII	tmp.gp	exon	285736	286559	.	-	.	gene_id "BOS1"; transcript_id "BOS1_2"; exon_number "1"; exon_id "BOS1_2.1";
+---
+> chrXII	tmp.gp	exon	285736	286612	.	-	.	gene_id "BOS1"; transcript_id "BOS1_2"; exon_number "1"; exon_id "BOS1_2.1";
+506c504
+< chrXII	tmp.gp	exon	286557	286559	.	-	.	gene_id "BOS1"; transcript_id "BOS1"; exon_number "2"; exon_id "BOS1.2";
+---
+> chrXII	tmp.gp	exon	286557	286612	.	-	.	gene_id "BOS1"; transcript_id "BOS1"; exon_number "2"; exon_id "BOS1.2";
+542d539
+< chrX	tmp.gp	exon	76202	76510	.	-	.	gene_id "BUD19"; transcript_id "BUD19"; exon_number "1"; exon_id "BUD19.1";
+553d549
+< chrXII	tmp.gp	exon	263577	263954	.	-	.	gene_id "BUD28"; transcript_id "BUD28"; exon_number "1"; exon_id "BUD28.1";
+685,686c681,682
+< chrXIII	tmp.gp	exon	205642	206293	.	+	.	gene_id "CGI121"; transcript_id "CGI121_2"; exon_number "1"; exon_id "CGI121_2.1";
+< chrXIII	tmp.gp	exon	205642	206097	.	+	.	gene_id "CGI121"; transcript_id "CGI121"; exon_number "1"; exon_id "CGI121.1";
+---
+> chrXIII	tmp.gp	exon	205606	206293	.	+	.	gene_id "CGI121"; transcript_id "CGI121_2"; exon_number "1"; exon_id "CGI121_2.1";
+> chrXIII	tmp.gp	exon	205606	206097	.	+	.	gene_id "CGI121"; transcript_id "CGI121"; exon_number "1"; exon_id "CGI121.1";
+709c705
+< chrXVI	tmp.gp	exon	95372	96258	.	-	.	gene_id "CIN2"; transcript_id "CIN2_2"; exon_number "1"; exon_id "CIN2_2.1";
+---
+> chrXVI	tmp.gp	exon	95372	96266	.	-	.	gene_id "CIN2"; transcript_id "CIN2_2"; exon_number "1"; exon_id "CIN2_2.1";
+711c707
+< chrXVI	tmp.gp	exon	96234	96258	.	-	.	gene_id "CIN2"; transcript_id "CIN2"; exon_number "2"; exon_id "CIN2.2";
+---
+> chrXVI	tmp.gp	exon	96234	96266	.	-	.	gene_id "CIN2"; transcript_id "CIN2"; exon_number "2"; exon_id "CIN2.2";
+743c739
+< chrII	tmp.gp	exon	110125	110539	.	-	.	gene_id "CMC2"; transcript_id "CMC2_2"; exon_number "1"; exon_id "CMC2_2.1";
+---
+> chrII	tmp.gp	exon	110125	110570	.	-	.	gene_id "CMC2"; transcript_id "CMC2_2"; exon_number "1"; exon_id "CMC2_2.1";
+745,746c741,742
+< chrII	tmp.gp	exon	110506	110539	.	-	.	gene_id "CMC2"; transcript_id "CMC2"; exon_number "2"; exon_id "CMC2.2";
+< chrXIII	tmp.gp	exon	652324	652887	.	-	.	gene_id "CMC4"; transcript_id "CMC4_2"; exon_number "1"; exon_id "CMC4_2.1";
+---
+> chrII	tmp.gp	exon	110506	110570	.	-	.	gene_id "CMC2"; transcript_id "CMC2"; exon_number "2"; exon_id "CMC2.2";
+> chrXIII	tmp.gp	exon	652324	652898	.	-	.	gene_id "CMC4"; transcript_id "CMC4_2"; exon_number "1"; exon_id "CMC4_2.1";
+748,750c744
+< chrXIII	tmp.gp	exon	652848	652887	.	-	.	gene_id "CMC4"; transcript_id "CMC4"; exon_number "2"; exon_id "CMC4.2";
+< chrXIII	tmp.gp	exon	652324	652755	.	-	.	gene_id "CMC4"; transcript_id "CMC4_3"; exon_number "1"; exon_id "CMC4_3.1";
+< chrXIII	tmp.gp	exon	652848	652887	.	-	.	gene_id "CMC4"; transcript_id "CMC4_3"; exon_number "2"; exon_id "CMC4_3.2";
+---
+> chrXIII	tmp.gp	exon	652848	652898	.	-	.	gene_id "CMC4"; transcript_id "CMC4"; exon_number "2"; exon_id "CMC4.2";
+757,758c751,752
+< chrXI	tmp.gp	exon	82947	83550	.	+	.	gene_id "CNB1"; transcript_id "CNB1_2"; exon_number "1"; exon_id "CNB1_2.1";
+< chrXI	tmp.gp	exon	82947	82998	.	+	.	gene_id "CNB1"; transcript_id "CNB1"; exon_number "1"; exon_id "CNB1.1";
+---
+> chrXI	tmp.gp	exon	82900	83550	.	+	.	gene_id "CNB1"; transcript_id "CNB1_2"; exon_number "1"; exon_id "CNB1_2.1";
+> chrXI	tmp.gp	exon	82900	82998	.	+	.	gene_id "CNB1"; transcript_id "CNB1"; exon_number "1"; exon_id "CNB1.1";
+776c770
+< chrXII	tmp.gp	exon	39804	40414	.	-	.	gene_id "COF1"; transcript_id "COF1_2"; exon_number "1"; exon_id "COF1_2.1";
+---
+> chrXII	tmp.gp	exon	39804	40439	.	-	.	gene_id "COF1"; transcript_id "COF1_2"; exon_number "1"; exon_id "COF1_2.1";
+778c772
+< chrXII	tmp.gp	exon	40401	40414	.	-	.	gene_id "COF1"; transcript_id "COF1"; exon_number "2"; exon_id "COF1.2";
+---
+> chrXII	tmp.gp	exon	40401	40439	.	-	.	gene_id "COF1"; transcript_id "COF1"; exon_number "2"; exon_id "COF1.2";
+835,836c829,830
+< chrVII	tmp.gp	exon	150526	150577	.	-	.	gene_id "COX4"; transcript_id "COX4"; exon_number "2"; exon_id "COX4.2";
+< chrVII	tmp.gp	exon	149449	150577	.	-	.	gene_id "COX4"; transcript_id "COX4_2"; exon_number "1"; exon_id "COX4_2.1";
+---
+> chrVII	tmp.gp	exon	150526	150650	.	-	.	gene_id "COX4"; transcript_id "COX4"; exon_number "2"; exon_id "COX4.2";
+> chrVII	tmp.gp	exon	149449	150650	.	-	.	gene_id "COX4"; transcript_id "COX4_2"; exon_number "1"; exon_id "COX4_2.1";
+838,839c832,833
+< chrIX	tmp.gp	exon	155222	155765	.	+	.	gene_id "COX5B"; transcript_id "COX5B_2"; exon_number "1"; exon_id "COX5B_2.1";
+< chrIX	tmp.gp	exon	155222	155222	.	+	.	gene_id "COX5B"; transcript_id "COX5B"; exon_number "1"; exon_id "COX5B.1";
+---
+> chrIX	tmp.gp	exon	155150	155765	.	+	.	gene_id "COX5B"; transcript_id "COX5B_2"; exon_number "1"; exon_id "COX5B_2.1";
+> chrIX	tmp.gp	exon	155150	155222	.	+	.	gene_id "COX5B"; transcript_id "COX5B"; exon_number "1"; exon_id "COX5B.1";
+858c852
+< chrXIV	tmp.gp	exon	379558	380831	.	-	.	gene_id "CPT1"; transcript_id "CPT1_2"; exon_number "1"; exon_id "CPT1_2.1";
+---
+> chrXIV	tmp.gp	exon	379558	380873	.	-	.	gene_id "CPT1"; transcript_id "CPT1_2"; exon_number "1"; exon_id "CPT1_2.1";
+860c854
+< chrXIV	tmp.gp	exon	380782	380831	.	-	.	gene_id "CPT1"; transcript_id "CPT1"; exon_number "2"; exon_id "CPT1.2";
+---
+> chrXIV	tmp.gp	exon	380782	380873	.	-	.	gene_id "CPT1"; transcript_id "CPT1"; exon_number "2"; exon_id "CPT1.2";
+978,989d971
+< chrVII	tmp.gp	exon	593173	593507	.	+	.	gene_id "DB639229"; transcript_id "DB639229_2"; exon_number "1"; exon_id "DB639229_2.1";
+< chrVII	tmp.gp	exon	593173	593390	.	+	.	gene_id "DB639229"; transcript_id "DB639229"; exon_number "1"; exon_id "DB639229.1";
+< chrVII	tmp.gp	exon	593489	593507	.	+	.	gene_id "DB639229"; transcript_id "DB639229"; exon_number "2"; exon_id "DB639229.2";
+< chrIV	tmp.gp	exon	544593	545617	.	+	.	gene_id "DB639721"; transcript_id "DB639721_2"; exon_number "1"; exon_id "DB639721_2.1";
+< chrIV	tmp.gp	exon	544593	544676	.	+	.	gene_id "DB639721"; transcript_id "DB639721"; exon_number "1"; exon_id "DB639721.1";
+< chrIV	tmp.gp	exon	545161	545617	.	+	.	gene_id "DB639721"; transcript_id "DB639721"; exon_number "2"; exon_id "DB639721.2";
+< chrXV	tmp.gp	exon	70713	71051	.	-	.	gene_id "DB639731"; transcript_id "DB639731_2"; exon_number "1"; exon_id "DB639731_2.1";
+< chrXV	tmp.gp	exon	70713	70849	.	-	.	gene_id "DB639731"; transcript_id "DB639731"; exon_number "1"; exon_id "DB639731.1";
+< chrXV	tmp.gp	exon	71019	71051	.	-	.	gene_id "DB639731"; transcript_id "DB639731"; exon_number "2"; exon_id "DB639731.2";
+< chrXV	tmp.gp	exon	303409	304122	.	+	.	gene_id "DB641776"; transcript_id "DB641776_2"; exon_number "1"; exon_id "DB641776_2.1";
+< chrXV	tmp.gp	exon	303409	303449	.	+	.	gene_id "DB641776"; transcript_id "DB641776"; exon_number "1"; exon_id "DB641776.1";
+< chrXV	tmp.gp	exon	304015	304122	.	+	.	gene_id "DB641776"; transcript_id "DB641776"; exon_number "2"; exon_id "DB641776.2";
+995,996c977,978
+< chrXIV	tmp.gp	exon	413639	416281	.	+	.	gene_id "DBP2"; transcript_id "DBP2_2"; exon_number "1"; exon_id "DBP2_2.1";
+< chrXIV	tmp.gp	exon	413639	414911	.	+	.	gene_id "DBP2"; transcript_id "DBP2"; exon_number "1"; exon_id "DBP2.1";
+---
+> chrXIV	tmp.gp	exon	413597	416281	.	+	.	gene_id "DBP2"; transcript_id "DBP2_2"; exon_number "1"; exon_id "DBP2_2.1";
+> chrXIV	tmp.gp	exon	413597	414911	.	+	.	gene_id "DBP2"; transcript_id "DBP2"; exon_number "1"; exon_id "DBP2.1";
+1009,1010c991,992
+< chrXII	tmp.gp	exon	398530	399433	.	+	.	gene_id "DCN1"; transcript_id "DCN1_2"; exon_number "1"; exon_id "DCN1_2.1";
+< chrXII	tmp.gp	exon	398530	398532	.	+	.	gene_id "DCN1"; transcript_id "DCN1"; exon_number "1"; exon_id "DCN1.1";
+---
+> chrXII	tmp.gp	exon	398485	399433	.	+	.	gene_id "DCN1"; transcript_id "DCN1_2"; exon_number "1"; exon_id "DCN1_2.1";
+> chrXII	tmp.gp	exon	398485	398532	.	+	.	gene_id "DCN1"; transcript_id "DCN1"; exon_number "1"; exon_id "DCN1.1";
+1050,1051c1032,1033
+< chrXI	tmp.gp	exon	437778	438544	.	+	.	gene_id "DID4"; transcript_id "DID4_2"; exon_number "1"; exon_id "DID4_2.1";
+< chrXI	tmp.gp	exon	437778	437837	.	+	.	gene_id "DID4"; transcript_id "DID4"; exon_number "1"; exon_id "DID4.1";
+---
+> chrXI	tmp.gp	exon	437700	438544	.	+	.	gene_id "DID4"; transcript_id "DID4_2"; exon_number "1"; exon_id "DID4_2.1";
+> chrXI	tmp.gp	exon	437700	437837	.	+	.	gene_id "DID4"; transcript_id "DID4"; exon_number "1"; exon_id "DID4.1";
+1121,1122c1103,1104
+< chrIV	tmp.gp	exon	65242	65765	.	+	.	gene_id "DTD1"; transcript_id "DTD1_2"; exon_number "1"; exon_id "DTD1_2.1";
+< chrIV	tmp.gp	exon	65242	65306	.	+	.	gene_id "DTD1"; transcript_id "DTD1"; exon_number "1"; exon_id "DTD1.1";
+---
+> chrIV	tmp.gp	exon	65216	65765	.	+	.	gene_id "DTD1"; transcript_id "DTD1_2"; exon_number "1"; exon_id "DTD1_2.1";
+> chrIV	tmp.gp	exon	65216	65306	.	+	.	gene_id "DTD1"; transcript_id "DTD1"; exon_number "1"; exon_id "DTD1.1";
+1137,1139c1119
+< chrIV	tmp.gp	exon	1319387	1319841	.	-	.	gene_id "DYN2"; transcript_id "DYN2_2"; exon_number "1"; exon_id "DYN2_2.1";
+< chrIV	tmp.gp	exon	1319387	1319617	.	-	.	gene_id "DYN2"; transcript_id "DYN2_3"; exon_number "1"; exon_id "DYN2_3.1";
+< chrIV	tmp.gp	exon	1319817	1319841	.	-	.	gene_id "DYN2"; transcript_id "DYN2_3"; exon_number "2"; exon_id "DYN2_3.2";
+---
+> chrIV	tmp.gp	exon	1319387	1319867	.	-	.	gene_id "DYN2"; transcript_id "DYN2_2"; exon_number "1"; exon_id "DYN2_2.1";
+1142c1122
+< chrIV	tmp.gp	exon	1319817	1319841	.	-	.	gene_id "DYN2"; transcript_id "DYN2"; exon_number "3"; exon_id "DYN2.3";
+---
+> chrIV	tmp.gp	exon	1319817	1319867	.	-	.	gene_id "DYN2"; transcript_id "DYN2"; exon_number "3"; exon_id "DYN2.3";
+1177,1178c1157,1158
+< chrII	tmp.gp	exon	393123	394742	.	+	.	gene_id "ECM33"; transcript_id "ECM33_2"; exon_number "1"; exon_id "ECM33_2.1";
+< chrII	tmp.gp	exon	393123	393180	.	+	.	gene_id "ECM33"; transcript_id "ECM33"; exon_number "1"; exon_id "ECM33.1";
+---
+> chrII	tmp.gp	exon	392983	394742	.	+	.	gene_id "ECM33"; transcript_id "ECM33_2"; exon_number "1"; exon_id "ECM33_2.1";
+> chrII	tmp.gp	exon	392983	393180	.	+	.	gene_id "ECM33"; transcript_id "ECM33"; exon_number "1"; exon_id "ECM33.1";
+1186c1166
+< chrXI	tmp.gp	exon	446799	448036	.	-	.	gene_id "ECM9"; transcript_id "ECM9_2"; exon_number "1"; exon_id "ECM9_2.1";
+---
+> chrXI	tmp.gp	exon	446799	448083	.	-	.	gene_id "ECM9"; transcript_id "ECM9_2"; exon_number "1"; exon_id "ECM9_2.1";
+1188c1168
+< chrXI	tmp.gp	exon	447811	448036	.	-	.	gene_id "ECM9"; transcript_id "ECM9"; exon_number "2"; exon_id "ECM9.2";
+---
+> chrXI	tmp.gp	exon	447811	448083	.	-	.	gene_id "ECM9"; transcript_id "ECM9"; exon_number "2"; exon_id "ECM9.2";
+1197,1198c1177,1178
+< chrI	tmp.gp	exon	142174	143160	.	+	.	gene_id "EFB1"; transcript_id "EFB1_2"; exon_number "1"; exon_id "EFB1_2.1";
+< chrI	tmp.gp	exon	142174	142253	.	+	.	gene_id "EFB1"; transcript_id "EFB1"; exon_number "1"; exon_id "EFB1.1";
+---
+> chrI	tmp.gp	exon	142152	143160	.	+	.	gene_id "EFB1"; transcript_id "EFB1_2"; exon_number "1"; exon_id "EFB1_2.1";
+> chrI	tmp.gp	exon	142152	142253	.	+	.	gene_id "EFB1"; transcript_id "EFB1"; exon_number "1"; exon_id "EFB1.1";
+1251,1252c1231,1232
+< chrVIII	tmp.gp	exon	354815	356081	.	+	.	gene_id "EPT1"; transcript_id "EPT1_2"; exon_number "1"; exon_id "EPT1_2.1";
+< chrVIII	tmp.gp	exon	354815	354864	.	+	.	gene_id "EPT1"; transcript_id "EPT1"; exon_number "1"; exon_id "EPT1.1";
+---
+> chrVIII	tmp.gp	exon	354799	356081	.	+	.	gene_id "EPT1"; transcript_id "EPT1_2"; exon_number "1"; exon_id "EPT1_2.1";
+> chrVIII	tmp.gp	exon	354799	354864	.	+	.	gene_id "EPT1"; transcript_id "EPT1"; exon_number "1"; exon_id "EPT1.1";
+1257c1237
+< chrII	tmp.gp	exon	142112	142868	.	-	.	gene_id "ERD2"; transcript_id "ERD2_2"; exon_number "1"; exon_id "ERD2_2.1";
+---
+> chrII	tmp.gp	exon	142112	142911	.	-	.	gene_id "ERD2"; transcript_id "ERD2_2"; exon_number "1"; exon_id "ERD2_2.1";
+1259c1239
+< chrII	tmp.gp	exon	142847	142868	.	-	.	gene_id "ERD2"; transcript_id "ERD2"; exon_number "2"; exon_id "ERD2.2";
+---
+> chrII	tmp.gp	exon	142847	142911	.	-	.	gene_id "ERD2"; transcript_id "ERD2"; exon_number "2"; exon_id "ERD2.2";
+1302c1282
+< chrXIII	tmp.gp	exon	139063	140214	.	-	.	gene_id "ERV41"; transcript_id "ERV41_2"; exon_number "1"; exon_id "ERV41_2.1";
+---
+> chrXIII	tmp.gp	exon	139063	140225	.	-	.	gene_id "ERV41"; transcript_id "ERV41_2"; exon_number "1"; exon_id "ERV41_2.1";
+1304c1284
+< chrXIII	tmp.gp	exon	140184	140214	.	-	.	gene_id "ERV41"; transcript_id "ERV41"; exon_number "2"; exon_id "ERV41.2";
+---
+> chrXIII	tmp.gp	exon	140184	140225	.	-	.	gene_id "ERV41"; transcript_id "ERV41"; exon_number "2"; exon_id "ERV41.2";
+1363c1343
+< chrII	tmp.gp	exon	443660	444693	.	-	.	gene_id "FES1"; transcript_id "FES1_2"; exon_number "1"; exon_id "FES1_2.1";
+---
+> chrII	tmp.gp	exon	443660	444743	.	-	.	gene_id "FES1"; transcript_id "FES1_2"; exon_number "1"; exon_id "FES1_2.1";
+1365c1345
+< chrII	tmp.gp	exon	443834	444693	.	-	.	gene_id "FES1"; transcript_id "FES1"; exon_number "2"; exon_id "FES1.2";
+---
+> chrII	tmp.gp	exon	443834	444743	.	-	.	gene_id "FES1"; transcript_id "FES1"; exon_number "2"; exon_id "FES1.2";
+1512,1513c1492,1493
+< chrXVI	tmp.gp	exon	412254	415362	.	+	.	gene_id "GCR1"; transcript_id "GCR1_2"; exon_number "1"; exon_id "GCR1_2.1";
+< chrXVI	tmp.gp	exon	412254	412261	.	+	.	gene_id "GCR1"; transcript_id "GCR1"; exon_number "1"; exon_id "GCR1.1";
+---
+> chrXVI	tmp.gp	exon	412190	415362	.	+	.	gene_id "GCR1"; transcript_id "GCR1_2"; exon_number "1"; exon_id "GCR1_2.1";
+> chrXVI	tmp.gp	exon	412190	412261	.	+	.	gene_id "GCR1"; transcript_id "GCR1"; exon_number "1"; exon_id "GCR1.1";
+1553,1554c1533,1534
+< chrV	tmp.gp	exon	148176	148599	.	+	.	gene_id "GIM4"; transcript_id "GIM4_2"; exon_number "1"; exon_id "GIM4_2.1";
+< chrV	tmp.gp	exon	148176	148194	.	+	.	gene_id "GIM4"; transcript_id "GIM4"; exon_number "1"; exon_id "GIM4.1";
+---
+> chrV	tmp.gp	exon	148144	148599	.	+	.	gene_id "GIM4"; transcript_id "GIM4_2"; exon_number "1"; exon_id "GIM4_2.1";
+> chrV	tmp.gp	exon	148144	148194	.	+	.	gene_id "GIM4"; transcript_id "GIM4"; exon_number "1"; exon_id "GIM4.1";
+1556,1557c1536,1537
+< chrXIII	tmp.gp	exon	82275	82849	.	+	.	gene_id "GIM5"; transcript_id "GIM5_2"; exon_number "1"; exon_id "GIM5_2.1";
+< chrXIII	tmp.gp	exon	82275	82290	.	+	.	gene_id "GIM5"; transcript_id "GIM5"; exon_number "1"; exon_id "GIM5.1";
+---
+> chrXIII	tmp.gp	exon	82247	82849	.	+	.	gene_id "GIM5"; transcript_id "GIM5_2"; exon_number "1"; exon_id "GIM5_2.1";
+> chrXIII	tmp.gp	exon	82247	82290	.	+	.	gene_id "GIM5"; transcript_id "GIM5"; exon_number "1"; exon_id "GIM5.1";
+1571,1572c1551,1552
+< chrV	tmp.gp	exon	432495	433958	.	+	.	gene_id "GLC7"; transcript_id "GLC7_2"; exon_number "1"; exon_id "GLC7_2.1";
+< chrV	tmp.gp	exon	432495	432671	.	+	.	gene_id "GLC7"; transcript_id "GLC7"; exon_number "1"; exon_id "GLC7.1";
+---
+> chrV	tmp.gp	exon	432425	433958	.	+	.	gene_id "GLC7"; transcript_id "GLC7_2"; exon_number "1"; exon_id "GLC7_2.1";
+> chrV	tmp.gp	exon	432425	432671	.	+	.	gene_id "GLC7"; transcript_id "GLC7"; exon_number "1"; exon_id "GLC7.1";
+1599,1600c1579,1580
+< chrXIII	tmp.gp	exon	854795	855293	.	+	.	gene_id "GOT1"; transcript_id "GOT1_2"; exon_number "1"; exon_id "GOT1_2.1";
+< chrXIII	tmp.gp	exon	854795	854816	.	+	.	gene_id "GOT1"; transcript_id "GOT1"; exon_number "1"; exon_id "GOT1.1";
+---
+> chrXIII	tmp.gp	exon	854764	855293	.	+	.	gene_id "GOT1"; transcript_id "GOT1_2"; exon_number "1"; exon_id "GOT1_2.1";
+> chrXIII	tmp.gp	exon	854764	854816	.	+	.	gene_id "GOT1"; transcript_id "GOT1"; exon_number "1"; exon_id "GOT1.1";
+1616,1617c1596,1597
+< chrXIV	tmp.gp	exon	557020	557783	.	+	.	gene_id "GPI15"; transcript_id "GPI15_2"; exon_number "1"; exon_id "GPI15_2.1";
+< chrXIV	tmp.gp	exon	557020	557610	.	+	.	gene_id "GPI15"; transcript_id "GPI15"; exon_number "1"; exon_id "GPI15.1";
+---
+> chrXIV	tmp.gp	exon	557007	557783	.	+	.	gene_id "GPI15"; transcript_id "GPI15_2"; exon_number "1"; exon_id "GPI15_2.1";
+> chrXIV	tmp.gp	exon	557007	557610	.	+	.	gene_id "GPI15"; transcript_id "GPI15"; exon_number "1"; exon_id "GPI15.1";
+1686,1687c1666,1667
+< chrVI	tmp.gp	exon	75179	76147	.	+	.	gene_id "HAC1"; transcript_id "HAC1_2"; exon_number "1"; exon_id "HAC1_2.1";
+< chrVI	tmp.gp	exon	75179	75839	.	+	.	gene_id "HAC1"; transcript_id "HAC1"; exon_number "1"; exon_id "HAC1.1";
+---
+> chrVI	tmp.gp	exon	75112	76147	.	+	.	gene_id "HAC1"; transcript_id "HAC1_2"; exon_number "1"; exon_id "HAC1_2.1";
+> chrVI	tmp.gp	exon	75112	75839	.	+	.	gene_id "HAC1"; transcript_id "HAC1"; exon_number "1"; exon_id "HAC1.1";
+1764,1767c1744,1745
+< chrIII	tmp.gp	exon	293835	294321	.	+	.	gene_id "HMRA1"; transcript_id "HMRA1_2"; exon_number "1"; exon_id "HMRA1_2.1";
+< chrIII	tmp.gp	exon	293835	293939	.	+	.	gene_id "HMRA1"; transcript_id "HMRA1_3"; exon_number "1"; exon_id "HMRA1_3.1";
+< chrIII	tmp.gp	exon	294292	294321	.	+	.	gene_id "HMRA1"; transcript_id "HMRA1_3"; exon_number "2"; exon_id "HMRA1_3.2";
+< chrIII	tmp.gp	exon	293835	293939	.	+	.	gene_id "HMRA1"; transcript_id "HMRA1"; exon_number "1"; exon_id "HMRA1.1";
+---
+> chrIII	tmp.gp	exon	293822	294321	.	+	.	gene_id "HMRA1"; transcript_id "HMRA1_2"; exon_number "1"; exon_id "HMRA1_2.1";
+> chrIII	tmp.gp	exon	293822	293939	.	+	.	gene_id "HMRA1"; transcript_id "HMRA1"; exon_number "1"; exon_id "HMRA1.1";
+1776c1754
+< chrIV	tmp.gp	exon	239019	239606	.	-	.	gene_id "HNT1"; transcript_id "HNT1_2"; exon_number "1"; exon_id "HNT1_2.1";
+---
+> chrIV	tmp.gp	exon	239019	239586	.	-	.	gene_id "HNT1"; transcript_id "HNT1_2"; exon_number "1"; exon_id "HNT1_2.1";
+1778,1779c1756,1757
+< chrIV	tmp.gp	exon	239510	239606	.	-	.	gene_id "HNT1"; transcript_id "HNT1"; exon_number "2"; exon_id "HNT1.2";
+< chrIV	tmp.gp	exon	1072746	1073488	.	-	.	gene_id "HNT2"; transcript_id "HNT2_2"; exon_number "1"; exon_id "HNT2_2.1";
+---
+> chrIV	tmp.gp	exon	239510	239586	.	-	.	gene_id "HNT1"; transcript_id "HNT1"; exon_number "2"; exon_id "HNT1.2";
+> chrIV	tmp.gp	exon	1072746	1073471	.	-	.	gene_id "HNT2"; transcript_id "HNT2_2"; exon_number "1"; exon_id "HNT2_2.1";
+1781c1759
+< chrIV	tmp.gp	exon	1073402	1073488	.	-	.	gene_id "HNT2"; transcript_id "HNT2"; exon_number "2"; exon_id "HNT2.2";
+---
+> chrIV	tmp.gp	exon	1073402	1073471	.	-	.	gene_id "HNT2"; transcript_id "HNT2"; exon_number "2"; exon_id "HNT2.2";
+1793,1796c1771,1772
+< chrVII	tmp.gp	exon	436375	436515	.	+	.	gene_id "HOP2"; transcript_id "HOP2"; exon_number "2"; exon_id "HOP2.2";
+< chrVII	tmp.gp	exon	435596	435679	.	+	.	gene_id "HOP2"; transcript_id "HOP2_3"; exon_number "1"; exon_id "HOP2_3.1";
+< chrVII	tmp.gp	exon	435750	436312	.	+	.	gene_id "HOP2"; transcript_id "HOP2_3"; exon_number "2"; exon_id "HOP2_3.2";
+< chrVII	tmp.gp	exon	436375	436515	.	+	.	gene_id "HOP2"; transcript_id "HOP2_3"; exon_number "3"; exon_id "HOP2_3.3";
+---
+> chrVII	tmp.gp	exon	435750	436312	.	+	.	gene_id "HOP2"; transcript_id "HOP2"; exon_number "2"; exon_id "HOP2.2";
+> chrVII	tmp.gp	exon	436375	436515	.	+	.	gene_id "HOP2"; transcript_id "HOP2"; exon_number "3"; exon_id "HOP2.3";
+1808,1809c1784,1785
+< chrII	tmp.gp	exon	653356	655317	.	+	.	gene_id "HPC2"; transcript_id "HPC2_2"; exon_number "1"; exon_id "HPC2_2.1";
+< chrII	tmp.gp	exon	653356	653368	.	+	.	gene_id "HPC2"; transcript_id "HPC2"; exon_number "1"; exon_id "HPC2.1";
+---
+> chrII	tmp.gp	exon	653314	655317	.	+	.	gene_id "HPC2"; transcript_id "HPC2_2"; exon_number "1"; exon_id "HPC2_2.1";
+> chrII	tmp.gp	exon	653314	653368	.	+	.	gene_id "HPC2"; transcript_id "HPC2"; exon_number "1"; exon_id "HPC2.1";
+1815,1816c1791,1792
+< chrXIV	tmp.gp	exon	622915	624621	.	+	.	gene_id "HRB1"; transcript_id "HRB1_2"; exon_number "1"; exon_id "HRB1_2.1";
+< chrXIV	tmp.gp	exon	622915	622944	.	+	.	gene_id "HRB1"; transcript_id "HRB1"; exon_number "1"; exon_id "HRB1.1";
+---
+> chrXIV	tmp.gp	exon	622878	624621	.	+	.	gene_id "HRB1"; transcript_id "HRB1_2"; exon_number "1"; exon_id "HRB1_2.1";
+> chrXIV	tmp.gp	exon	622878	622944	.	+	.	gene_id "HRB1"; transcript_id "HRB1"; exon_number "1"; exon_id "HRB1.1";
+1939c1915
+< chrXIII	tmp.gp	exon	162194	164176	.	-	.	gene_id "IMD4"; transcript_id "IMD4_2"; exon_number "1"; exon_id "IMD4_2.1";
+---
+> chrXIII	tmp.gp	exon	162194	164270	.	-	.	gene_id "IMD4"; transcript_id "IMD4_2"; exon_number "1"; exon_id "IMD4_2.1";
+1941c1917
+< chrXIII	tmp.gp	exon	163717	164176	.	-	.	gene_id "IMD4"; transcript_id "IMD4"; exon_number "2"; exon_id "IMD4.2";
+---
+> chrXIII	tmp.gp	exon	163717	164270	.	-	.	gene_id "IMD4"; transcript_id "IMD4"; exon_number "2"; exon_id "IMD4.2";
+1988,1990c1964
+< chrX	tmp.gp	exon	376543	376873	.	+	.	gene_id "IRC18"; transcript_id "IRC18_2"; exon_number "1"; exon_id "IRC18_2.1";
+< chrX	tmp.gp	exon	377592	377849	.	+	.	gene_id "IRC18"; transcript_id "IRC18_2"; exon_number "2"; exon_id "IRC18_2.2";
+< chrX	tmp.gp	exon	376543	377849	.	+	.	gene_id "IRC18"; transcript_id "IRC18"; exon_number "1"; exon_id "IRC18.1";
+---
+> chrX	tmp.gp	exon	376662	377336	.	+	.	gene_id "IRC18"; transcript_id "IRC18"; exon_number "1"; exon_id "IRC18.1";
+2018c1992
+< chrXIV	tmp.gp	exon	144280	145281	.	-	.	gene_id "IST1"; transcript_id "IST1_2"; exon_number "1"; exon_id "IST1_2.1";
+---
+> chrXIV	tmp.gp	exon	144280	145302	.	-	.	gene_id "IST1"; transcript_id "IST1_2"; exon_number "1"; exon_id "IST1_2.1";
+2020c1994
+< chrXIV	tmp.gp	exon	145255	145281	.	-	.	gene_id "IST1"; transcript_id "IST1"; exon_number "2"; exon_id "IST1.2";
+---
+> chrXIV	tmp.gp	exon	145255	145302	.	-	.	gene_id "IST1"; transcript_id "IST1"; exon_number "2"; exon_id "IST1.2";
+2033c2007
+< chrIV	tmp.gp	exon	253995	255142	.	-	.	gene_id "IWR1"; transcript_id "IWR1_2"; exon_number "1"; exon_id "IWR1_2.1";
+---
+> chrIV	tmp.gp	exon	253995	255168	.	-	.	gene_id "IWR1"; transcript_id "IWR1_2"; exon_number "1"; exon_id "IWR1_2.1";
+2035c2009
+< chrIV	tmp.gp	exon	255045	255142	.	-	.	gene_id "IWR1"; transcript_id "IWR1_3"; exon_number "2"; exon_id "IWR1_3.2";
+---
+> chrIV	tmp.gp	exon	255045	255168	.	-	.	gene_id "IWR1"; transcript_id "IWR1_3"; exon_number "2"; exon_id "IWR1_3.2";
+2037c2011
+< chrIV	tmp.gp	exon	255045	255142	.	-	.	gene_id "IWR1"; transcript_id "IWR1"; exon_number "2"; exon_id "IWR1.2";
+---
+> chrIV	tmp.gp	exon	255045	255168	.	-	.	gene_id "IWR1"; transcript_id "IWR1"; exon_number "2"; exon_id "IWR1.2";
+2076,2077c2050,2051
+< chrIV	tmp.gp	exon	1212848	1213614	.	+	.	gene_id "KEI1"; transcript_id "KEI1_2"; exon_number "1"; exon_id "KEI1_2.1";
+< chrIV	tmp.gp	exon	1212848	1212877	.	+	.	gene_id "KEI1"; transcript_id "KEI1"; exon_number "1"; exon_id "KEI1.1";
+---
+> chrIV	tmp.gp	exon	1212791	1213614	.	+	.	gene_id "KEI1"; transcript_id "KEI1_2"; exon_number "1"; exon_id "KEI1_2.1";
+> chrIV	tmp.gp	exon	1212791	1212877	.	+	.	gene_id "KEI1"; transcript_id "KEI1"; exon_number "1"; exon_id "KEI1.1";
+2092,2093c2066,2067
+< chrIV	tmp.gp	exon	267698	268699	.	+	.	gene_id "KIN28"; transcript_id "KIN28_2"; exon_number "1"; exon_id "KIN28_2.1";
+< chrIV	tmp.gp	exon	267698	267725	.	+	.	gene_id "KIN28"; transcript_id "KIN28"; exon_number "1"; exon_id "KIN28.1";
+---
+> chrIV	tmp.gp	exon	267665	268699	.	+	.	gene_id "KIN28"; transcript_id "KIN28_2"; exon_number "1"; exon_id "KIN28_2.1";
+> chrIV	tmp.gp	exon	267665	267725	.	+	.	gene_id "KIN28"; transcript_id "KIN28"; exon_number "1"; exon_id "KIN28.1";
+2191,2194c2165,2166
+< chrVI	tmp.gp	exon	203387	203433	.	-	.	gene_id "LSB3"; transcript_id "LSB3"; exon_number "2"; exon_id "LSB3.2";
+< chrVI	tmp.gp	exon	201960	203433	.	-	.	gene_id "LSB3"; transcript_id "LSB3_2"; exon_number "1"; exon_id "LSB3_2.1";
+< chrVI	tmp.gp	exon	201960	203268	.	-	.	gene_id "LSB3"; transcript_id "LSB3_3"; exon_number "1"; exon_id "LSB3_3.1";
+< chrVI	tmp.gp	exon	203387	203433	.	-	.	gene_id "LSB3"; transcript_id "LSB3_3"; exon_number "2"; exon_id "LSB3_3.2";
+---
+> chrVI	tmp.gp	exon	203387	203458	.	-	.	gene_id "LSB3"; transcript_id "LSB3"; exon_number "2"; exon_id "LSB3.2";
+> chrVI	tmp.gp	exon	201960	203458	.	-	.	gene_id "LSB3"; transcript_id "LSB3_2"; exon_number "1"; exon_id "LSB3_2.1";
+2202,2203c2174,2175
+< chrII	tmp.gp	exon	170623	171038	.	+	.	gene_id "LSM2"; transcript_id "LSM2_2"; exon_number "1"; exon_id "LSM2_2.1";
+< chrII	tmp.gp	exon	170623	170676	.	+	.	gene_id "LSM2"; transcript_id "LSM2"; exon_number "1"; exon_id "LSM2.1";
+---
+> chrII	tmp.gp	exon	170577	171038	.	+	.	gene_id "LSM2"; transcript_id "LSM2_2"; exon_number "1"; exon_id "LSM2_2.1";
+> chrII	tmp.gp	exon	170577	170676	.	+	.	gene_id "LSM2"; transcript_id "LSM2"; exon_number "1"; exon_id "LSM2.1";
+2209,2210c2181,2182
+< chrXIV	tmp.gp	exon	350940	351383	.	+	.	gene_id "LSM7"; transcript_id "LSM7_2"; exon_number "1"; exon_id "LSM7_2.1";
+< chrXIV	tmp.gp	exon	350940	350957	.	+	.	gene_id "LSM7"; transcript_id "LSM7"; exon_number "1"; exon_id "LSM7.1";
+---
+> chrXIV	tmp.gp	exon	350877	351383	.	+	.	gene_id "LSM7"; transcript_id "LSM7_2"; exon_number "1"; exon_id "LSM7_2.1";
+> chrXIV	tmp.gp	exon	350877	350957	.	+	.	gene_id "LSM7"; transcript_id "LSM7"; exon_number "1"; exon_id "LSM7.1";
+2236c2208
+< chrIV	tmp.gp	exon	456836	458103	.	-	.	gene_id "MAF1"; transcript_id "MAF1_2"; exon_number "1"; exon_id "MAF1_2.1";
+---
+> chrIV	tmp.gp	exon	456836	458211	.	-	.	gene_id "MAF1"; transcript_id "MAF1_2"; exon_number "1"; exon_id "MAF1_2.1";
+2238c2210
+< chrIV	tmp.gp	exon	458098	458103	.	-	.	gene_id "MAF1"; transcript_id "MAF1"; exon_number "2"; exon_id "MAF1.2";
+---
+> chrIV	tmp.gp	exon	458098	458211	.	-	.	gene_id "MAF1"; transcript_id "MAF1"; exon_number "2"; exon_id "MAF1.2";
+2281,2282c2253,2254
+< chrIV	tmp.gp	exon	1103758	1104947	.	+	.	gene_id "MCM21"; transcript_id "MCM21_2"; exon_number "1"; exon_id "MCM21_2.1";
+< chrIV	tmp.gp	exon	1103758	1103809	.	+	.	gene_id "MCM21"; transcript_id "MCM21"; exon_number "1"; exon_id "MCM21.1";
+---
+> chrIV	tmp.gp	exon	1103741	1104947	.	+	.	gene_id "MCM21"; transcript_id "MCM21_2"; exon_number "1"; exon_id "MCM21_2.1";
+> chrIV	tmp.gp	exon	1103741	1103809	.	+	.	gene_id "MCM21"; transcript_id "MCM21"; exon_number "1"; exon_id "MCM21.1";
+2418c2390
+< chrVII	tmp.gp	exon	346406	346904	.	-	.	gene_id "MMS2"; transcript_id "MMS2_2"; exon_number "1"; exon_id "MMS2_2.1";
+---
+> chrVII	tmp.gp	exon	346406	346947	.	-	.	gene_id "MMS2"; transcript_id "MMS2_2"; exon_number "1"; exon_id "MMS2_2.1";
+2420c2392
+< chrVII	tmp.gp	exon	346894	346904	.	-	.	gene_id "MMS2"; transcript_id "MMS2"; exon_number "2"; exon_id "MMS2.2";
+---
+> chrVII	tmp.gp	exon	346894	346947	.	-	.	gene_id "MMS2"; transcript_id "MMS2"; exon_number "2"; exon_id "MMS2.2";
+2426c2398
+< chrVII	tmp.gp	exon	156543	157285	.	-	.	gene_id "MND1"; transcript_id "MND1_2"; exon_number "1"; exon_id "MND1_2.1";
+---
+> chrVII	tmp.gp	exon	156543	157325	.	-	.	gene_id "MND1"; transcript_id "MND1_2"; exon_number "1"; exon_id "MND1_2.1";
+2428c2400
+< chrVII	tmp.gp	exon	157283	157285	.	-	.	gene_id "MND1"; transcript_id "MND1"; exon_number "2"; exon_id "MND1.2";
+---
+> chrVII	tmp.gp	exon	157283	157325	.	-	.	gene_id "MND1"; transcript_id "MND1"; exon_number "2"; exon_id "MND1.2";
+2445,2446c2417,2418
+< chrIX	tmp.gp	exon	166415	167444	.	+	.	gene_id "MOB1"; transcript_id "MOB1_2"; exon_number "1"; exon_id "MOB1_2.1";
+< chrIX	tmp.gp	exon	166415	166434	.	+	.	gene_id "MOB1"; transcript_id "MOB1"; exon_number "1"; exon_id "MOB1.1";
+---
+> chrIX	tmp.gp	exon	166398	167444	.	+	.	gene_id "MOB1"; transcript_id "MOB1_2"; exon_number "1"; exon_id "MOB1_2.1";
+> chrIX	tmp.gp	exon	166398	166434	.	+	.	gene_id "MOB1"; transcript_id "MOB1"; exon_number "1"; exon_id "MOB1.1";
+2448c2420
+< chrVI	tmp.gp	exon	63016	63993	.	-	.	gene_id "MOB2"; transcript_id "MOB2_2"; exon_number "1"; exon_id "MOB2_2.1";
+---
+> chrVI	tmp.gp	exon	63016	64047	.	-	.	gene_id "MOB2"; transcript_id "MOB2_2"; exon_number "1"; exon_id "MOB2_2.1";
+2450c2422
+< chrVI	tmp.gp	exon	63974	63993	.	-	.	gene_id "MOB2"; transcript_id "MOB2"; exon_number "2"; exon_id "MOB2.2";
+---
+> chrVI	tmp.gp	exon	63974	64047	.	-	.	gene_id "MOB2"; transcript_id "MOB2"; exon_number "2"; exon_id "MOB2.2";
+2473,2474c2445,2446
+< chrVII	tmp.gp	exon	167352	170571	.	+	.	gene_id "MPT5"; transcript_id "MPT5_2"; exon_number "1"; exon_id "MPT5_2.1";
+< chrVII	tmp.gp	exon	167352	167354	.	+	.	gene_id "MPT5"; transcript_id "MPT5"; exon_number "1"; exon_id "MPT5.1";
+---
+> chrVII	tmp.gp	exon	167230	170571	.	+	.	gene_id "MPT5"; transcript_id "MPT5_2"; exon_number "1"; exon_id "MPT5_2.1";
+> chrVII	tmp.gp	exon	167230	167354	.	+	.	gene_id "MPT5"; transcript_id "MPT5"; exon_number "1"; exon_id "MPT5.1";
+2483c2455
+< chrIV	tmp.gp	exon	312951	314748	.	-	.	gene_id "MRK1"; transcript_id "MRK1_2"; exon_number "1"; exon_id "MRK1_2.1";
+---
+> chrIV	tmp.gp	exon	312951	315000	.	-	.	gene_id "MRK1"; transcript_id "MRK1_2"; exon_number "1"; exon_id "MRK1_2.1";
+2485c2457
+< chrIV	tmp.gp	exon	314337	314748	.	-	.	gene_id "MRK1"; transcript_id "MRK1"; exon_number "2"; exon_id "MRK1.2";
+---
+> chrIV	tmp.gp	exon	314337	315000	.	-	.	gene_id "MRK1"; transcript_id "MRK1"; exon_number "2"; exon_id "MRK1.2";
+2489,2490c2461,2462
+< chrVII	tmp.gp	exon	253249	253904	.	-	.	gene_id "MRM2"; transcript_id "MRM2"; exon_number "2"; exon_id "MRM2.2";
+< chrVII	tmp.gp	exon	252897	253904	.	-	.	gene_id "MRM2"; transcript_id "MRM2_2"; exon_number "1"; exon_id "MRM2_2.1";
+---
+> chrVII	tmp.gp	exon	253249	253908	.	-	.	gene_id "MRM2"; transcript_id "MRM2"; exon_number "2"; exon_id "MRM2.2";
+> chrVII	tmp.gp	exon	252897	253908	.	-	.	gene_id "MRM2"; transcript_id "MRM2_2"; exon_number "1"; exon_id "MRM2_2.1";
+2530c2502
+< chrXIII	tmp.gp	exon	720960	721403	.	-	.	gene_id "MRPL44"; transcript_id "MRPL44_2"; exon_number "1"; exon_id "MRPL44_2.1";
+---
+> chrXIII	tmp.gp	exon	720960	721424	.	-	.	gene_id "MRPL44"; transcript_id "MRPL44_2"; exon_number "1"; exon_id "MRPL44_2.1";
+2532c2504
+< chrXIII	tmp.gp	exon	721346	721403	.	-	.	gene_id "MRPL44"; transcript_id "MRPL44"; exon_number "2"; exon_id "MRPL44.2";
+---
+> chrXIII	tmp.gp	exon	721346	721424	.	-	.	gene_id "MRPL44"; transcript_id "MRPL44"; exon_number "2"; exon_id "MRPL44.2";
+2619,2626d2590
+< chrXI	tmp.gp	exon	92704	93311	.	-	.	gene_id "MTR2"; transcript_id "MTR2_7"; exon_number "1"; exon_id "MTR2_7.1";
+< chrXI	tmp.gp	exon	93516	93659	.	-	.	gene_id "MTR2"; transcript_id "MTR2_7"; exon_number "2"; exon_id "MTR2_7.2";
+< chrXI	tmp.gp	exon	92704	93366	.	-	.	gene_id "MTR2"; transcript_id "MTR2_3"; exon_number "1"; exon_id "MTR2_3.1";
+< chrXI	tmp.gp	exon	93516	93659	.	-	.	gene_id "MTR2"; transcript_id "MTR2_3"; exon_number "2"; exon_id "MTR2_3.2";
+< chrXI	tmp.gp	exon	92704	93311	.	-	.	gene_id "MTR2"; transcript_id "MTR2_4"; exon_number "1"; exon_id "MTR2_4.1";
+< chrXI	tmp.gp	exon	93466	93659	.	-	.	gene_id "MTR2"; transcript_id "MTR2_4"; exon_number "2"; exon_id "MTR2_4.2";
+< chrXI	tmp.gp	exon	92704	93302	.	-	.	gene_id "MTR2"; transcript_id "MTR2_5"; exon_number "1"; exon_id "MTR2_5.1";
+< chrXI	tmp.gp	exon	93466	93659	.	-	.	gene_id "MTR2"; transcript_id "MTR2_5"; exon_number "2"; exon_id "MTR2_5.2";
+2630,2631d2593
+< chrXI	tmp.gp	exon	92704	93302	.	-	.	gene_id "MTR2"; transcript_id "MTR2_6"; exon_number "1"; exon_id "MTR2_6.1";
+< chrXI	tmp.gp	exon	93516	93659	.	-	.	gene_id "MTR2"; transcript_id "MTR2_6"; exon_number "2"; exon_id "MTR2_6.2";
+2637,2639c2599,2601
+< chrII	tmp.gp	exon	479338	480323	.	+	.	gene_id "MUD1"; transcript_id "MUD1_2"; exon_number "1"; exon_id "MUD1_2.1";
+< chrII	tmp.gp	exon	479338	479345	.	+	.	gene_id "MUD1"; transcript_id "MUD1"; exon_number "1"; exon_id "MUD1.1";
+< chrII	tmp.gp	exon	479435	480323	.	+	.	gene_id "MUD1"; transcript_id "MUD1"; exon_number "2"; exon_id "MUD1.2";
+---
+> chrII	tmp.gp	exon	479280	480323	.	+	.	gene_id "MUD1"; transcript_id "MUD1_2"; exon_number "1"; exon_id "MUD1_2.1";
+> chrII	tmp.gp	exon	479280	479345	.	+	.	gene_id "MUD1"; transcript_id "MUD1"; exon_number "1"; exon_id "MUD1.1";
+> chrII	tmp.gp	exon	479434	480323	.	+	.	gene_id "MUD1"; transcript_id "MUD1"; exon_number "2"; exon_id "MUD1.2";
+2678c2640
+< chrVIII	tmp.gp	exon	498571	498859	.	-	.	gene_id "NBL1"; transcript_id "NBL1_2"; exon_number "1"; exon_id "NBL1_2.1";
+---
+> chrVIII	tmp.gp	exon	498571	498879	.	-	.	gene_id "NBL1"; transcript_id "NBL1_2"; exon_number "1"; exon_id "NBL1_2.1";
+2680c2642
+< chrVIII	tmp.gp	exon	498787	498859	.	-	.	gene_id "NBL1"; transcript_id "NBL1"; exon_number "2"; exon_id "NBL1.2";
+---
+> chrVIII	tmp.gp	exon	498787	498879	.	-	.	gene_id "NBL1"; transcript_id "NBL1"; exon_number "2"; exon_id "NBL1.2";
+2686,2694c2648,2653
+< chrIV	tmp.gp	exon	1266366	1266898	.	-	.	gene_id "NCB2"; transcript_id "NCB2_2"; exon_number "1"; exon_id "NCB2_2.1";
+< chrIV	tmp.gp	exon	1266366	1266769	.	-	.	gene_id "NCB2"; transcript_id "NCB2"; exon_number "1"; exon_id "NCB2.1";
+< chrIV	tmp.gp	exon	1266862	1266898	.	-	.	gene_id "NCB2"; transcript_id "NCB2"; exon_number "2"; exon_id "NCB2.2";
+< chrX	tmp.gp	exon	50139	50443	.	-	.	gene_id "NCE101"; transcript_id "NCE101_2"; exon_number "1"; exon_id "NCE101_2.1";
+< chrX	tmp.gp	exon	47659	50449	.	-	.	gene_id "NCE101"; transcript_id "NCE101_3"; exon_number "1"; exon_id "NCE101_3.1";
+< chrX	tmp.gp	exon	47659	49735	.	-	.	gene_id "NCE101"; transcript_id "NCE101_4"; exon_number "1"; exon_id "NCE101_4.1";
+< chrX	tmp.gp	exon	50412	50449	.	-	.	gene_id "NCE101"; transcript_id "NCE101_4"; exon_number "2"; exon_id "NCE101_4.2";
+< chrX	tmp.gp	exon	50139	50268	.	-	.	gene_id "NCE101"; transcript_id "NCE101"; exon_number "1"; exon_id "NCE101.1";
+< chrX	tmp.gp	exon	50412	50443	.	-	.	gene_id "NCE101"; transcript_id "NCE101"; exon_number "2"; exon_id "NCE101.2";
+---
+> chrIV	tmp.gp	exon	1266197	1266975	.	-	.	gene_id "NCB2"; transcript_id "NCB2_2"; exon_number "1"; exon_id "NCB2_2.1";
+> chrIV	tmp.gp	exon	1266197	1266769	.	-	.	gene_id "NCB2"; transcript_id "NCB2"; exon_number "1"; exon_id "NCB2.1";
+> chrIV	tmp.gp	exon	1266862	1266975	.	-	.	gene_id "NCB2"; transcript_id "NCB2"; exon_number "2"; exon_id "NCB2.2";
+> chrX	tmp.gp	exon	49990	50453	.	-	.	gene_id "NCE101"; transcript_id "NCE101_2"; exon_number "1"; exon_id "NCE101_2.1";
+> chrX	tmp.gp	exon	49990	50268	.	-	.	gene_id "NCE101"; transcript_id "NCE101"; exon_number "1"; exon_id "NCE101.1";
+> chrX	tmp.gp	exon	50412	50453	.	-	.	gene_id "NCE101"; transcript_id "NCE101"; exon_number "2"; exon_id "NCE101.2";
+2743c2702
+< chrVIII	tmp.gp	exon	252374	255756	.	-	.	gene_id "NMD2"; transcript_id "NMD2_2"; exon_number "1"; exon_id "NMD2_2.1";
+---
+> chrVIII	tmp.gp	exon	252374	255812	.	-	.	gene_id "NMD2"; transcript_id "NMD2_2"; exon_number "1"; exon_id "NMD2_2.1";
+2745c2704
+< chrVIII	tmp.gp	exon	255751	255756	.	-	.	gene_id "NMD2"; transcript_id "NMD2"; exon_number "2"; exon_id "NMD2.2";
+---
+> chrVIII	tmp.gp	exon	255751	255812	.	-	.	gene_id "NMD2"; transcript_id "NMD2"; exon_number "2"; exon_id "NMD2.2";
+2759c2718
+< chrXIV	tmp.gp	exon	721120	723112	.	-	.	gene_id "NOG2"; transcript_id "NOG2_2"; exon_number "1"; exon_id "NOG2_2.1";
+---
+> chrXIV	tmp.gp	exon	721120	723139	.	-	.	gene_id "NOG2"; transcript_id "NOG2_2"; exon_number "1"; exon_id "NOG2_2.1";
+2761c2720
+< chrXIV	tmp.gp	exon	722303	723112	.	-	.	gene_id "NOG2"; transcript_id "NOG2"; exon_number "2"; exon_id "NOG2.2";
+---
+> chrXIV	tmp.gp	exon	722303	723139	.	-	.	gene_id "NOG2"; transcript_id "NOG2"; exon_number "2"; exon_id "NOG2.2";
+2809,2810c2768,2769
+< chrX	tmp.gp	exon	365784	368373	.	+	.	gene_id "NSP1"; transcript_id "NSP1_2"; exon_number "1"; exon_id "NSP1_2.1";
+< chrX	tmp.gp	exon	365784	365784	.	+	.	gene_id "NSP1"; transcript_id "NSP1"; exon_number "1"; exon_id "NSP1.1";
+---
+> chrX	tmp.gp	exon	365725	368373	.	+	.	gene_id "NSP1"; transcript_id "NSP1_2"; exon_number "1"; exon_id "NSP1_2.1";
+> chrX	tmp.gp	exon	365725	365784	.	+	.	gene_id "NSP1"; transcript_id "NSP1"; exon_number "1"; exon_id "NSP1.1";
+2854,2856c2813
+< chrXII	tmp.gp	exon	326513	327444	.	-	.	gene_id "NYV1"; transcript_id "NYV1_2"; exon_number "1"; exon_id "NYV1_2.1";
+< chrXII	tmp.gp	exon	326513	327254	.	-	.	gene_id "NYV1"; transcript_id "NYV1_3"; exon_number "1"; exon_id "NYV1_3.1";
+< chrXII	tmp.gp	exon	327400	327444	.	-	.	gene_id "NYV1"; transcript_id "NYV1_3"; exon_number "2"; exon_id "NYV1_3.2";
+---
+> chrXII	tmp.gp	exon	326513	327482	.	-	.	gene_id "NYV1"; transcript_id "NYV1_2"; exon_number "1"; exon_id "NYV1_2.1";
+2858c2815
+< chrXII	tmp.gp	exon	327400	327444	.	-	.	gene_id "NYV1"; transcript_id "NYV1"; exon_number "2"; exon_id "NYV1.2";
+---
+> chrXII	tmp.gp	exon	327400	327482	.	-	.	gene_id "NYV1"; transcript_id "NYV1"; exon_number "2"; exon_id "NYV1.2";
+2878c2835
+< chrII	tmp.gp	exon	679549	680050	.	-	.	gene_id "OM14"; transcript_id "OM14_2"; exon_number "1"; exon_id "OM14_2.1";
+---
+> chrII	tmp.gp	exon	679549	680076	.	-	.	gene_id "OM14"; transcript_id "OM14_2"; exon_number "1"; exon_id "OM14_2.1";
+2880c2837
+< chrII	tmp.gp	exon	680040	680050	.	-	.	gene_id "OM14"; transcript_id "OM14"; exon_number "2"; exon_id "OM14.2";
+---
+> chrII	tmp.gp	exon	680040	680076	.	-	.	gene_id "OM14"; transcript_id "OM14"; exon_number "2"; exon_id "OM14.2";
+2886d2842
+< chrXVI	tmp.gp	exon	654524	654877	.	-	.	gene_id "OPI11"; transcript_id "OPI11"; exon_number "1"; exon_id "OPI11.1";
+2890d2845
+< chrXI	tmp.gp	exon	507920	508561	.	-	.	gene_id "OPI8"; transcript_id "OPI8"; exon_number "1"; exon_id "OPI8.1";
+2914c2869
+< chrVII	tmp.gp	exon	72749	73158	.	-	.	gene_id "OST5"; transcript_id "OST5_2"; exon_number "1"; exon_id "OST5_2.1";
+---
+> chrVII	tmp.gp	exon	72749	73192	.	-	.	gene_id "OST5"; transcript_id "OST5_2"; exon_number "1"; exon_id "OST5_2.1";
+2916c2871
+< chrVII	tmp.gp	exon	73138	73158	.	-	.	gene_id "OST5"; transcript_id "OST5"; exon_number "2"; exon_id "OST5.2";
+---
+> chrVII	tmp.gp	exon	73138	73192	.	-	.	gene_id "OST5"; transcript_id "OST5"; exon_number "2"; exon_id "OST5.2";
+2919c2874
+< chrXII	tmp.gp	exon	248717	250978	.	-	.	gene_id "OSW2"; transcript_id "OSW2_2"; exon_number "1"; exon_id "OSW2_2.1";
+---
+> chrXII	tmp.gp	exon	248717	251000	.	-	.	gene_id "OSW2"; transcript_id "OSW2_2"; exon_number "1"; exon_id "OSW2_2.1";
+2921,2925c2876,2878
+< chrXII	tmp.gp	exon	250948	250978	.	-	.	gene_id "OSW2"; transcript_id "OSW2"; exon_number "2"; exon_id "OSW2.2";
+< chrXIII	tmp.gp	exon	559165	559782	.	+	.	gene_id "OSW5"; transcript_id "OSW5_3"; exon_number "1"; exon_id "OSW5_3.1";
+< chrXIII	tmp.gp	exon	559878	560812	.	+	.	gene_id "OSW5"; transcript_id "OSW5_3"; exon_number "2"; exon_id "OSW5_3.2";
+< chrXIII	tmp.gp	exon	559165	560812	.	+	.	gene_id "OSW5"; transcript_id "OSW5_2"; exon_number "1"; exon_id "OSW5_2.1";
+< chrXIII	tmp.gp	exon	559165	559782	.	+	.	gene_id "OSW5"; transcript_id "OSW5"; exon_number "1"; exon_id "OSW5.1";
+---
+> chrXII	tmp.gp	exon	250948	251000	.	-	.	gene_id "OSW2"; transcript_id "OSW2"; exon_number "2"; exon_id "OSW2.2";
+> chrXIII	tmp.gp	exon	559174	560812	.	+	.	gene_id "OSW5"; transcript_id "OSW5_2"; exon_number "1"; exon_id "OSW5_2.1";
+> chrXIII	tmp.gp	exon	559174	559782	.	+	.	gene_id "OSW5"; transcript_id "OSW5"; exon_number "1"; exon_id "OSW5.1";
+2981c2934
+< chrXII	tmp.gp	exon	547853	548769	.	-	.	gene_id "PBA1"; transcript_id "PBA1_2"; exon_number "1"; exon_id "PBA1_2.1";
+---
+> chrXII	tmp.gp	exon	547853	548809	.	-	.	gene_id "PBA1"; transcript_id "PBA1_2"; exon_number "1"; exon_id "PBA1_2.1";
+2983c2936
+< chrXII	tmp.gp	exon	548764	548769	.	-	.	gene_id "PBA1"; transcript_id "PBA1"; exon_number "2"; exon_id "PBA1.2";
+---
+> chrXII	tmp.gp	exon	548764	548809	.	-	.	gene_id "PBA1"; transcript_id "PBA1"; exon_number "2"; exon_id "PBA1.2";
+2992,2993c2945,2946
+< chrXI	tmp.gp	exon	625864	626205	.	+	.	gene_id "PCC1"; transcript_id "PCC1_2"; exon_number "1"; exon_id "PCC1_2.1";
+< chrXI	tmp.gp	exon	625864	625901	.	+	.	gene_id "PCC1"; transcript_id "PCC1"; exon_number "1"; exon_id "PCC1.1";
+---
+> chrXI	tmp.gp	exon	625840	626205	.	+	.	gene_id "PCC1"; transcript_id "PCC1_2"; exon_number "1"; exon_id "PCC1_2.1";
+> chrXI	tmp.gp	exon	625840	625901	.	+	.	gene_id "PCC1"; transcript_id "PCC1"; exon_number "1"; exon_id "PCC1.1";
+3050,3051d3002
+< chrVI	tmp.gp	exon	199786	199910	.	+	.	gene_id "PES4"; transcript_id "PES4_2"; exon_number "1"; exon_id "PES4_2.1";
+< chrVI	tmp.gp	exon	200485	201709	.	+	.	gene_id "PES4"; transcript_id "PES4_2"; exon_number "2"; exon_id "PES4_2.2";
+3106c3057
+< chrXV	tmp.gp	exon	552298	552887	.	-	.	gene_id "PFY1"; transcript_id "PFY1_2"; exon_number "1"; exon_id "PFY1_2.1";
+---
+> chrXV	tmp.gp	exon	552298	552915	.	-	.	gene_id "PFY1"; transcript_id "PFY1_2"; exon_number "1"; exon_id "PFY1_2.1";
+3108c3059
+< chrXV	tmp.gp	exon	552875	552887	.	-	.	gene_id "PFY1"; transcript_id "PFY1"; exon_number "2"; exon_id "PFY1.2";
+---
+> chrXV	tmp.gp	exon	552875	552915	.	-	.	gene_id "PFY1"; transcript_id "PFY1"; exon_number "2"; exon_id "PFY1.2";
+3140c3091
+< chrXVI	tmp.gp	exon	492018	493037	.	-	.	gene_id "PHO85"; transcript_id "PHO85_2"; exon_number "1"; exon_id "PHO85_2.1";
+---
+> chrXVI	tmp.gp	exon	492018	493063	.	-	.	gene_id "PHO85"; transcript_id "PHO85_2"; exon_number "1"; exon_id "PHO85_2.1";
+3142c3093
+< chrXVI	tmp.gp	exon	493021	493037	.	-	.	gene_id "PHO85"; transcript_id "PHO85"; exon_number "2"; exon_id "PHO85.2";
+---
+> chrXVI	tmp.gp	exon	493021	493063	.	-	.	gene_id "PHO85"; transcript_id "PHO85"; exon_number "2"; exon_id "PHO85.2";
+3186c3137
+< chrV	tmp.gp	exon	157736	159118	.	-	.	gene_id "PMI40"; transcript_id "PMI40_2"; exon_number "1"; exon_id "PMI40_2.1";
+---
+> chrV	tmp.gp	exon	157736	159162	.	-	.	gene_id "PMI40"; transcript_id "PMI40_2"; exon_number "1"; exon_id "PMI40_2.1";
+3188c3139
+< chrV	tmp.gp	exon	159088	159118	.	-	.	gene_id "PMI40"; transcript_id "PMI40"; exon_number "2"; exon_id "PMI40.2";
+---
+> chrV	tmp.gp	exon	159088	159162	.	-	.	gene_id "PMI40"; transcript_id "PMI40"; exon_number "2"; exon_id "PMI40.2";
+3232c3183
+< chrII	tmp.gp	exon	185998	186474	.	-	.	gene_id "POP8"; transcript_id "POP8_2"; exon_number "1"; exon_id "POP8_2.1";
+---
+> chrII	tmp.gp	exon	185998	186515	.	-	.	gene_id "POP8"; transcript_id "POP8_2"; exon_number "1"; exon_id "POP8_2.1";
+3234c3185
+< chrII	tmp.gp	exon	186428	186474	.	-	.	gene_id "POP8"; transcript_id "POP8"; exon_number "2"; exon_id "POP8.2";
+---
+> chrII	tmp.gp	exon	186428	186515	.	-	.	gene_id "POP8"; transcript_id "POP8"; exon_number "2"; exon_id "POP8.2";
+3263,3264c3214,3215
+< chrX	tmp.gp	exon	435163	435926	.	+	.	gene_id "PRE3"; transcript_id "PRE3_2"; exon_number "1"; exon_id "PRE3_2.1";
+< chrX	tmp.gp	exon	435163	435227	.	+	.	gene_id "PRE3"; transcript_id "PRE3"; exon_number "1"; exon_id "PRE3.1";
+---
+> chrX	tmp.gp	exon	435125	435926	.	+	.	gene_id "PRE3"; transcript_id "PRE3_2"; exon_number "1"; exon_id "PRE3_2.1";
+> chrX	tmp.gp	exon	435125	435227	.	+	.	gene_id "PRE3"; transcript_id "PRE3"; exon_number "1"; exon_id "PRE3.1";
+3337,3338c3288,3289
+< chrXIII	tmp.gp	exon	236588	238731	.	+	.	gene_id "PSP2"; transcript_id "PSP2_2"; exon_number "1"; exon_id "PSP2_2.1";
+< chrXIII	tmp.gp	exon	236588	236591	.	+	.	gene_id "PSP2"; transcript_id "PSP2"; exon_number "1"; exon_id "PSP2.1";
+---
+> chrXIII	tmp.gp	exon	236518	238731	.	+	.	gene_id "PSP2"; transcript_id "PSP2_2"; exon_number "1"; exon_id "PSP2_2.1";
+> chrXIII	tmp.gp	exon	236518	236591	.	+	.	gene_id "PSP2"; transcript_id "PSP2"; exon_number "1"; exon_id "PSP2.1";
+3355,3356c3306,3307
+< chrVIII	tmp.gp	exon	251101	252225	.	+	.	gene_id "PTC7"; transcript_id "PTC7_2"; exon_number "1"; exon_id "PTC7_2.1";
+< chrVIII	tmp.gp	exon	251101	251155	.	+	.	gene_id "PTC7"; transcript_id "PTC7"; exon_number "1"; exon_id "PTC7.1";
+---
+> chrVIII	tmp.gp	exon	251055	252225	.	+	.	gene_id "PTC7"; transcript_id "PTC7_2"; exon_number "1"; exon_id "PTC7_2.1";
+> chrVIII	tmp.gp	exon	251055	251155	.	+	.	gene_id "PTC7"; transcript_id "PTC7"; exon_number "1"; exon_id "PTC7.1";
+3415,3416c3366,3367
+< chrVIII	tmp.gp	exon	107826	108122	.	+	.	gene_id "QCR10"; transcript_id "QCR10_2"; exon_number "1"; exon_id "QCR10_2.1";
+< chrVIII	tmp.gp	exon	107826	107831	.	+	.	gene_id "QCR10"; transcript_id "QCR10"; exon_number "1"; exon_id "QCR10.1";
+---
+> chrVIII	tmp.gp	exon	107760	108122	.	+	.	gene_id "QCR10"; transcript_id "QCR10_2"; exon_number "1"; exon_id "QCR10_2.1";
+> chrVIII	tmp.gp	exon	107760	107831	.	+	.	gene_id "QCR10"; transcript_id "QCR10"; exon_number "1"; exon_id "QCR10.1";
+3422c3373
+< chrVII	tmp.gp	exon	859063	859476	.	-	.	gene_id "QCR9"; transcript_id "QCR9_2"; exon_number "1"; exon_id "QCR9_2.1";
+---
+> chrVII	tmp.gp	exon	859063	859585	.	-	.	gene_id "QCR9"; transcript_id "QCR9_2"; exon_number "1"; exon_id "QCR9_2.1";
+3424c3375
+< chrVII	tmp.gp	exon	859474	859476	.	-	.	gene_id "QCR9"; transcript_id "QCR9"; exon_number "2"; exon_id "QCR9.2";
+---
+> chrVII	tmp.gp	exon	859474	859585	.	-	.	gene_id "QCR9"; transcript_id "QCR9"; exon_number "2"; exon_id "QCR9.2";
+3434c3385
+< chrXIII	tmp.gp	exon	665845	667044	.	-	.	gene_id "RAD14"; transcript_id "RAD14_2"; exon_number "1"; exon_id "RAD14_2.1";
+---
+> chrXIII	tmp.gp	exon	665845	667058	.	-	.	gene_id "RAD14"; transcript_id "RAD14_2"; exon_number "1"; exon_id "RAD14_2.1";
+3436c3387
+< chrXIII	tmp.gp	exon	667018	667044	.	-	.	gene_id "RAD14"; transcript_id "RAD14"; exon_number "2"; exon_id "RAD14.2";
+---
+> chrXIII	tmp.gp	exon	667018	667058	.	-	.	gene_id "RAD14"; transcript_id "RAD14"; exon_number "2"; exon_id "RAD14.2";
+3481,3483c3432,3433
+< chrIV	tmp.gp	exon	122023	123589	.	+	.	gene_id "RBS1"; transcript_id "RBS1_2"; exon_number "1"; exon_id "RBS1_2.1";
+< chrIV	tmp.gp	exon	122023	123589	.	+	.	gene_id "RBS1"; transcript_id "RBS1_3"; exon_number "1"; exon_id "RBS1_3.1";
+< chrIV	tmp.gp	exon	122023	122077	.	+	.	gene_id "RBS1"; transcript_id "RBS1"; exon_number "1"; exon_id "RBS1.1";
+---
+> chrIV	tmp.gp	exon	121970	123589	.	+	.	gene_id "RBS1"; transcript_id "RBS1_2"; exon_number "1"; exon_id "RBS1_2.1";
+> chrIV	tmp.gp	exon	121970	122077	.	+	.	gene_id "RBS1"; transcript_id "RBS1"; exon_number "1"; exon_id "RBS1.1";
+3504,3505c3454,3455
+< chrXII	tmp.gp	exon	786442	787333	.	+	.	gene_id "REC102"; transcript_id "REC102_2"; exon_number "1"; exon_id "REC102_2.1";
+< chrXII	tmp.gp	exon	786442	786615	.	+	.	gene_id "REC102"; transcript_id "REC102"; exon_number "1"; exon_id "REC102.1";
+---
+> chrXII	tmp.gp	exon	786365	787333	.	+	.	gene_id "REC102"; transcript_id "REC102_2"; exon_number "1"; exon_id "REC102_2.1";
+> chrXII	tmp.gp	exon	786365	786615	.	+	.	gene_id "REC102"; transcript_id "REC102"; exon_number "1"; exon_id "REC102.1";
+3508c3458
+< chrX	tmp.gp	exon	468555	469579	.	-	.	gene_id "REC107"; transcript_id "REC107_2"; exon_number "1"; exon_id "REC107_2.1";
+---
+> chrX	tmp.gp	exon	468555	469626	.	-	.	gene_id "REC107"; transcript_id "REC107_2"; exon_number "1"; exon_id "REC107_2.1";
+3510c3460
+< chrX	tmp.gp	exon	469264	469579	.	-	.	gene_id "REC107"; transcript_id "REC107"; exon_number "2"; exon_id "REC107.2";
+---
+> chrX	tmp.gp	exon	469264	469626	.	-	.	gene_id "REC107"; transcript_id "REC107"; exon_number "2"; exon_id "REC107.2";
+3534,3535c3484,3485
+< chrXIV	tmp.gp	exon	48287	49216	.	+	.	gene_id "RFA2"; transcript_id "RFA2_2"; exon_number "1"; exon_id "RFA2_2.1";
+< chrXIV	tmp.gp	exon	48287	48293	.	+	.	gene_id "RFA2"; transcript_id "RFA2"; exon_number "1"; exon_id "RFA2.1";
+---
+> chrXIV	tmp.gp	exon	48247	49216	.	+	.	gene_id "RFA2"; transcript_id "RFA2_2"; exon_number "1"; exon_id "RFA2_2.1";
+> chrXIV	tmp.gp	exon	48247	48293	.	+	.	gene_id "RFA2"; transcript_id "RFA2"; exon_number "1"; exon_id "RFA2.1";
+3578c3528
+< chrIII	tmp.gp	exon	172950	173440	.	-	.	gene_id "RIM1"; transcript_id "RIM1_2"; exon_number "1"; exon_id "RIM1_2.1";
+---
+> chrIII	tmp.gp	exon	172950	173500	.	-	.	gene_id "RIM1"; transcript_id "RIM1_2"; exon_number "1"; exon_id "RIM1_2.1";
+3580c3530
+< chrIII	tmp.gp	exon	173199	173440	.	-	.	gene_id "RIM1"; transcript_id "RIM1"; exon_number "2"; exon_id "RIM1.2";
+---
+> chrIII	tmp.gp	exon	173199	173500	.	-	.	gene_id "RIM1"; transcript_id "RIM1"; exon_number "2"; exon_id "RIM1.2";
+3685,3686c3635,3636
+< chrIV	tmp.gp	exon	308424	309388	.	+	.	gene_id "RPL13A"; transcript_id "RPL13A_2"; exon_number "1"; exon_id "RPL13A_2.1";
+< chrIV	tmp.gp	exon	308424	308427	.	+	.	gene_id "RPL13A"; transcript_id "RPL13A"; exon_number "1"; exon_id "RPL13A.1";
+---
+> chrIV	tmp.gp	exon	308396	309388	.	+	.	gene_id "RPL13A"; transcript_id "RPL13A_2"; exon_number "1"; exon_id "RPL13A_2.1";
+> chrIV	tmp.gp	exon	308396	308427	.	+	.	gene_id "RPL13A"; transcript_id "RPL13A"; exon_number "1"; exon_id "RPL13A.1";
+3688c3638
+< chrXIII	tmp.gp	exon	550206	551207	.	-	.	gene_id "RPL13B"; transcript_id "RPL13B_2"; exon_number "1"; exon_id "RPL13B_2.1";
+---
+> chrXIII	tmp.gp	exon	550206	551241	.	-	.	gene_id "RPL13B"; transcript_id "RPL13B_2"; exon_number "1"; exon_id "RPL13B_2.1";
+3690,3692c3640,3642
+< chrXIII	tmp.gp	exon	551204	551207	.	-	.	gene_id "RPL13B"; transcript_id "RPL13B"; exon_number "2"; exon_id "RPL13B.2";
+< chrXI	tmp.gp	exon	431906	432720	.	+	.	gene_id "RPL14A"; transcript_id "RPL14A_2"; exon_number "1"; exon_id "RPL14A_2.1";
+< chrXI	tmp.gp	exon	431906	432034	.	+	.	gene_id "RPL14A"; transcript_id "RPL14A"; exon_number "1"; exon_id "RPL14A.1";
+---
+> chrXIII	tmp.gp	exon	551204	551241	.	-	.	gene_id "RPL13B"; transcript_id "RPL13B"; exon_number "2"; exon_id "RPL13B.2";
+> chrXI	tmp.gp	exon	431886	432720	.	+	.	gene_id "RPL14A"; transcript_id "RPL14A_2"; exon_number "1"; exon_id "RPL14A_2.1";
+> chrXI	tmp.gp	exon	431886	432034	.	+	.	gene_id "RPL14A"; transcript_id "RPL14A"; exon_number "1"; exon_id "RPL14A.1";
+3694,3695c3644,3645
+< chrVIII	tmp.gp	exon	104277	105091	.	+	.	gene_id "RPL14B"; transcript_id "RPL14B_2"; exon_number "1"; exon_id "RPL14B_2.1";
+< chrVIII	tmp.gp	exon	104277	104405	.	+	.	gene_id "RPL14B"; transcript_id "RPL14B"; exon_number "1"; exon_id "RPL14B.1";
+---
+> chrVIII	tmp.gp	exon	104254	105091	.	+	.	gene_id "RPL14B"; transcript_id "RPL14B_2"; exon_number "1"; exon_id "RPL14B_2.1";
+> chrVIII	tmp.gp	exon	104254	104405	.	+	.	gene_id "RPL14B"; transcript_id "RPL14B"; exon_number "1"; exon_id "RPL14B.1";
+3699c3649
+< chrIX	tmp.gp	exon	98527	99416	.	-	.	gene_id "RPL16A"; transcript_id "RPL16A_2"; exon_number "1"; exon_id "RPL16A_2.1";
+---
+> chrIX	tmp.gp	exon	98527	99434	.	-	.	gene_id "RPL16A"; transcript_id "RPL16A_2"; exon_number "1"; exon_id "RPL16A_2.1";
+3701,3702c3651,3652
+< chrIX	tmp.gp	exon	99386	99416	.	-	.	gene_id "RPL16A"; transcript_id "RPL16A"; exon_number "2"; exon_id "RPL16A.2";
+< chrXIV	tmp.gp	exon	493956	495001	.	-	.	gene_id "RPL16B"; transcript_id "RPL16B_2"; exon_number "1"; exon_id "RPL16B_2.1";
+---
+> chrIX	tmp.gp	exon	99386	99434	.	-	.	gene_id "RPL16A"; transcript_id "RPL16A"; exon_number "2"; exon_id "RPL16A.2";
+> chrXIV	tmp.gp	exon	493956	495016	.	-	.	gene_id "RPL16B"; transcript_id "RPL16B_2"; exon_number "1"; exon_id "RPL16B_2.1";
+3704,3706c3654,3656
+< chrXIV	tmp.gp	exon	494974	495001	.	-	.	gene_id "RPL16B"; transcript_id "RPL16B"; exon_number "2"; exon_id "RPL16B.2";
+< chrXI	tmp.gp	exon	109269	110129	.	+	.	gene_id "RPL17A"; transcript_id "RPL17A_2"; exon_number "1"; exon_id "RPL17A_2.1";
+< chrXI	tmp.gp	exon	109269	109577	.	+	.	gene_id "RPL17A"; transcript_id "RPL17A"; exon_number "1"; exon_id "RPL17A.1";
+---
+> chrXIV	tmp.gp	exon	494974	495016	.	-	.	gene_id "RPL16B"; transcript_id "RPL16B"; exon_number "2"; exon_id "RPL16B.2";
+> chrXI	tmp.gp	exon	109247	110129	.	+	.	gene_id "RPL17A"; transcript_id "RPL17A_2"; exon_number "1"; exon_id "RPL17A_2.1";
+> chrXI	tmp.gp	exon	109247	109577	.	+	.	gene_id "RPL17A"; transcript_id "RPL17A"; exon_number "1"; exon_id "RPL17A.1";
+3708,3711c3658,3661
+< chrX	tmp.gp	exon	90786	91657	.	+	.	gene_id "RPL17B"; transcript_id "RPL17B_2"; exon_number "1"; exon_id "RPL17B_2.1";
+< chrX	tmp.gp	exon	90786	91094	.	+	.	gene_id "RPL17B"; transcript_id "RPL17B"; exon_number "1"; exon_id "RPL17B.1";
+< chrX	tmp.gp	exon	91412	91657	.	+	.	gene_id "RPL17B"; transcript_id "RPL17B"; exon_number "2"; exon_id "RPL17B.2";
+< chrXV	tmp.gp	exon	93395	94402	.	-	.	gene_id "RPL18A"; transcript_id "RPL18A_2"; exon_number "1"; exon_id "RPL18A_2.1";
+---
+> chrX	tmp.gp	exon	90764	91657	.	+	.	gene_id "RPL17B"; transcript_id "RPL17B_2"; exon_number "1"; exon_id "RPL17B_2.1";
+> chrX	tmp.gp	exon	90764	91094	.	+	.	gene_id "RPL17B"; transcript_id "RPL17B"; exon_number "1"; exon_id "RPL17B.1";
+> chrX	tmp.gp	exon	91412	91657	.	+	.	gene_id "RPL17B"; transcript_id "RPL17B"; exon_number "2"; exon_id "RPL17B.2";
+> chrXV	tmp.gp	exon	93395	94422	.	-	.	gene_id "RPL18A"; transcript_id "RPL18A_2"; exon_number "1"; exon_id "RPL18A_2.1";
+3713,3714c3663,3664
+< chrXV	tmp.gp	exon	94291	94402	.	-	.	gene_id "RPL18A"; transcript_id "RPL18A"; exon_number "2"; exon_id "RPL18A.2";
+< chrXIV	tmp.gp	exon	63570	64562	.	-	.	gene_id "RPL18B"; transcript_id "RPL18B_2"; exon_number "1"; exon_id "RPL18B_2.1";
+---
+> chrXV	tmp.gp	exon	94291	94422	.	-	.	gene_id "RPL18A"; transcript_id "RPL18A"; exon_number "2"; exon_id "RPL18A.2";
+> chrXIV	tmp.gp	exon	63570	64586	.	-	.	gene_id "RPL18B"; transcript_id "RPL18B_2"; exon_number "1"; exon_id "RPL18B_2.1";
+3716,3717c3666,3667
+< chrXIV	tmp.gp	exon	64451	64562	.	-	.	gene_id "RPL18B"; transcript_id "RPL18B"; exon_number "2"; exon_id "RPL18B.2";
+< chrII	tmp.gp	exon	414186	415261	.	-	.	gene_id "RPL19A"; transcript_id "RPL19A_2"; exon_number "1"; exon_id "RPL19A_2.1";
+---
+> chrXIV	tmp.gp	exon	64451	64586	.	-	.	gene_id "RPL18B"; transcript_id "RPL18B"; exon_number "2"; exon_id "RPL18B.2";
+> chrII	tmp.gp	exon	414186	415293	.	-	.	gene_id "RPL19A"; transcript_id "RPL19A_2"; exon_number "1"; exon_id "RPL19A_2.1";
+3719,3721c3669,3671
+< chrII	tmp.gp	exon	415260	415261	.	-	.	gene_id "RPL19A"; transcript_id "RPL19A"; exon_number "2"; exon_id "RPL19A.2";
+< chrII	tmp.gp	exon	168423	169376	.	+	.	gene_id "RPL19B"; transcript_id "RPL19B_2"; exon_number "1"; exon_id "RPL19B_2.1";
+< chrII	tmp.gp	exon	168423	168424	.	+	.	gene_id "RPL19B"; transcript_id "RPL19B"; exon_number "1"; exon_id "RPL19B.1";
+---
+> chrII	tmp.gp	exon	415260	415293	.	-	.	gene_id "RPL19A"; transcript_id "RPL19A"; exon_number "2"; exon_id "RPL19A.2";
+> chrII	tmp.gp	exon	168391	169376	.	+	.	gene_id "RPL19B"; transcript_id "RPL19B_2"; exon_number "1"; exon_id "RPL19B_2.1";
+> chrII	tmp.gp	exon	168391	168424	.	+	.	gene_id "RPL19B"; transcript_id "RPL19B"; exon_number "1"; exon_id "RPL19B.1";
+3725c3675
+< chrXIII	tmp.gp	exon	753225	754220	.	-	.	gene_id "RPL20A"; transcript_id "RPL20A_2"; exon_number "1"; exon_id "RPL20A_2.1";
+---
+> chrXIII	tmp.gp	exon	753225	754250	.	-	.	gene_id "RPL20A"; transcript_id "RPL20A_2"; exon_number "1"; exon_id "RPL20A_2.1";
+3727,3728c3677,3678
+< chrXIII	tmp.gp	exon	754220	754220	.	-	.	gene_id "RPL20A"; transcript_id "RPL20A"; exon_number "2"; exon_id "RPL20A.2";
+< chrXV	tmp.gp	exon	900250	901194	.	-	.	gene_id "RPL20B"; transcript_id "RPL20B_2"; exon_number "1"; exon_id "RPL20B_2.1";
+---
+> chrXIII	tmp.gp	exon	754220	754250	.	-	.	gene_id "RPL20A"; transcript_id "RPL20A"; exon_number "2"; exon_id "RPL20A.2";
+> chrXV	tmp.gp	exon	900250	901231	.	-	.	gene_id "RPL20B"; transcript_id "RPL20B_2"; exon_number "1"; exon_id "RPL20B_2.1";
+3730,3732c3680,3682
+< chrXV	tmp.gp	exon	901194	901194	.	-	.	gene_id "RPL20B"; transcript_id "RPL20B"; exon_number "2"; exon_id "RPL20B.2";
+< chrII	tmp.gp	exon	606270	607140	.	+	.	gene_id "RPL21A"; transcript_id "RPL21A_2"; exon_number "1"; exon_id "RPL21A_2.1";
+< chrII	tmp.gp	exon	606270	606280	.	+	.	gene_id "RPL21A"; transcript_id "RPL21A"; exon_number "1"; exon_id "RPL21A.1";
+---
+> chrXV	tmp.gp	exon	901194	901231	.	-	.	gene_id "RPL20B"; transcript_id "RPL20B"; exon_number "2"; exon_id "RPL20B.2";
+> chrII	tmp.gp	exon	606247	607140	.	+	.	gene_id "RPL21A"; transcript_id "RPL21A_2"; exon_number "1"; exon_id "RPL21A_2.1";
+> chrII	tmp.gp	exon	606247	606280	.	+	.	gene_id "RPL21A"; transcript_id "RPL21A"; exon_number "1"; exon_id "RPL21A.1";
+3734,3735c3684,3685
+< chrXVI	tmp.gp	exon	406636	407539	.	+	.	gene_id "RPL21B"; transcript_id "RPL21B_2"; exon_number "1"; exon_id "RPL21B_2.1";
+< chrXVI	tmp.gp	exon	406636	406646	.	+	.	gene_id "RPL21B"; transcript_id "RPL21B"; exon_number "1"; exon_id "RPL21B.1";
+---
+> chrXVI	tmp.gp	exon	406609	407539	.	+	.	gene_id "RPL21B"; transcript_id "RPL21B_2"; exon_number "1"; exon_id "RPL21B_2.1";
+> chrXVI	tmp.gp	exon	406609	406646	.	+	.	gene_id "RPL21B"; transcript_id "RPL21B"; exon_number "1"; exon_id "RPL21B.1";
+3737,3738c3687,3688
+< chrXII	tmp.gp	exon	263194	263948	.	+	.	gene_id "RPL22A"; transcript_id "RPL22A_2"; exon_number "1"; exon_id "RPL22A_2.1";
+< chrXII	tmp.gp	exon	263194	263205	.	+	.	gene_id "RPL22A"; transcript_id "RPL22A"; exon_number "1"; exon_id "RPL22A.1";
+---
+> chrXII	tmp.gp	exon	263169	263948	.	+	.	gene_id "RPL22A"; transcript_id "RPL22A_2"; exon_number "1"; exon_id "RPL22A_2.1";
+> chrXII	tmp.gp	exon	263169	263205	.	+	.	gene_id "RPL22A"; transcript_id "RPL22A"; exon_number "1"; exon_id "RPL22A.1";
+3740c3690
+< chrVI	tmp.gp	exon	64243	64932	.	-	.	gene_id "RPL22B"; transcript_id "RPL22B_2"; exon_number "1"; exon_id "RPL22B_2.1";
+---
+> chrVI	tmp.gp	exon	64243	64974	.	-	.	gene_id "RPL22B"; transcript_id "RPL22B_2"; exon_number "1"; exon_id "RPL22B_2.1";
+3742,3743c3692,3693
+< chrVI	tmp.gp	exon	64921	64932	.	-	.	gene_id "RPL22B"; transcript_id "RPL22B"; exon_number "2"; exon_id "RPL22B.2";
+< chrII	tmp.gp	exon	59822	60739	.	-	.	gene_id "RPL23A"; transcript_id "RPL23A_2"; exon_number "1"; exon_id "RPL23A_2.1";
+---
+> chrVI	tmp.gp	exon	64921	64974	.	-	.	gene_id "RPL22B"; transcript_id "RPL22B"; exon_number "2"; exon_id "RPL22B.2";
+> chrII	tmp.gp	exon	59822	60762	.	-	.	gene_id "RPL23A"; transcript_id "RPL23A_2"; exon_number "1"; exon_id "RPL23A_2.1";
+3745,3747c3695,3697
+< chrII	tmp.gp	exon	60698	60739	.	-	.	gene_id "RPL23A"; transcript_id "RPL23A"; exon_number "2"; exon_id "RPL23A.2";
+< chrV	tmp.gp	exon	396769	397653	.	+	.	gene_id "RPL23B"; transcript_id "RPL23B_2"; exon_number "1"; exon_id "RPL23B_2.1";
+< chrV	tmp.gp	exon	396769	396810	.	+	.	gene_id "RPL23B"; transcript_id "RPL23B"; exon_number "1"; exon_id "RPL23B.1";
+---
+> chrII	tmp.gp	exon	60698	60762	.	-	.	gene_id "RPL23A"; transcript_id "RPL23A"; exon_number "2"; exon_id "RPL23A.2";
+> chrV	tmp.gp	exon	396748	397653	.	+	.	gene_id "RPL23B"; transcript_id "RPL23B_2"; exon_number "1"; exon_id "RPL23B_2.1";
+> chrV	tmp.gp	exon	396748	396810	.	+	.	gene_id "RPL23B"; transcript_id "RPL23B"; exon_number "1"; exon_id "RPL23B.1";
+3749c3699
+< chrVII	tmp.gp	exon	437336	438418	.	-	.	gene_id "RPL24A"; transcript_id "RPL24A_2"; exon_number "1"; exon_id "RPL24A_2.1";
+---
+> chrVII	tmp.gp	exon	437336	438439	.	-	.	gene_id "RPL24A"; transcript_id "RPL24A_2"; exon_number "1"; exon_id "RPL24A_2.1";
+3751,3752c3701,3702
+< chrVII	tmp.gp	exon	438398	438418	.	-	.	gene_id "RPL24A"; transcript_id "RPL24A"; exon_number "2"; exon_id "RPL24A.2";
+< chrVII	tmp.gp	exon	787161	788203	.	-	.	gene_id "RPL24B"; transcript_id "RPL24B_2"; exon_number "1"; exon_id "RPL24B_2.1";
+---
+> chrVII	tmp.gp	exon	438398	438439	.	-	.	gene_id "RPL24A"; transcript_id "RPL24A"; exon_number "2"; exon_id "RPL24A.2";
+> chrVII	tmp.gp	exon	787161	788238	.	-	.	gene_id "RPL24B"; transcript_id "RPL24B_2"; exon_number "1"; exon_id "RPL24B_2.1";
+3754,3756c3704,3706
+< chrVII	tmp.gp	exon	788179	788203	.	-	.	gene_id "RPL24B"; transcript_id "RPL24B"; exon_number "2"; exon_id "RPL24B.2";
+< chrXV	tmp.gp	exon	80348	81190	.	+	.	gene_id "RPL25"; transcript_id "RPL25_2"; exon_number "1"; exon_id "RPL25_2.1";
+< chrXV	tmp.gp	exon	80348	80360	.	+	.	gene_id "RPL25"; transcript_id "RPL25"; exon_number "1"; exon_id "RPL25.1";
+---
+> chrVII	tmp.gp	exon	788179	788238	.	-	.	gene_id "RPL24B"; transcript_id "RPL24B"; exon_number "2"; exon_id "RPL24B.2";
+> chrXV	tmp.gp	exon	80322	81190	.	+	.	gene_id "RPL25"; transcript_id "RPL25_2"; exon_number "1"; exon_id "RPL25_2.1";
+> chrXV	tmp.gp	exon	80322	80360	.	+	.	gene_id "RPL25"; transcript_id "RPL25"; exon_number "1"; exon_id "RPL25.1";
+3758,3764c3708,3712
+< chrXII	tmp.gp	exon	819312	820142	.	+	.	gene_id "RPL26A"; transcript_id "RPL26A_2"; exon_number "1"; exon_id "RPL26A_2.1";
+< chrXII	tmp.gp	exon	819312	819330	.	+	.	gene_id "RPL26A"; transcript_id "RPL26A"; exon_number "1"; exon_id "RPL26A.1";
+< chrXII	tmp.gp	exon	819778	820142	.	+	.	gene_id "RPL26A"; transcript_id "RPL26A"; exon_number "2"; exon_id "RPL26A.2";
+< chrVII	tmp.gp	exon	555782	556687	.	+	.	gene_id "RPL26B"; transcript_id "RPL26B_2"; exon_number "1"; exon_id "RPL26B_2.1";
+< chrVII	tmp.gp	exon	555782	555830	.	+	.	gene_id "RPL26B"; transcript_id "RPL26B_3"; exon_number "1"; exon_id "RPL26B_3.1";
+< chrVII	tmp.gp	exon	556110	556687	.	+	.	gene_id "RPL26B"; transcript_id "RPL26B_3"; exon_number "2"; exon_id "RPL26B_3.2";
+< chrVII	tmp.gp	exon	555782	555830	.	+	.	gene_id "RPL26B"; transcript_id "RPL26B"; exon_number "1"; exon_id "RPL26B.1";
+---
+> chrXII	tmp.gp	exon	819294	820142	.	+	.	gene_id "RPL26A"; transcript_id "RPL26A_2"; exon_number "1"; exon_id "RPL26A_2.1";
+> chrXII	tmp.gp	exon	819294	819330	.	+	.	gene_id "RPL26A"; transcript_id "RPL26A"; exon_number "1"; exon_id "RPL26A.1";
+> chrXII	tmp.gp	exon	819778	820142	.	+	.	gene_id "RPL26A"; transcript_id "RPL26A"; exon_number "2"; exon_id "RPL26A.2";
+> chrVII	tmp.gp	exon	555754	556687	.	+	.	gene_id "RPL26B"; transcript_id "RPL26B_2"; exon_number "1"; exon_id "RPL26B_2.1";
+> chrVII	tmp.gp	exon	555754	555830	.	+	.	gene_id "RPL26B"; transcript_id "RPL26B"; exon_number "1"; exon_id "RPL26B.1";
+3766,3767c3714,3715
+< chrVIII	tmp.gp	exon	126521	127492	.	+	.	gene_id "RPL27A"; transcript_id "RPL27A_2"; exon_number "1"; exon_id "RPL27A_2.1";
+< chrVIII	tmp.gp	exon	126521	126551	.	+	.	gene_id "RPL27A"; transcript_id "RPL27A"; exon_number "1"; exon_id "RPL27A.1";
+---
+> chrVIII	tmp.gp	exon	126488	127492	.	+	.	gene_id "RPL27A"; transcript_id "RPL27A_2"; exon_number "1"; exon_id "RPL27A_2.1";
+> chrVIII	tmp.gp	exon	126488	126551	.	+	.	gene_id "RPL27A"; transcript_id "RPL27A"; exon_number "1"; exon_id "RPL27A.1";
+3769,3770c3717,3718
+< chrIV	tmp.gp	exon	1401770	1402564	.	+	.	gene_id "RPL27B"; transcript_id "RPL27B_2"; exon_number "1"; exon_id "RPL27B_2.1";
+< chrIV	tmp.gp	exon	1401770	1401800	.	+	.	gene_id "RPL27B"; transcript_id "RPL27B"; exon_number "1"; exon_id "RPL27B.1";
+---
+> chrIV	tmp.gp	exon	1401744	1402564	.	+	.	gene_id "RPL27B"; transcript_id "RPL27B_2"; exon_number "1"; exon_id "RPL27B_2.1";
+> chrIV	tmp.gp	exon	1401744	1401800	.	+	.	gene_id "RPL27B"; transcript_id "RPL27B"; exon_number "1"; exon_id "RPL27B.1";
+3772,3773c3720,3721
+< chrVII	tmp.gp	exon	310967	311927	.	+	.	gene_id "RPL28"; transcript_id "RPL28_2"; exon_number "1"; exon_id "RPL28_2.1";
+< chrVII	tmp.gp	exon	310967	311015	.	+	.	gene_id "RPL28"; transcript_id "RPL28"; exon_number "1"; exon_id "RPL28.1";
+---
+> chrVII	tmp.gp	exon	310950	311927	.	+	.	gene_id "RPL28"; transcript_id "RPL28_2"; exon_number "1"; exon_id "RPL28_2.1";
+> chrVII	tmp.gp	exon	310950	311015	.	+	.	gene_id "RPL28"; transcript_id "RPL28"; exon_number "1"; exon_id "RPL28.1";
+3775c3723
+< chrVI	tmp.gp	exon	223131	223793	.	-	.	gene_id "RPL29"; transcript_id "RPL29_2"; exon_number "1"; exon_id "RPL29_2.1";
+---
+> chrVI	tmp.gp	exon	223131	223810	.	-	.	gene_id "RPL29"; transcript_id "RPL29_2"; exon_number "1"; exon_id "RPL29_2.1";
+3777c3725
+< chrVI	tmp.gp	exon	223772	223793	.	-	.	gene_id "RPL29"; transcript_id "RPL29"; exon_number "2"; exon_id "RPL29.2";
+---
+> chrVI	tmp.gp	exon	223772	223810	.	-	.	gene_id "RPL29"; transcript_id "RPL29"; exon_number "2"; exon_id "RPL29.2";
+3779c3727
+< chrVI	tmp.gp	exon	220507	221418	.	-	.	gene_id "RPL2A"; transcript_id "RPL2A_2"; exon_number "1"; exon_id "RPL2A_2.1";
+---
+> chrVI	tmp.gp	exon	220507	221457	.	-	.	gene_id "RPL2A"; transcript_id "RPL2A_2"; exon_number "1"; exon_id "RPL2A_2.1";
+3781,3783c3729,3731
+< chrVI	tmp.gp	exon	221415	221418	.	-	.	gene_id "RPL2A"; transcript_id "RPL2A"; exon_number "2"; exon_id "RPL2A.2";
+< chrIX	tmp.gp	exon	316768	317932	.	+	.	gene_id "RPL2B"; transcript_id "RPL2B_2"; exon_number "1"; exon_id "RPL2B_2.1";
+< chrIX	tmp.gp	exon	316768	316771	.	+	.	gene_id "RPL2B"; transcript_id "RPL2B"; exon_number "1"; exon_id "RPL2B.1";
+---
+> chrVI	tmp.gp	exon	221415	221457	.	-	.	gene_id "RPL2A"; transcript_id "RPL2A"; exon_number "2"; exon_id "RPL2A.2";
+> chrIX	tmp.gp	exon	316743	317932	.	+	.	gene_id "RPL2B"; transcript_id "RPL2B_2"; exon_number "1"; exon_id "RPL2B_2.1";
+> chrIX	tmp.gp	exon	316743	316771	.	+	.	gene_id "RPL2B"; transcript_id "RPL2B"; exon_number "1"; exon_id "RPL2B.1";
+3786,3787c3734,3735
+< chrVII	tmp.gp	exon	439091	439638	.	+	.	gene_id "RPL30"; transcript_id "RPL30_2"; exon_number "1"; exon_id "RPL30_2.1";
+< chrVII	tmp.gp	exon	439091	439093	.	+	.	gene_id "RPL30"; transcript_id "RPL30"; exon_number "1"; exon_id "RPL30.1";
+---
+> chrVII	tmp.gp	exon	439032	439638	.	+	.	gene_id "RPL30"; transcript_id "RPL30_2"; exon_number "1"; exon_id "RPL30_2.1";
+> chrVII	tmp.gp	exon	439032	439093	.	+	.	gene_id "RPL30"; transcript_id "RPL30"; exon_number "1"; exon_id "RPL30.1";
+3789,3790c3737,3738
+< chrIV	tmp.gp	exon	322226	322988	.	+	.	gene_id "RPL31A"; transcript_id "RPL31A_2"; exon_number "1"; exon_id "RPL31A_2.1";
+< chrIV	tmp.gp	exon	322226	322282	.	+	.	gene_id "RPL31A"; transcript_id "RPL31A"; exon_number "1"; exon_id "RPL31A.1";
+---
+> chrIV	tmp.gp	exon	322194	322988	.	+	.	gene_id "RPL31A"; transcript_id "RPL31A_2"; exon_number "1"; exon_id "RPL31A_2.1";
+> chrIV	tmp.gp	exon	322194	322282	.	+	.	gene_id "RPL31A"; transcript_id "RPL31A"; exon_number "1"; exon_id "RPL31A.1";
+3792c3740
+< chrXII	tmp.gp	exon	931065	931755	.	-	.	gene_id "RPL31B"; transcript_id "RPL31B_2"; exon_number "1"; exon_id "RPL31B_2.1";
+---
+> chrXII	tmp.gp	exon	931065	931781	.	-	.	gene_id "RPL31B"; transcript_id "RPL31B_2"; exon_number "1"; exon_id "RPL31B_2.1";
+3794c3742
+< chrXII	tmp.gp	exon	931699	931755	.	-	.	gene_id "RPL31B"; transcript_id "RPL31B"; exon_number "2"; exon_id "RPL31B.2";
+---
+> chrXII	tmp.gp	exon	931699	931781	.	-	.	gene_id "RPL31B"; transcript_id "RPL31B"; exon_number "2"; exon_id "RPL31B.2";
+3798,3799c3746,3747
+< chrXVI	tmp.gp	exon	282122	282970	.	+	.	gene_id "RPL33A"; transcript_id "RPL33A_2"; exon_number "1"; exon_id "RPL33A_2.1";
+< chrXVI	tmp.gp	exon	282122	282140	.	+	.	gene_id "RPL33A"; transcript_id "RPL33A"; exon_number "1"; exon_id "RPL33A.1";
+---
+> chrXVI	tmp.gp	exon	282092	282970	.	+	.	gene_id "RPL33A"; transcript_id "RPL33A_2"; exon_number "1"; exon_id "RPL33A_2.1";
+> chrXVI	tmp.gp	exon	282092	282140	.	+	.	gene_id "RPL33A"; transcript_id "RPL33A"; exon_number "1"; exon_id "RPL33A.1";
+3801c3749
+< chrXV	tmp.gp	exon	778555	779405	.	-	.	gene_id "RPL33B"; transcript_id "RPL33B_2"; exon_number "1"; exon_id "RPL33B_2.1";
+---
+> chrXV	tmp.gp	exon	778555	779465	.	-	.	gene_id "RPL33B"; transcript_id "RPL33B_2"; exon_number "1"; exon_id "RPL33B_2.1";
+3803,3804c3751,3752
+< chrXV	tmp.gp	exon	779387	779405	.	-	.	gene_id "RPL33B"; transcript_id "RPL33B"; exon_number "2"; exon_id "RPL33B.2";
+< chrV	tmp.gp	exon	269423	270185	.	-	.	gene_id "RPL34A"; transcript_id "RPL34A_2"; exon_number "1"; exon_id "RPL34A_2.1";
+---
+> chrXV	tmp.gp	exon	779387	779465	.	-	.	gene_id "RPL33B"; transcript_id "RPL33B"; exon_number "2"; exon_id "RPL33B.2";
+> chrV	tmp.gp	exon	269423	270217	.	-	.	gene_id "RPL34A"; transcript_id "RPL34A_2"; exon_number "1"; exon_id "RPL34A_2.1";
+3806,3807c3754,3755
+< chrV	tmp.gp	exon	270149	270185	.	-	.	gene_id "RPL34A"; transcript_id "RPL34A"; exon_number "2"; exon_id "RPL34A.2";
+< chrIX	tmp.gp	exon	256226	257063	.	-	.	gene_id "RPL34B"; transcript_id "RPL34B_2"; exon_number "1"; exon_id "RPL34B_2.1";
+---
+> chrV	tmp.gp	exon	270149	270217	.	-	.	gene_id "RPL34A"; transcript_id "RPL34A"; exon_number "2"; exon_id "RPL34A.2";
+> chrIX	tmp.gp	exon	256226	257094	.	-	.	gene_id "RPL34B"; transcript_id "RPL34B_2"; exon_number "1"; exon_id "RPL34B_2.1";
+3809,3811c3757,3759
+< chrIX	tmp.gp	exon	257027	257063	.	-	.	gene_id "RPL34B"; transcript_id "RPL34B"; exon_number "2"; exon_id "RPL34B.2";
+< chrIV	tmp.gp	exon	117664	118517	.	+	.	gene_id "RPL35A"; transcript_id "RPL35A_2"; exon_number "1"; exon_id "RPL35A_2.1";
+< chrIV	tmp.gp	exon	117664	117666	.	+	.	gene_id "RPL35A"; transcript_id "RPL35A"; exon_number "1"; exon_id "RPL35A.1";
+---
+> chrIX	tmp.gp	exon	257027	257094	.	-	.	gene_id "RPL34B"; transcript_id "RPL34B"; exon_number "2"; exon_id "RPL34B.2";
+> chrIV	tmp.gp	exon	117614	118517	.	+	.	gene_id "RPL35A"; transcript_id "RPL35A_2"; exon_number "1"; exon_id "RPL35A_2.1";
+> chrIV	tmp.gp	exon	117614	117666	.	+	.	gene_id "RPL35A"; transcript_id "RPL35A"; exon_number "1"; exon_id "RPL35A.1";
+3813,3814c3761,3762
+< chrIV	tmp.gp	exon	217600	218367	.	+	.	gene_id "RPL35B"; transcript_id "RPL35B_2"; exon_number "1"; exon_id "RPL35B_2.1";
+< chrIV	tmp.gp	exon	217600	217602	.	+	.	gene_id "RPL35B"; transcript_id "RPL35B"; exon_number "1"; exon_id "RPL35B.1";
+---
+> chrIV	tmp.gp	exon	217566	218367	.	+	.	gene_id "RPL35B"; transcript_id "RPL35B_2"; exon_number "1"; exon_id "RPL35B_2.1";
+> chrIV	tmp.gp	exon	217566	217602	.	+	.	gene_id "RPL35B"; transcript_id "RPL35B"; exon_number "1"; exon_id "RPL35B.1";
+3816,3817c3764,3765
+< chrXIII	tmp.gp	exon	651145	651910	.	+	.	gene_id "RPL36A"; transcript_id "RPL36A_2"; exon_number "1"; exon_id "RPL36A_2.1";
+< chrXIII	tmp.gp	exon	651145	651160	.	+	.	gene_id "RPL36A"; transcript_id "RPL36A"; exon_number "1"; exon_id "RPL36A.1";
+---
+> chrXIII	tmp.gp	exon	651118	651910	.	+	.	gene_id "RPL36A"; transcript_id "RPL36A_2"; exon_number "1"; exon_id "RPL36A_2.1";
+> chrXIII	tmp.gp	exon	651118	651160	.	+	.	gene_id "RPL36A"; transcript_id "RPL36A"; exon_number "1"; exon_id "RPL36A.1";
+3819c3767
+< chrXVI	tmp.gp	exon	75699	76239	.	-	.	gene_id "RPL36B"; transcript_id "RPL36B_2"; exon_number "1"; exon_id "RPL36B_2.1";
+---
+> chrXVI	tmp.gp	exon	75699	76277	.	-	.	gene_id "RPL36B"; transcript_id "RPL36B_2"; exon_number "1"; exon_id "RPL36B_2.1";
+3821,3825c3769,3773
+< chrXVI	tmp.gp	exon	76224	76239	.	-	.	gene_id "RPL36B"; transcript_id "RPL36B"; exon_number "2"; exon_id "RPL36B.2";
+< chrXII	tmp.gp	exon	522663	523288	.	+	.	gene_id "RPL37A"; transcript_id "RPL37A_2"; exon_number "1"; exon_id "RPL37A_2.1";
+< chrXII	tmp.gp	exon	522663	522669	.	+	.	gene_id "RPL37A"; transcript_id "RPL37A"; exon_number "1"; exon_id "RPL37A.1";
+< chrXII	tmp.gp	exon	523029	523288	.	+	.	gene_id "RPL37A"; transcript_id "RPL37A"; exon_number "2"; exon_id "RPL37A.2";
+< chrIV	tmp.gp	exon	1450198	1450853	.	-	.	gene_id "RPL37B"; transcript_id "RPL37B_2"; exon_number "1"; exon_id "RPL37B_2.1";
+---
+> chrXVI	tmp.gp	exon	76224	76277	.	-	.	gene_id "RPL36B"; transcript_id "RPL36B"; exon_number "2"; exon_id "RPL36B.2";
+> chrXII	tmp.gp	exon	522641	523400	.	+	.	gene_id "RPL37A"; transcript_id "RPL37A_2"; exon_number "1"; exon_id "RPL37A_2.1";
+> chrXII	tmp.gp	exon	522641	522669	.	+	.	gene_id "RPL37A"; transcript_id "RPL37A"; exon_number "1"; exon_id "RPL37A.1";
+> chrXII	tmp.gp	exon	523029	523400	.	+	.	gene_id "RPL37A"; transcript_id "RPL37A"; exon_number "2"; exon_id "RPL37A.2";
+> chrIV	tmp.gp	exon	1450198	1450847	.	-	.	gene_id "RPL37B"; transcript_id "RPL37B_2"; exon_number "1"; exon_id "RPL37B_2.1";
+3827c3775
+< chrIV	tmp.gp	exon	1450847	1450853	.	-	.	gene_id "RPL37B"; transcript_id "RPL37B"; exon_number "2"; exon_id "RPL37B.2";
+---
+> chrIV	tmp.gp	exon	1450847	1450847	.	-	.	gene_id "RPL37B"; transcript_id "RPL37B"; exon_number "2"; exon_id "RPL37B.2";
+3829,3833c3777,3781
+< chrX	tmp.gp	exon	75933	76474	.	+	.	gene_id "RPL39"; transcript_id "RPL39_2"; exon_number "1"; exon_id "RPL39_2.1";
+< chrX	tmp.gp	exon	75933	75938	.	+	.	gene_id "RPL39"; transcript_id "RPL39"; exon_number "1"; exon_id "RPL39.1";
+< chrX	tmp.gp	exon	76325	76474	.	+	.	gene_id "RPL39"; transcript_id "RPL39"; exon_number "2"; exon_id "RPL39.2";
+< chrIX	tmp.gp	exon	68708	69528	.	+	.	gene_id "RPL40A"; transcript_id "RPL40A_2"; exon_number "1"; exon_id "RPL40A_2.1";
+< chrIX	tmp.gp	exon	68708	68715	.	+	.	gene_id "RPL40A"; transcript_id "RPL40A"; exon_number "1"; exon_id "RPL40A.1";
+---
+> chrX	tmp.gp	exon	75906	76600	.	+	.	gene_id "RPL39"; transcript_id "RPL39_2"; exon_number "1"; exon_id "RPL39_2.1";
+> chrX	tmp.gp	exon	75906	75938	.	+	.	gene_id "RPL39"; transcript_id "RPL39"; exon_number "1"; exon_id "RPL39.1";
+> chrX	tmp.gp	exon	76325	76600	.	+	.	gene_id "RPL39"; transcript_id "RPL39"; exon_number "2"; exon_id "RPL39.2";
+> chrIX	tmp.gp	exon	68681	69528	.	+	.	gene_id "RPL40A"; transcript_id "RPL40A_2"; exon_number "1"; exon_id "RPL40A_2.1";
+> chrIX	tmp.gp	exon	68681	68715	.	+	.	gene_id "RPL40A"; transcript_id "RPL40A"; exon_number "1"; exon_id "RPL40A.1";
+3835c3783
+< chrXI	tmp.gp	exon	617996	618750	.	-	.	gene_id "RPL40B"; transcript_id "RPL40B_2"; exon_number "1"; exon_id "RPL40B_2.1";
+---
+> chrXI	tmp.gp	exon	617996	618777	.	-	.	gene_id "RPL40B"; transcript_id "RPL40B_2"; exon_number "1"; exon_id "RPL40B_2.1";
+3837c3785
+< chrXI	tmp.gp	exon	618743	618750	.	-	.	gene_id "RPL40B"; transcript_id "RPL40B"; exon_number "2"; exon_id "RPL40B.2";
+---
+> chrXI	tmp.gp	exon	618743	618777	.	-	.	gene_id "RPL40B"; transcript_id "RPL40B"; exon_number "2"; exon_id "RPL40B.2";
+3840,3841c3788,3789
+< chrXIV	tmp.gp	exon	331322	332154	.	+	.	gene_id "RPL42A"; transcript_id "RPL42A_2"; exon_number "1"; exon_id "RPL42A_2.1";
+< chrXIV	tmp.gp	exon	331322	331325	.	+	.	gene_id "RPL42A"; transcript_id "RPL42A"; exon_number "1"; exon_id "RPL42A.1";
+---
+> chrXIV	tmp.gp	exon	331291	332154	.	+	.	gene_id "RPL42A"; transcript_id "RPL42A_2"; exon_number "1"; exon_id "RPL42A_2.1";
+> chrXIV	tmp.gp	exon	331291	331325	.	+	.	gene_id "RPL42A"; transcript_id "RPL42A"; exon_number "1"; exon_id "RPL42A.1";
+3843c3791
+< chrVIII	tmp.gp	exon	381990	382751	.	-	.	gene_id "RPL42B"; transcript_id "RPL42B_2"; exon_number "1"; exon_id "RPL42B_2.1";
+---
+> chrVIII	tmp.gp	exon	381990	382784	.	-	.	gene_id "RPL42B"; transcript_id "RPL42B_2"; exon_number "1"; exon_id "RPL42B_2.1";
+3845,3847c3793,3795
+< chrVIII	tmp.gp	exon	382748	382751	.	-	.	gene_id "RPL42B"; transcript_id "RPL42B"; exon_number "2"; exon_id "RPL42B.2";
+< chrXVI	tmp.gp	exon	654166	654847	.	+	.	gene_id "RPL43A"; transcript_id "RPL43A_2"; exon_number "1"; exon_id "RPL43A_2.1";
+< chrXVI	tmp.gp	exon	654166	654167	.	+	.	gene_id "RPL43A"; transcript_id "RPL43A"; exon_number "1"; exon_id "RPL43A.1";
+---
+> chrVIII	tmp.gp	exon	382748	382784	.	-	.	gene_id "RPL42B"; transcript_id "RPL42B"; exon_number "2"; exon_id "RPL42B.2";
+> chrXVI	tmp.gp	exon	654134	654847	.	+	.	gene_id "RPL43A"; transcript_id "RPL43A_2"; exon_number "1"; exon_id "RPL43A_2.1";
+> chrXVI	tmp.gp	exon	654134	654167	.	+	.	gene_id "RPL43A"; transcript_id "RPL43A"; exon_number "1"; exon_id "RPL43A.1";
+3849,3850c3797,3798
+< chrX	tmp.gp	exon	608305	608858	.	+	.	gene_id "RPL43B"; transcript_id "RPL43B_2"; exon_number "1"; exon_id "RPL43B_2.1";
+< chrX	tmp.gp	exon	608305	608306	.	+	.	gene_id "RPL43B"; transcript_id "RPL43B"; exon_number "1"; exon_id "RPL43B.1";
+---
+> chrX	tmp.gp	exon	608272	608858	.	+	.	gene_id "RPL43B"; transcript_id "RPL43B_2"; exon_number "1"; exon_id "RPL43B_2.1";
+> chrX	tmp.gp	exon	608272	608306	.	+	.	gene_id "RPL43B"; transcript_id "RPL43B"; exon_number "1"; exon_id "RPL43B.1";
+3855c3803
+< chrXIII	tmp.gp	exon	123227	124172	.	-	.	gene_id "RPL6A"; transcript_id "RPL6A_2"; exon_number "1"; exon_id "RPL6A_2.1";
+---
+> chrXIII	tmp.gp	exon	123227	124197	.	-	.	gene_id "RPL6A"; transcript_id "RPL6A_2"; exon_number "1"; exon_id "RPL6A_2.1";
+3857,3859c3805,3807
+< chrXIII	tmp.gp	exon	124158	124172	.	-	.	gene_id "RPL6A"; transcript_id "RPL6A"; exon_number "2"; exon_id "RPL6A.2";
+< chrXII	tmp.gp	exon	1028854	1029768	.	+	.	gene_id "RPL6B"; transcript_id "RPL6B_2"; exon_number "1"; exon_id "RPL6B_2.1";
+< chrXII	tmp.gp	exon	1028854	1028868	.	+	.	gene_id "RPL6B"; transcript_id "RPL6B"; exon_number "1"; exon_id "RPL6B.1";
+---
+> chrXIII	tmp.gp	exon	124158	124197	.	-	.	gene_id "RPL6A"; transcript_id "RPL6A"; exon_number "2"; exon_id "RPL6A.2";
+> chrXII	tmp.gp	exon	1028820	1029768	.	+	.	gene_id "RPL6B"; transcript_id "RPL6B_2"; exon_number "1"; exon_id "RPL6B_2.1";
+> chrXII	tmp.gp	exon	1028820	1028868	.	+	.	gene_id "RPL6B"; transcript_id "RPL6B"; exon_number "1"; exon_id "RPL6B.1";
+3861c3809
+< chrVII	tmp.gp	exon	364335	365996	.	-	.	gene_id "RPL7A"; transcript_id "RPL7A_2"; exon_number "1"; exon_id "RPL7A_2.1";
+---
+> chrVII	tmp.gp	exon	364335	366018	.	-	.	gene_id "RPL7A"; transcript_id "RPL7A_2"; exon_number "1"; exon_id "RPL7A_2.1";
+3863c3811
+< chrVII	tmp.gp	exon	365986	365996	.	-	.	gene_id "RPL7A"; transcript_id "RPL7A_3"; exon_number "2"; exon_id "RPL7A_3.2";
+---
+> chrVII	tmp.gp	exon	365986	366018	.	-	.	gene_id "RPL7A"; transcript_id "RPL7A_3"; exon_number "2"; exon_id "RPL7A_3.2";
+3866,3868c3814,3816
+< chrVII	tmp.gp	exon	365986	365996	.	-	.	gene_id "RPL7A"; transcript_id "RPL7A"; exon_number "3"; exon_id "RPL7A.3";
+< chrXVI	tmp.gp	exon	173152	174702	.	+	.	gene_id "RPL7B"; transcript_id "RPL7B_2"; exon_number "1"; exon_id "RPL7B_2.1";
+< chrXVI	tmp.gp	exon	173152	173162	.	+	.	gene_id "RPL7B"; transcript_id "RPL7B_3"; exon_number "1"; exon_id "RPL7B_3.1";
+---
+> chrVII	tmp.gp	exon	365986	366018	.	-	.	gene_id "RPL7A"; transcript_id "RPL7A"; exon_number "3"; exon_id "RPL7A.3";
+> chrXVI	tmp.gp	exon	173125	174702	.	+	.	gene_id "RPL7B"; transcript_id "RPL7B_2"; exon_number "1"; exon_id "RPL7B_2.1";
+> chrXVI	tmp.gp	exon	173125	173162	.	+	.	gene_id "RPL7B"; transcript_id "RPL7B_3"; exon_number "1"; exon_id "RPL7B_3.1";
+3893,3894c3841,3842
+< chrXVI	tmp.gp	exon	911257	911800	.	+	.	gene_id "RPO26"; transcript_id "RPO26_2"; exon_number "1"; exon_id "RPO26_2.1";
+< chrXVI	tmp.gp	exon	911257	911276	.	+	.	gene_id "RPO26"; transcript_id "RPO26"; exon_number "1"; exon_id "RPO26.1";
+---
+> chrXVI	tmp.gp	exon	911240	911800	.	+	.	gene_id "RPO26"; transcript_id "RPO26_2"; exon_number "1"; exon_id "RPO26_2.1";
+> chrXVI	tmp.gp	exon	911240	911276	.	+	.	gene_id "RPO26"; transcript_id "RPO26"; exon_number "1"; exon_id "RPO26.1";
+3901,3902c3849,3850
+< chrIV	tmp.gp	exon	229906	230527	.	+	.	gene_id "RPP1B"; transcript_id "RPP1B_2"; exon_number "1"; exon_id "RPP1B_2.1";
+< chrIV	tmp.gp	exon	229906	230019	.	+	.	gene_id "RPP1B"; transcript_id "RPP1B"; exon_number "1"; exon_id "RPP1B.1";
+---
+> chrIV	tmp.gp	exon	229887	230527	.	+	.	gene_id "RPP1B"; transcript_id "RPP1B_2"; exon_number "1"; exon_id "RPP1B_2.1";
+> chrIV	tmp.gp	exon	229887	230019	.	+	.	gene_id "RPP1B"; transcript_id "RPP1B"; exon_number "1"; exon_id "RPP1B.1";
+3907,3908c3855,3856
+< chrVII	tmp.gp	exon	920575	921788	.	+	.	gene_id "RPS0A"; transcript_id "RPS0A_2"; exon_number "1"; exon_id "RPS0A_2.1";
+< chrVII	tmp.gp	exon	920575	920664	.	+	.	gene_id "RPS0A"; transcript_id "RPS0A"; exon_number "1"; exon_id "RPS0A.1";
+---
+> chrVII	tmp.gp	exon	920538	921788	.	+	.	gene_id "RPS0A"; transcript_id "RPS0A_2"; exon_number "1"; exon_id "RPS0A_2.1";
+> chrVII	tmp.gp	exon	920538	920664	.	+	.	gene_id "RPS0A"; transcript_id "RPS0A"; exon_number "1"; exon_id "RPS0A.1";
+3910,3911c3858,3859
+< chrXII	tmp.gp	exon	242232	243349	.	+	.	gene_id "RPS0B"; transcript_id "RPS0B_2"; exon_number "1"; exon_id "RPS0B_2.1";
+< chrXII	tmp.gp	exon	242232	242321	.	+	.	gene_id "RPS0B"; transcript_id "RPS0B"; exon_number "1"; exon_id "RPS0B.1";
+---
+> chrXII	tmp.gp	exon	242189	243349	.	+	.	gene_id "RPS0B"; transcript_id "RPS0B_2"; exon_number "1"; exon_id "RPS0B_2.1";
+> chrXII	tmp.gp	exon	242189	242321	.	+	.	gene_id "RPS0B"; transcript_id "RPS0B"; exon_number "1"; exon_id "RPS0B.1";
+3913,3914c3861,3862
+< chrXV	tmp.gp	exon	867098	867852	.	+	.	gene_id "RPS10A"; transcript_id "RPS10A_2"; exon_number "1"; exon_id "RPS10A_2.1";
+< chrXV	tmp.gp	exon	867098	867149	.	+	.	gene_id "RPS10A"; transcript_id "RPS10A"; exon_number "1"; exon_id "RPS10A.1";
+---
+> chrXV	tmp.gp	exon	867070	867852	.	+	.	gene_id "RPS10A"; transcript_id "RPS10A_2"; exon_number "1"; exon_id "RPS10A_2.1";
+> chrXV	tmp.gp	exon	867070	867149	.	+	.	gene_id "RPS10A"; transcript_id "RPS10A"; exon_number "1"; exon_id "RPS10A.1";
+3916,3917c3864,3865
+< chrXIII	tmp.gp	exon	732414	733141	.	+	.	gene_id "RPS10B"; transcript_id "RPS10B_2"; exon_number "1"; exon_id "RPS10B_2.1";
+< chrXIII	tmp.gp	exon	732414	732465	.	+	.	gene_id "RPS10B"; transcript_id "RPS10B"; exon_number "1"; exon_id "RPS10B.1";
+---
+> chrXIII	tmp.gp	exon	732381	733141	.	+	.	gene_id "RPS10B"; transcript_id "RPS10B_2"; exon_number "1"; exon_id "RPS10B_2.1";
+> chrXIII	tmp.gp	exon	732381	732465	.	+	.	gene_id "RPS10B"; transcript_id "RPS10B"; exon_number "1"; exon_id "RPS10B.1";
+3919,3920c3867,3868
+< chrIV	tmp.gp	exon	491515	492324	.	+	.	gene_id "RPS11A"; transcript_id "RPS11A_2"; exon_number "1"; exon_id "RPS11A_2.1";
+< chrIV	tmp.gp	exon	491515	491559	.	+	.	gene_id "RPS11A"; transcript_id "RPS11A"; exon_number "1"; exon_id "RPS11A.1";
+---
+> chrIV	tmp.gp	exon	491500	492324	.	+	.	gene_id "RPS11A"; transcript_id "RPS11A_2"; exon_number "1"; exon_id "RPS11A_2.1";
+> chrIV	tmp.gp	exon	491500	491559	.	+	.	gene_id "RPS11A"; transcript_id "RPS11A"; exon_number "1"; exon_id "RPS11A.1";
+3922,3923c3870,3871
+< chrII	tmp.gp	exon	332831	333812	.	+	.	gene_id "RPS11B"; transcript_id "RPS11B_2"; exon_number "1"; exon_id "RPS11B_2.1";
+< chrII	tmp.gp	exon	332831	332875	.	+	.	gene_id "RPS11B"; transcript_id "RPS11B"; exon_number "1"; exon_id "RPS11B.1";
+---
+> chrII	tmp.gp	exon	332815	333812	.	+	.	gene_id "RPS11B"; transcript_id "RPS11B_2"; exon_number "1"; exon_id "RPS11B_2.1";
+> chrII	tmp.gp	exon	332815	332875	.	+	.	gene_id "RPS11B"; transcript_id "RPS11B"; exon_number "1"; exon_id "RPS11B.1";
+3926,3927c3874,3875
+< chrIV	tmp.gp	exon	579458	580452	.	+	.	gene_id "RPS13"; transcript_id "RPS13_2"; exon_number "1"; exon_id "RPS13_2.1";
+< chrIV	tmp.gp	exon	579458	579478	.	+	.	gene_id "RPS13"; transcript_id "RPS13"; exon_number "1"; exon_id "RPS13.1";
+---
+> chrIV	tmp.gp	exon	579436	580452	.	+	.	gene_id "RPS13"; transcript_id "RPS13_2"; exon_number "1"; exon_id "RPS13_2.1";
+> chrIV	tmp.gp	exon	579436	579478	.	+	.	gene_id "RPS13"; transcript_id "RPS13"; exon_number "1"; exon_id "RPS13.1";
+3929c3877
+< chrIII	tmp.gp	exon	177500	178220	.	-	.	gene_id "RPS14A"; transcript_id "RPS14A_2"; exon_number "1"; exon_id "RPS14A_2.1";
+---
+> chrIII	tmp.gp	exon	177500	178241	.	-	.	gene_id "RPS14A"; transcript_id "RPS14A_2"; exon_number "1"; exon_id "RPS14A_2.1";
+3931,3933c3879,3881
+< chrIII	tmp.gp	exon	178214	178220	.	-	.	gene_id "RPS14A"; transcript_id "RPS14A"; exon_number "2"; exon_id "RPS14A.2";
+< chrX	tmp.gp	exon	73787	74611	.	+	.	gene_id "RPS14B"; transcript_id "RPS14B_2"; exon_number "1"; exon_id "RPS14B_2.1";
+< chrX	tmp.gp	exon	73787	73796	.	+	.	gene_id "RPS14B"; transcript_id "RPS14B"; exon_number "1"; exon_id "RPS14B.1";
+---
+> chrIII	tmp.gp	exon	178214	178241	.	-	.	gene_id "RPS14A"; transcript_id "RPS14A"; exon_number "2"; exon_id "RPS14A.2";
+> chrX	tmp.gp	exon	73762	74611	.	+	.	gene_id "RPS14B"; transcript_id "RPS14B_2"; exon_number "1"; exon_id "RPS14B_2.1";
+> chrX	tmp.gp	exon	73762	73796	.	+	.	gene_id "RPS14B"; transcript_id "RPS14B"; exon_number "1"; exon_id "RPS14B.1";
+3936,3937c3884,3885
+< chrXIII	tmp.gp	exon	551928	552903	.	+	.	gene_id "RPS16A"; transcript_id "RPS16A_2"; exon_number "1"; exon_id "RPS16A_2.1";
+< chrXIII	tmp.gp	exon	551928	551951	.	+	.	gene_id "RPS16A"; transcript_id "RPS16A"; exon_number "1"; exon_id "RPS16A.1";
+---
+> chrXIII	tmp.gp	exon	551906	552903	.	+	.	gene_id "RPS16A"; transcript_id "RPS16A_2"; exon_number "1"; exon_id "RPS16A_2.1";
+> chrXIII	tmp.gp	exon	551906	551951	.	+	.	gene_id "RPS16A"; transcript_id "RPS16A"; exon_number "1"; exon_id "RPS16A.1";
+3939c3887
+< chrIV	tmp.gp	exon	306926	307789	.	-	.	gene_id "RPS16B"; transcript_id "RPS16B_2"; exon_number "1"; exon_id "RPS16B_2.1";
+---
+> chrIV	tmp.gp	exon	306926	307807	.	-	.	gene_id "RPS16B"; transcript_id "RPS16B_2"; exon_number "1"; exon_id "RPS16B_2.1";
+3941,3943c3889,3891
+< chrIV	tmp.gp	exon	307766	307789	.	-	.	gene_id "RPS16B"; transcript_id "RPS16B"; exon_number "2"; exon_id "RPS16B.2";
+< chrXIII	tmp.gp	exon	225889	226697	.	+	.	gene_id "RPS17A"; transcript_id "RPS17A_2"; exon_number "1"; exon_id "RPS17A_2.1";
+< chrXIII	tmp.gp	exon	225889	225891	.	+	.	gene_id "RPS17A"; transcript_id "RPS17A"; exon_number "1"; exon_id "RPS17A.1";
+---
+> chrIV	tmp.gp	exon	307766	307807	.	-	.	gene_id "RPS16B"; transcript_id "RPS16B"; exon_number "2"; exon_id "RPS16B.2";
+> chrXIII	tmp.gp	exon	225862	226697	.	+	.	gene_id "RPS17A"; transcript_id "RPS17A_2"; exon_number "1"; exon_id "RPS17A_2.1";
+> chrXIII	tmp.gp	exon	225862	225891	.	+	.	gene_id "RPS17A"; transcript_id "RPS17A"; exon_number "1"; exon_id "RPS17A.1";
+3945c3893
+< chrIV	tmp.gp	exon	1354829	1355553	.	-	.	gene_id "RPS17B"; transcript_id "RPS17B_2"; exon_number "1"; exon_id "RPS17B_2.1";
+---
+> chrIV	tmp.gp	exon	1354829	1355588	.	-	.	gene_id "RPS17B"; transcript_id "RPS17B_2"; exon_number "1"; exon_id "RPS17B_2.1";
+3947,3949c3895,3897
+< chrIV	tmp.gp	exon	1355551	1355553	.	-	.	gene_id "RPS17B"; transcript_id "RPS17B"; exon_number "2"; exon_id "RPS17B.2";
+< chrIV	tmp.gp	exon	1359923	1360798	.	+	.	gene_id "RPS18A"; transcript_id "RPS18A_2"; exon_number "1"; exon_id "RPS18A_2.1";
+< chrIV	tmp.gp	exon	1359923	1359969	.	+	.	gene_id "RPS18A"; transcript_id "RPS18A"; exon_number "1"; exon_id "RPS18A.1";
+---
+> chrIV	tmp.gp	exon	1355551	1355588	.	-	.	gene_id "RPS17B"; transcript_id "RPS17B"; exon_number "2"; exon_id "RPS17B.2";
+> chrIV	tmp.gp	exon	1359901	1360798	.	+	.	gene_id "RPS18A"; transcript_id "RPS18A_2"; exon_number "1"; exon_id "RPS18A_2.1";
+> chrIV	tmp.gp	exon	1359901	1359969	.	+	.	gene_id "RPS18A"; transcript_id "RPS18A"; exon_number "1"; exon_id "RPS18A.1";
+3951c3899
+< chrXIII	tmp.gp	exon	222987	223828	.	-	.	gene_id "RPS18B"; transcript_id "RPS18B_2"; exon_number "1"; exon_id "RPS18B_2.1";
+---
+> chrXIII	tmp.gp	exon	222987	223850	.	-	.	gene_id "RPS18B"; transcript_id "RPS18B_2"; exon_number "1"; exon_id "RPS18B_2.1";
+3953,3954c3901,3902
+< chrXIII	tmp.gp	exon	223782	223828	.	-	.	gene_id "RPS18B"; transcript_id "RPS18B"; exon_number "2"; exon_id "RPS18B.2";
+< chrXV	tmp.gp	exon	92026	92850	.	-	.	gene_id "RPS19A"; transcript_id "RPS19A_2"; exon_number "1"; exon_id "RPS19A_2.1";
+---
+> chrXIII	tmp.gp	exon	223782	223850	.	-	.	gene_id "RPS18B"; transcript_id "RPS18B"; exon_number "2"; exon_id "RPS18B.2";
+> chrXV	tmp.gp	exon	92026	92870	.	-	.	gene_id "RPS19A"; transcript_id "RPS19A_2"; exon_number "1"; exon_id "RPS19A_2.1";
+3956,3957c3904,3905
+< chrXV	tmp.gp	exon	92831	92850	.	-	.	gene_id "RPS19A"; transcript_id "RPS19A"; exon_number "2"; exon_id "RPS19A.2";
+< chrXIV	tmp.gp	exon	61958	62943	.	-	.	gene_id "RPS19B"; transcript_id "RPS19B_2"; exon_number "1"; exon_id "RPS19B_2.1";
+---
+> chrXV	tmp.gp	exon	92831	92870	.	-	.	gene_id "RPS19A"; transcript_id "RPS19A"; exon_number "2"; exon_id "RPS19A.2";
+> chrXIV	tmp.gp	exon	61958	62964	.	-	.	gene_id "RPS19B"; transcript_id "RPS19B_2"; exon_number "1"; exon_id "RPS19B_2.1";
+3959c3907
+< chrXIV	tmp.gp	exon	62924	62943	.	-	.	gene_id "RPS19B"; transcript_id "RPS19B"; exon_number "2"; exon_id "RPS19B.2";
+---
+> chrXIV	tmp.gp	exon	62924	62964	.	-	.	gene_id "RPS19B"; transcript_id "RPS19B"; exon_number "2"; exon_id "RPS19B.2";
+3964,3965c3912,3913
+< chrXI	tmp.gp	exon	551657	552242	.	+	.	gene_id "RPS21A"; transcript_id "RPS21A_2"; exon_number "1"; exon_id "RPS21A_2.1";
+< chrXI	tmp.gp	exon	551657	551680	.	+	.	gene_id "RPS21A"; transcript_id "RPS21A"; exon_number "1"; exon_id "RPS21A.1";
+---
+> chrXI	tmp.gp	exon	551626	552242	.	+	.	gene_id "RPS21A"; transcript_id "RPS21A_2"; exon_number "1"; exon_id "RPS21A_2.1";
+> chrXI	tmp.gp	exon	551626	551680	.	+	.	gene_id "RPS21A"; transcript_id "RPS21A"; exon_number "1"; exon_id "RPS21A.1";
+3967c3915
+< chrX	tmp.gp	exon	156550	157273	.	-	.	gene_id "RPS21B"; transcript_id "RPS21B_2"; exon_number "1"; exon_id "RPS21B_2.1";
+---
+> chrX	tmp.gp	exon	156550	157287	.	-	.	gene_id "RPS21B"; transcript_id "RPS21B_2"; exon_number "1"; exon_id "RPS21B_2.1";
+3969c3917
+< chrX	tmp.gp	exon	157250	157273	.	-	.	gene_id "RPS21B"; transcript_id "RPS21B"; exon_number "2"; exon_id "RPS21B.2";
+---
+> chrX	tmp.gp	exon	157250	157287	.	-	.	gene_id "RPS21B"; transcript_id "RPS21B"; exon_number "2"; exon_id "RPS21B.2";
+3974,3975d3921
+< chrXII	tmp.gp	exon	855831	855877	.	+	.	gene_id "RPS22B"; transcript_id "RPS22B_3"; exon_number "1"; exon_id "RPS22B_3.1";
+< chrXII	tmp.gp	exon	857058	857373	.	+	.	gene_id "RPS22B"; transcript_id "RPS22B_3"; exon_number "2"; exon_id "RPS22B_3.2";
+3977,3978c3923,3924
+< chrVII	tmp.gp	exon	726974	727730	.	+	.	gene_id "RPS23A"; transcript_id "RPS23A_2"; exon_number "1"; exon_id "RPS23A_2.1";
+< chrVII	tmp.gp	exon	726974	727038	.	+	.	gene_id "RPS23A"; transcript_id "RPS23A"; exon_number "1"; exon_id "RPS23A.1";
+---
+> chrVII	tmp.gp	exon	726950	727730	.	+	.	gene_id "RPS23A"; transcript_id "RPS23A_2"; exon_number "1"; exon_id "RPS23A_2.1";
+> chrVII	tmp.gp	exon	726950	727038	.	+	.	gene_id "RPS23A"; transcript_id "RPS23A"; exon_number "1"; exon_id "RPS23A.1";
+3980,3981c3926,3927
+< chrXVI	tmp.gp	exon	794965	795767	.	+	.	gene_id "RPS23B"; transcript_id "RPS23B_2"; exon_number "1"; exon_id "RPS23B_2.1";
+< chrXVI	tmp.gp	exon	794965	795029	.	+	.	gene_id "RPS23B"; transcript_id "RPS23B"; exon_number "1"; exon_id "RPS23B.1";
+---
+> chrXVI	tmp.gp	exon	794940	795767	.	+	.	gene_id "RPS23B"; transcript_id "RPS23B_2"; exon_number "1"; exon_id "RPS23B_2.1";
+> chrXVI	tmp.gp	exon	794940	795029	.	+	.	gene_id "RPS23B"; transcript_id "RPS23B"; exon_number "1"; exon_id "RPS23B.1";
+3983,3984c3929,3930
+< chrV	tmp.gp	exon	306323	307196	.	+	.	gene_id "RPS24A"; transcript_id "RPS24A_2"; exon_number "1"; exon_id "RPS24A_2.1";
+< chrV	tmp.gp	exon	306323	306325	.	+	.	gene_id "RPS24A"; transcript_id "RPS24A"; exon_number "1"; exon_id "RPS24A.1";
+---
+> chrV	tmp.gp	exon	306266	307196	.	+	.	gene_id "RPS24A"; transcript_id "RPS24A_2"; exon_number "1"; exon_id "RPS24A_2.1";
+> chrV	tmp.gp	exon	306266	306325	.	+	.	gene_id "RPS24A"; transcript_id "RPS24A"; exon_number "1"; exon_id "RPS24A.1";
+3986c3932
+< chrIX	tmp.gp	exon	231553	232369	.	-	.	gene_id "RPS24B"; transcript_id "RPS24B_2"; exon_number "1"; exon_id "RPS24B_2.1";
+---
+> chrIX	tmp.gp	exon	231553	232414	.	-	.	gene_id "RPS24B"; transcript_id "RPS24B_2"; exon_number "1"; exon_id "RPS24B_2.1";
+3988,3991c3934,3937
+< chrIX	tmp.gp	exon	232367	232369	.	-	.	gene_id "RPS24B"; transcript_id "RPS24B"; exon_number "2"; exon_id "RPS24B.2";
+< chrVII	tmp.gp	exon	533969	534473	.	-	.	gene_id "RPS25A"; transcript_id "RPS25A_2"; exon_number "1"; exon_id "RPS25A_2.1";
+< chrVII	tmp.gp	exon	534786	534807	.	-	.	gene_id "RPS25A"; transcript_id "RPS25A_2"; exon_number "2"; exon_id "RPS25A_2.2";
+< chrVII	tmp.gp	exon	533969	534807	.	-	.	gene_id "RPS25A"; transcript_id "RPS25A"; exon_number "1"; exon_id "RPS25A.1";
+---
+> chrIX	tmp.gp	exon	232367	232414	.	-	.	gene_id "RPS24B"; transcript_id "RPS24B"; exon_number "2"; exon_id "RPS24B.2";
+> chrVII	tmp.gp	exon	533969	534850	.	-	.	gene_id "RPS25A"; transcript_id "RPS25A_2"; exon_number "1"; exon_id "RPS25A.1";
+> chrVII	tmp.gp	exon	533969	534473	.	-	.	gene_id "RPS25A"; transcript_id "RPS25A"; exon_number "1"; exon_id "RPS25A_2.1";
+> chrVII	tmp.gp	exon	534786	534850	.	-	.	gene_id "RPS25A"; transcript_id "RPS25A"; exon_number "2"; exon_id "RPS25A_2.2";
+4001,4002c3947,3948
+< chrXI	tmp.gp	exon	158613	159212	.	+	.	gene_id "RPS27A"; transcript_id "RPS27A_2"; exon_number "1"; exon_id "RPS27A_2.1";
+< chrXI	tmp.gp	exon	158613	158615	.	+	.	gene_id "RPS27A"; transcript_id "RPS27A"; exon_number "1"; exon_id "RPS27A.1";
+---
+> chrXI	tmp.gp	exon	158558	159212	.	+	.	gene_id "RPS27A"; transcript_id "RPS27A_2"; exon_number "1"; exon_id "RPS27A_2.1";
+> chrXI	tmp.gp	exon	158558	158615	.	+	.	gene_id "RPS27A"; transcript_id "RPS27A"; exon_number "1"; exon_id "RPS27A.1";
+4004c3950
+< chrVIII	tmp.gp	exon	147871	148669	.	-	.	gene_id "RPS27B"; transcript_id "RPS27B_2"; exon_number "1"; exon_id "RPS27B_2.1";
+---
+> chrVIII	tmp.gp	exon	147871	148740	.	-	.	gene_id "RPS27B"; transcript_id "RPS27B_2"; exon_number "1"; exon_id "RPS27B_2.1";
+4006c3952
+< chrVIII	tmp.gp	exon	148667	148669	.	-	.	gene_id "RPS27B"; transcript_id "RPS27B"; exon_number "2"; exon_id "RPS27B.2";
+---
+> chrVIII	tmp.gp	exon	148667	148740	.	-	.	gene_id "RPS27B"; transcript_id "RPS27B"; exon_number "2"; exon_id "RPS27B.2";
+4010,4011d3955
+< chrXII	tmp.gp	exon	898006	898548	.	+	.	gene_id "RPS29A"; transcript_id "RPS29A_3"; exon_number "1"; exon_id "RPS29A_3.1";
+< chrXII	tmp.gp	exon	898646	898896	.	+	.	gene_id "RPS29A"; transcript_id "RPS29A_3"; exon_number "2"; exon_id "RPS29A_3.2";
+4018,4023c3962,3967
+< chrXII	tmp.gp	exon	712537	713158	.	-	.	gene_id "RPS30A"; transcript_id "RPS30A_2"; exon_number "1"; exon_id "RPS30A_2.1";
+< chrXII	tmp.gp	exon	712537	712725	.	-	.	gene_id "RPS30A"; transcript_id "RPS30A"; exon_number "1"; exon_id "RPS30A.1";
+< chrXII	tmp.gp	exon	713156	713158	.	-	.	gene_id "RPS30A"; transcript_id "RPS30A"; exon_number "2"; exon_id "RPS30A.2";
+< chrXV	tmp.gp	exon	678191	678793	.	-	.	gene_id "RPS30B"; transcript_id "RPS30B_2"; exon_number "1"; exon_id "RPS30B_2.1";
+< chrXV	tmp.gp	exon	678191	678379	.	-	.	gene_id "RPS30B"; transcript_id "RPS30B"; exon_number "1"; exon_id "RPS30B.1";
+< chrXV	tmp.gp	exon	678791	678793	.	-	.	gene_id "RPS30B"; transcript_id "RPS30B"; exon_number "2"; exon_id "RPS30B.2";
+---
+> chrXII	tmp.gp	exon	712370	713201	.	-	.	gene_id "RPS30A"; transcript_id "RPS30A_2"; exon_number "1"; exon_id "RPS30A_2.1";
+> chrXII	tmp.gp	exon	712370	712725	.	-	.	gene_id "RPS30A"; transcript_id "RPS30A"; exon_number "1"; exon_id "RPS30A.1";
+> chrXII	tmp.gp	exon	713156	713201	.	-	.	gene_id "RPS30A"; transcript_id "RPS30A"; exon_number "2"; exon_id "RPS30A.2";
+> chrXV	tmp.gp	exon	678120	678821	.	-	.	gene_id "RPS30B"; transcript_id "RPS30B_2"; exon_number "1"; exon_id "RPS30B_2.1";
+> chrXV	tmp.gp	exon	678120	678379	.	-	.	gene_id "RPS30B"; transcript_id "RPS30B"; exon_number "1"; exon_id "RPS30B.1";
+> chrXV	tmp.gp	exon	678791	678821	.	-	.	gene_id "RPS30B"; transcript_id "RPS30B"; exon_number "2"; exon_id "RPS30B.2";
+4025c3969
+< chrX	tmp.gp	exon	702027	703068	.	-	.	gene_id "RPS4A"; transcript_id "RPS4A_2"; exon_number "1"; exon_id "RPS4A_2.1";
+---
+> chrX	tmp.gp	exon	702027	703088	.	-	.	gene_id "RPS4A"; transcript_id "RPS4A_2"; exon_number "1"; exon_id "RPS4A_2.1";
+4027,4030c3971,3974
+< chrX	tmp.gp	exon	703055	703068	.	-	.	gene_id "RPS4A"; transcript_id "RPS4A"; exon_number "2"; exon_id "RPS4A.2";
+< chrVIII	tmp.gp	exon	504476	505530	.	-	.	gene_id "RPS4B"; transcript_id "RPS4B_2"; exon_number "1"; exon_id "RPS4B_2.1";
+< chrVIII	tmp.gp	exon	504476	505247	.	-	.	gene_id "RPS4B"; transcript_id "RPS4B"; exon_number "1"; exon_id "RPS4B.1";
+< chrVIII	tmp.gp	exon	505517	505530	.	-	.	gene_id "RPS4B"; transcript_id "RPS4B"; exon_number "2"; exon_id "RPS4B.2";
+---
+> chrX	tmp.gp	exon	703055	703088	.	-	.	gene_id "RPS4A"; transcript_id "RPS4A"; exon_number "2"; exon_id "RPS4A.2";
+> chrVIII	tmp.gp	exon	504476	505569	.	-	.	gene_id "RPS4B"; transcript_id "RPS4B_2"; exon_number "1"; exon_id "RPS4B_2.1";
+> chrVIII	tmp.gp	exon	504476	505247	.	-	.	gene_id "RPS4B"; transcript_id "RPS4B"; exon_number "1"; exon_id "RPS4B.1";
+> chrVIII	tmp.gp	exon	505517	505569	.	-	.	gene_id "RPS4B"; transcript_id "RPS4B"; exon_number "2"; exon_id "RPS4B.2";
+4032c3976
+< chrXVI	tmp.gp	exon	377291	378395	.	-	.	gene_id "RPS6A"; transcript_id "RPS6A_2"; exon_number "1"; exon_id "RPS6A_2.1";
+---
+> chrXVI	tmp.gp	exon	377291	378424	.	-	.	gene_id "RPS6A"; transcript_id "RPS6A_2"; exon_number "1"; exon_id "RPS6A_2.1";
+4034,4035c3978,3979
+< chrXVI	tmp.gp	exon	378390	378395	.	-	.	gene_id "RPS6A"; transcript_id "RPS6A"; exon_number "2"; exon_id "RPS6A.2";
+< chrII	tmp.gp	exon	591712	592774	.	-	.	gene_id "RPS6B"; transcript_id "RPS6B_2"; exon_number "1"; exon_id "RPS6B_2.1";
+---
+> chrXVI	tmp.gp	exon	378390	378424	.	-	.	gene_id "RPS6A"; transcript_id "RPS6A"; exon_number "2"; exon_id "RPS6A.2";
+> chrII	tmp.gp	exon	591712	592803	.	-	.	gene_id "RPS6B"; transcript_id "RPS6B_2"; exon_number "1"; exon_id "RPS6B_2.1";
+4037,4039c3981,3983
+< chrII	tmp.gp	exon	592769	592774	.	-	.	gene_id "RPS6B"; transcript_id "RPS6B"; exon_number "2"; exon_id "RPS6B.2";
+< chrXV	tmp.gp	exon	505794	506767	.	+	.	gene_id "RPS7A"; transcript_id "RPS7A_2"; exon_number "1"; exon_id "RPS7A_2.1";
+< chrXV	tmp.gp	exon	505794	505937	.	+	.	gene_id "RPS7A"; transcript_id "RPS7A"; exon_number "1"; exon_id "RPS7A.1";
+---
+> chrII	tmp.gp	exon	592769	592803	.	-	.	gene_id "RPS6B"; transcript_id "RPS6B"; exon_number "2"; exon_id "RPS6B.2";
+> chrXV	tmp.gp	exon	505765	506767	.	+	.	gene_id "RPS7A"; transcript_id "RPS7A_2"; exon_number "1"; exon_id "RPS7A_2.1";
+> chrXV	tmp.gp	exon	505765	505937	.	+	.	gene_id "RPS7A"; transcript_id "RPS7A"; exon_number "1"; exon_id "RPS7A.1";
+4041c3985
+< chrXIV	tmp.gp	exon	443398	444315	.	-	.	gene_id "RPS7B"; transcript_id "RPS7B_2"; exon_number "1"; exon_id "RPS7B_2.1";
+---
+> chrXIV	tmp.gp	exon	443398	444359	.	-	.	gene_id "RPS7B"; transcript_id "RPS7B_2"; exon_number "1"; exon_id "RPS7B_2.1";
+4043,4044c3987,3988
+< chrXIV	tmp.gp	exon	444172	444315	.	-	.	gene_id "RPS7B"; transcript_id "RPS7B"; exon_number "2"; exon_id "RPS7B.2";
+< chrII	tmp.gp	exon	88464	89556	.	-	.	gene_id "RPS8A"; transcript_id "RPS8A_2"; exon_number "1"; exon_id "RPS8A_2.1";
+---
+> chrXIV	tmp.gp	exon	444172	444359	.	-	.	gene_id "RPS7B"; transcript_id "RPS7B"; exon_number "2"; exon_id "RPS7B.2";
+> chrII	tmp.gp	exon	88464	89465	.	-	.	gene_id "RPS8A"; transcript_id "RPS8A_2"; exon_number "1"; exon_id "RPS8A_2.1";
+4046c3990
+< chrII	tmp.gp	exon	89441	89556	.	-	.	gene_id "RPS8A"; transcript_id "RPS8A"; exon_number "2"; exon_id "RPS8A.2";
+---
+> chrII	tmp.gp	exon	89441	89465	.	-	.	gene_id "RPS8A"; transcript_id "RPS8A"; exon_number "2"; exon_id "RPS8A.2";
+4050,4051c3994,3995
+< chrXVI	tmp.gp	exon	404950	406044	.	+	.	gene_id "RPS9A"; transcript_id "RPS9A_2"; exon_number "1"; exon_id "RPS9A_2.1";
+< chrXVI	tmp.gp	exon	404950	404956	.	+	.	gene_id "RPS9A"; transcript_id "RPS9A"; exon_number "1"; exon_id "RPS9A.1";
+---
+> chrXVI	tmp.gp	exon	404917	406044	.	+	.	gene_id "RPS9A"; transcript_id "RPS9A_2"; exon_number "1"; exon_id "RPS9A_2.1";
+> chrXVI	tmp.gp	exon	404917	404956	.	+	.	gene_id "RPS9A"; transcript_id "RPS9A"; exon_number "1"; exon_id "RPS9A.1";
+4053,4054c3997,3998
+< chrII	tmp.gp	exon	604508	605508	.	+	.	gene_id "RPS9B"; transcript_id "RPS9B_2"; exon_number "1"; exon_id "RPS9B_2.1";
+< chrII	tmp.gp	exon	604508	604514	.	+	.	gene_id "RPS9B"; transcript_id "RPS9B"; exon_number "1"; exon_id "RPS9B.1";
+---
+> chrII	tmp.gp	exon	604481	605508	.	+	.	gene_id "RPS9B"; transcript_id "RPS9B_2"; exon_number "1"; exon_id "RPS9B_2.1";
+> chrII	tmp.gp	exon	604481	604514	.	+	.	gene_id "RPS9B"; transcript_id "RPS9B"; exon_number "1"; exon_id "RPS9B.1";
+4109c4053
+< chrXV	tmp.gp	exon	240204	241310	.	-	.	gene_id "RRT8"; transcript_id "RRT8_2"; exon_number "1"; exon_id "RRT8_2.1";
+---
+> chrXV	tmp.gp	exon	240204	241358	.	-	.	gene_id "RRT8"; transcript_id "RRT8_2"; exon_number "1"; exon_id "RRT8_2.1";
+4111c4055
+< chrXV	tmp.gp	exon	241026	241310	.	-	.	gene_id "RRT8"; transcript_id "RRT8"; exon_number "2"; exon_id "RRT8.2";
+---
+> chrXV	tmp.gp	exon	241026	241358	.	-	.	gene_id "RRT8"; transcript_id "RRT8"; exon_number "2"; exon_id "RRT8.2";
+4169c4113
+< chrIV	tmp.gp	exon	733618	733924	.	-	.	gene_id "RUB1"; transcript_id "RUB1_2"; exon_number "1"; exon_id "RUB1_2.1";
+---
+> chrIV	tmp.gp	exon	733618	733975	.	-	.	gene_id "RUB1"; transcript_id "RUB1_2"; exon_number "1"; exon_id "RUB1_2.1";
+4171c4115
+< chrIV	tmp.gp	exon	733776	733924	.	-	.	gene_id "RUB1"; transcript_id "RUB1"; exon_number "2"; exon_id "RUB1.2";
+---
+> chrIV	tmp.gp	exon	733776	733975	.	-	.	gene_id "RUB1"; transcript_id "RUB1"; exon_number "2"; exon_id "RUB1.2";
+4182c4126
+< chrIV	tmp.gp	exon	713340	715379	.	-	.	gene_id "SAC6"; transcript_id "SAC6_2"; exon_number "1"; exon_id "SAC6_2.1";
+---
+> chrIV	tmp.gp	exon	713340	715428	.	-	.	gene_id "SAC6"; transcript_id "SAC6_2"; exon_number "1"; exon_id "SAC6_2.1";
+4184c4128
+< chrIV	tmp.gp	exon	715359	715379	.	-	.	gene_id "SAC6"; transcript_id "SAC6"; exon_number "2"; exon_id "SAC6.2";
+---
+> chrIV	tmp.gp	exon	715359	715428	.	-	.	gene_id "SAC6"; transcript_id "SAC6"; exon_number "2"; exon_id "SAC6.2";
+4188,4189c4132,4133
+< chrVIII	tmp.gp	exon	262192	262553	.	-	.	gene_id "SAE3"; transcript_id "SAE3_2"; exon_number "1"; exon_id "SAE3_2.1";
+< chrVIII	tmp.gp	exon	262192	262354	.	-	.	gene_id "SAE3"; transcript_id "SAE3"; exon_number "1"; exon_id "SAE3.1";
+---
+> chrVIII	tmp.gp	exon	262165	262553	.	-	.	gene_id "SAE3"; transcript_id "SAE3_2"; exon_number "1"; exon_id "SAE3_2.1";
+> chrVIII	tmp.gp	exon	262165	262354	.	-	.	gene_id "SAE3"; transcript_id "SAE3"; exon_number "1"; exon_id "SAE3.1";
+4210,4211c4154,4155
+< chrXVI	tmp.gp	exon	138698	139409	.	+	.	gene_id "SAR1"; transcript_id "SAR1_2"; exon_number "1"; exon_id "SAR1_2.1";
+< chrXVI	tmp.gp	exon	138698	138725	.	+	.	gene_id "SAR1"; transcript_id "SAR1"; exon_number "1"; exon_id "SAR1.1";
+---
+> chrXVI	tmp.gp	exon	138630	139409	.	+	.	gene_id "SAR1"; transcript_id "SAR1_2"; exon_number "1"; exon_id "SAR1_2.1";
+> chrXVI	tmp.gp	exon	138630	138725	.	+	.	gene_id "SAR1"; transcript_id "SAR1"; exon_number "1"; exon_id "SAR1.1";
+4242c4186
+< chrII	tmp.gp	exon	46565	47180	.	-	.	gene_id "SCS22"; transcript_id "SCS22_2"; exon_number "1"; exon_id "SCS22_2.1";
+---
+> chrII	tmp.gp	exon	46565	47193	.	-	.	gene_id "SCS22"; transcript_id "SCS22_2"; exon_number "1"; exon_id "SCS22_2.1";
+4244c4188
+< chrII	tmp.gp	exon	47147	47180	.	-	.	gene_id "SCS22"; transcript_id "SCS22"; exon_number "2"; exon_id "SCS22.2";
+---
+> chrII	tmp.gp	exon	47147	47193	.	-	.	gene_id "SCS22"; transcript_id "SCS22"; exon_number "2"; exon_id "SCS22.2";
+4270,4271c4214,4215
+< chrXIII	tmp.gp	exon	424989	426059	.	+	.	gene_id "SEC14"; transcript_id "SEC14_2"; exon_number "1"; exon_id "SEC14_2.1";
+< chrXIII	tmp.gp	exon	424989	424997	.	+	.	gene_id "SEC14"; transcript_id "SEC14"; exon_number "1"; exon_id "SEC14.1";
+---
+> chrXIII	tmp.gp	exon	424953	426059	.	+	.	gene_id "SEC14"; transcript_id "SEC14_2"; exon_number "1"; exon_id "SEC14_2.1";
+> chrXIII	tmp.gp	exon	424953	424997	.	+	.	gene_id "SEC14"; transcript_id "SEC14"; exon_number "1"; exon_id "SEC14.1";
+4275,4276c4219,4220
+< chrII	tmp.gp	exon	125125	126119	.	+	.	gene_id "SEC17"; transcript_id "SEC17_2"; exon_number "1"; exon_id "SEC17_2.1";
+< chrII	tmp.gp	exon	125125	125154	.	+	.	gene_id "SEC17"; transcript_id "SEC17"; exon_number "1"; exon_id "SEC17.1";
+---
+> chrII	tmp.gp	exon	125047	126119	.	+	.	gene_id "SEC17"; transcript_id "SEC17_2"; exon_number "1"; exon_id "SEC17_2.1";
+> chrII	tmp.gp	exon	125047	125154	.	+	.	gene_id "SEC17"; transcript_id "SEC17"; exon_number "1"; exon_id "SEC17.1";
+4286,4287c4230,4231
+< chrVII	tmp.gp	exon	249869	252738	.	+	.	gene_id "SEC27"; transcript_id "SEC27_2"; exon_number "1"; exon_id "SEC27_2.1";
+< chrVII	tmp.gp	exon	249869	249886	.	+	.	gene_id "SEC27"; transcript_id "SEC27"; exon_number "1"; exon_id "SEC27.1";
+---
+> chrVII	tmp.gp	exon	249844	252738	.	+	.	gene_id "SEC27"; transcript_id "SEC27_2"; exon_number "1"; exon_id "SEC27_2.1";
+> chrVII	tmp.gp	exon	249844	249886	.	+	.	gene_id "SEC27"; transcript_id "SEC27"; exon_number "1"; exon_id "SEC27.1";
+4343c4287
+< chrXI	tmp.gp	exon	430198	430632	.	-	.	gene_id "SFT1"; transcript_id "SFT1_2"; exon_number "1"; exon_id "SFT1_2.1";
+---
+> chrXI	tmp.gp	exon	430198	430674	.	-	.	gene_id "SFT1"; transcript_id "SFT1_2"; exon_number "1"; exon_id "SFT1_2.1";
+4345c4289
+< chrXI	tmp.gp	exon	430597	430632	.	-	.	gene_id "SFT1"; transcript_id "SFT1"; exon_number "2"; exon_id "SFT1.2";
+---
+> chrXI	tmp.gp	exon	430597	430674	.	-	.	gene_id "SFT1"; transcript_id "SFT1"; exon_number "2"; exon_id "SFT1.2";
+4463,4464c4407,4408
+< chrXII	tmp.gp	exon	694378	694800	.	+	.	gene_id "SMD2"; transcript_id "SMD2_2"; exon_number "1"; exon_id "SMD2_2.1";
+< chrXII	tmp.gp	exon	694378	694382	.	+	.	gene_id "SMD2"; transcript_id "SMD2"; exon_number "1"; exon_id "SMD2.1";
+---
+> chrXII	tmp.gp	exon	694322	694800	.	+	.	gene_id "SMD2"; transcript_id "SMD2_2"; exon_number "1"; exon_id "SMD2_2.1";
+> chrXII	tmp.gp	exon	694322	694382	.	+	.	gene_id "SMD2"; transcript_id "SMD2"; exon_number "1"; exon_id "SMD2.1";
+4485,4486c4429,4430
+< chrI	tmp.gp	exon	87286	87752	.	+	.	gene_id "SNC1"; transcript_id "SNC1_2"; exon_number "1"; exon_id "SNC1_2.1";
+< chrI	tmp.gp	exon	87286	87387	.	+	.	gene_id "SNC1"; transcript_id "SNC1"; exon_number "1"; exon_id "SNC1.1";
+---
+> chrI	tmp.gp	exon	87263	87752	.	+	.	gene_id "SNC1"; transcript_id "SNC1_2"; exon_number "1"; exon_id "SNC1_2.1";
+> chrI	tmp.gp	exon	87263	87387	.	+	.	gene_id "SNC1"; transcript_id "SNC1"; exon_number "1"; exon_id "SNC1.1";
+4693,4694c4637,4638
+< chrXVI	tmp.gp	exon	218630	220088	.	+	.	gene_id "SPT14"; transcript_id "SPT14_2"; exon_number "1"; exon_id "SPT14_2.1";
+< chrXVI	tmp.gp	exon	218630	218646	.	+	.	gene_id "SPT14"; transcript_id "SPT14"; exon_number "1"; exon_id "SPT14.1";
+---
+> chrXVI	tmp.gp	exon	218566	220088	.	+	.	gene_id "SPT14"; transcript_id "SPT14_2"; exon_number "1"; exon_id "SPT14_2.1";
+> chrXVI	tmp.gp	exon	218566	218646	.	+	.	gene_id "SPT14"; transcript_id "SPT14"; exon_number "1"; exon_id "SPT14.1";
+4718c4662
+< chrXIII	tmp.gp	exon	209525	211440	.	+	.	gene_id "SRC1"; transcript_id "SRC1"; exon_number "1"; exon_id "SRC1.1";
+---
+> chrXIII	tmp.gp	exon	209456	211440	.	+	.	gene_id "SRC1"; transcript_id "SRC1"; exon_number "1"; exon_id "SRC1.1";
+4720,4721c4664,4665
+< chrXIII	tmp.gp	exon	209525	212155	.	+	.	gene_id "SRC1"; transcript_id "SRC1_2"; exon_number "1"; exon_id "SRC1_2.1";
+< chrXIII	tmp.gp	exon	209525	211444	.	+	.	gene_id "SRC1"; transcript_id "SRC1_3"; exon_number "1"; exon_id "SRC1_3.1";
+---
+> chrXIII	tmp.gp	exon	209456	212155	.	+	.	gene_id "SRC1"; transcript_id "SRC1_2"; exon_number "1"; exon_id "SRC1_2.1";
+> chrXIII	tmp.gp	exon	209456	211444	.	+	.	gene_id "SRC1"; transcript_id "SRC1_3"; exon_number "1"; exon_id "SRC1_3.1";
+4812,4813c4756,4757
+< chrXIII	tmp.gp	exon	517539	520446	.	+	.	gene_id "STO1"; transcript_id "STO1_2"; exon_number "1"; exon_id "STO1_2.1";
+< chrXIII	tmp.gp	exon	517539	517563	.	+	.	gene_id "STO1"; transcript_id "STO1"; exon_number "1"; exon_id "STO1.1";
+---
+> chrXIII	tmp.gp	exon	517463	520446	.	+	.	gene_id "STO1"; transcript_id "STO1_2"; exon_number "1"; exon_id "STO1_2.1";
+> chrXIII	tmp.gp	exon	517463	517563	.	+	.	gene_id "STO1"; transcript_id "STO1"; exon_number "1"; exon_id "STO1.1";
+4849,4852c4793,4794
+< chrII	tmp.gp	exon	462139	462579	.	+	.	gene_id "SUS1"; transcript_id "SUS1_2"; exon_number "1"; exon_id "SUS1_2.1";
+< chrII	tmp.gp	exon	462139	462209	.	+	.	gene_id "SUS1"; transcript_id "SUS1_3"; exon_number "1"; exon_id "SUS1_3.1";
+< chrII	tmp.gp	exon	462500	462579	.	+	.	gene_id "SUS1"; transcript_id "SUS1_3"; exon_number "2"; exon_id "SUS1_3.2";
+< chrII	tmp.gp	exon	462139	462209	.	+	.	gene_id "SUS1"; transcript_id "SUS1"; exon_number "1"; exon_id "SUS1.1";
+---
+> chrII	tmp.gp	exon	462097	462579	.	+	.	gene_id "SUS1"; transcript_id "SUS1_2"; exon_number "1"; exon_id "SUS1_2.1";
+> chrII	tmp.gp	exon	462097	462209	.	+	.	gene_id "SUS1"; transcript_id "SUS1"; exon_number "1"; exon_id "SUS1.1";
+4900,4901d4841
+< chrXII	tmp.gp	exon	765266	766073	.	-	.	gene_id "TAD3"; transcript_id "TAD3_3"; exon_number "1"; exon_id "TAD3_3.1";
+< chrXII	tmp.gp	exon	766250	766358	.	-	.	gene_id "TAD3"; transcript_id "TAD3_3"; exon_number "2"; exon_id "TAD3_3.2";
+4912,4913c4852,4853
+< chrXVI	tmp.gp	exon	305298	306137	.	+	.	gene_id "TAF14"; transcript_id "TAF14_2"; exon_number "1"; exon_id "TAF14_2.1";
+< chrXVI	tmp.gp	exon	305298	305306	.	+	.	gene_id "TAF14"; transcript_id "TAF14"; exon_number "1"; exon_id "TAF14.1";
+---
+> chrXVI	tmp.gp	exon	305240	306137	.	+	.	gene_id "TAF14"; transcript_id "TAF14_2"; exon_number "1"; exon_id "TAF14_2.1";
+> chrXVI	tmp.gp	exon	305240	305306	.	+	.	gene_id "TAF14"; transcript_id "TAF14"; exon_number "1"; exon_id "TAF14.1";
+4928,4929c4868,4869
+< chrVII	tmp.gp	exon	62075	63002	.	+	.	gene_id "TAN1"; transcript_id "TAN1_2"; exon_number "1"; exon_id "TAN1_2.1";
+< chrVII	tmp.gp	exon	62075	62131	.	+	.	gene_id "TAN1"; transcript_id "TAN1"; exon_number "1"; exon_id "TAN1.1";
+---
+> chrVII	tmp.gp	exon	62065	63002	.	+	.	gene_id "TAN1"; transcript_id "TAN1_2"; exon_number "1"; exon_id "TAN1_2.1";
+> chrVII	tmp.gp	exon	62065	62131	.	+	.	gene_id "TAN1"; transcript_id "TAN1"; exon_number "1"; exon_id "TAN1.1";
+4956,4957c4896,4897
+< chrXI	tmp.gp	exon	282891	284455	.	+	.	gene_id "TEF4"; transcript_id "TEF4_2"; exon_number "1"; exon_id "TEF4_2.1";
+< chrXI	tmp.gp	exon	282891	283095	.	+	.	gene_id "TEF4"; transcript_id "TEF4"; exon_number "1"; exon_id "TEF4.1";
+---
+> chrXI	tmp.gp	exon	282865	284455	.	+	.	gene_id "TEF4"; transcript_id "TEF4_2"; exon_number "1"; exon_id "TEF4_2.1";
+> chrXI	tmp.gp	exon	282865	283095	.	+	.	gene_id "TEF4"; transcript_id "TEF4"; exon_number "1"; exon_id "TEF4.1";
+4974c4914
+< chrI	tmp.gp	exon	147594	151166	.	-	.	gene_id "TFC3"; transcript_id "TFC3_2"; exon_number "1"; exon_id "TFC3_2.1";
+---
+> chrI	tmp.gp	exon	147594	151195	.	-	.	gene_id "TFC3"; transcript_id "TFC3_2"; exon_number "1"; exon_id "TFC3_2.1";
+4976c4916
+< chrI	tmp.gp	exon	151097	151166	.	-	.	gene_id "TFC3"; transcript_id "TFC3"; exon_number "2"; exon_id "TFC3.2";
+---
+> chrI	tmp.gp	exon	151097	151195	.	-	.	gene_id "TFC3"; transcript_id "TFC3"; exon_number "2"; exon_id "TFC3.2";
+5057c4997
+< chrV	tmp.gp	exon	166237	166885	.	-	.	gene_id "TMA20"; transcript_id "TMA20_2"; exon_number "1"; exon_id "TMA20_2.1";
+---
+> chrV	tmp.gp	exon	166237	166927	.	-	.	gene_id "TMA20"; transcript_id "TMA20_2"; exon_number "1"; exon_id "TMA20_2.1";
+5059c4999
+< chrV	tmp.gp	exon	166875	166885	.	-	.	gene_id "TMA20"; transcript_id "TMA20"; exon_number "2"; exon_id "TMA20.2";
+---
+> chrV	tmp.gp	exon	166875	166927	.	-	.	gene_id "TMA20"; transcript_id "TMA20"; exon_number "2"; exon_id "TMA20.2";
+5168,5170c5108,5110
+< chrXIII	tmp.gp	exon	97941	99400	.	-	.	gene_id "TUB1"; transcript_id "TUB1_2"; exon_number "1"; exon_id "TUB1_2.1";
+< chrXIII	tmp.gp	exon	97941	99259	.	-	.	gene_id "TUB1"; transcript_id "TUB1"; exon_number "1"; exon_id "TUB1.1";
+< chrXIII	tmp.gp	exon	99376	99400	.	-	.	gene_id "TUB1"; transcript_id "TUB1"; exon_number "2"; exon_id "TUB1.2";
+---
+> chrXIII	tmp.gp	exon	97941	99432	.	-	.	gene_id "TUB1"; transcript_id "TUB1_2"; exon_number "1"; exon_id "TUB1_2.1";
+> chrXIII	tmp.gp	exon	97941	99259	.	-	.	gene_id "TUB1"; transcript_id "TUB1"; exon_number "1"; exon_id "TUB1.1";
+> chrXIII	tmp.gp	exon	99376	99432	.	-	.	gene_id "TUB1"; transcript_id "TUB1"; exon_number "2"; exon_id "TUB1.2";
+5172c5112
+< chrXIII	tmp.gp	exon	22048	23683	.	-	.	gene_id "TUB3"; transcript_id "TUB3_2"; exon_number "1"; exon_id "TUB3_2.1";
+---
+> chrXIII	tmp.gp	exon	22048	23710	.	-	.	gene_id "TUB3"; transcript_id "TUB3_2"; exon_number "1"; exon_id "TUB3_2.1";
+5174c5114
+< chrXIII	tmp.gp	exon	23659	23683	.	-	.	gene_id "TUB3"; transcript_id "TUB3"; exon_number "2"; exon_id "TUB3.2";
+---
+> chrXIII	tmp.gp	exon	23659	23710	.	-	.	gene_id "TUB3"; transcript_id "TUB3"; exon_number "2"; exon_id "TUB3.2";
+5198,5199c5138,5139
+< chrXII	tmp.gp	exon	744151	744851	.	+	.	gene_id "UBC12"; transcript_id "UBC12_2"; exon_number "1"; exon_id "UBC12_2.1";
+< chrXII	tmp.gp	exon	744151	744153	.	+	.	gene_id "UBC12"; transcript_id "UBC12"; exon_number "1"; exon_id "UBC12.1";
+---
+> chrXII	tmp.gp	exon	744083	744851	.	+	.	gene_id "UBC12"; transcript_id "UBC12_2"; exon_number "1"; exon_id "UBC12_2.1";
+> chrXII	tmp.gp	exon	744083	744153	.	+	.	gene_id "UBC12"; transcript_id "UBC12"; exon_number "1"; exon_id "UBC12.1";
+5201,5202c5141,5142
+< chrIV	tmp.gp	exon	629876	630605	.	+	.	gene_id "UBC13"; transcript_id "UBC13_2"; exon_number "1"; exon_id "UBC13_2.1";
+< chrIV	tmp.gp	exon	629876	629905	.	+	.	gene_id "UBC13"; transcript_id "UBC13"; exon_number "1"; exon_id "UBC13.1";
+---
+> chrIV	tmp.gp	exon	629800	630605	.	+	.	gene_id "UBC13"; transcript_id "UBC13_2"; exon_number "1"; exon_id "UBC13_2.1";
+> chrIV	tmp.gp	exon	629800	629905	.	+	.	gene_id "UBC13"; transcript_id "UBC13"; exon_number "1"; exon_id "UBC13.1";
+5204c5144
+< chrII	tmp.gp	exon	406628	407169	.	-	.	gene_id "UBC4"; transcript_id "UBC4_2"; exon_number "1"; exon_id "UBC4_2.1";
+---
+> chrII	tmp.gp	exon	406628	407250	.	-	.	gene_id "UBC4"; transcript_id "UBC4_2"; exon_number "1"; exon_id "UBC4_2.1";
+5206,5207c5146,5147
+< chrII	tmp.gp	exon	407123	407169	.	-	.	gene_id "UBC4"; transcript_id "UBC4"; exon_number "2"; exon_id "UBC4.2";
+< chrIV	tmp.gp	exon	569234	569770	.	-	.	gene_id "UBC5"; transcript_id "UBC5_2"; exon_number "1"; exon_id "UBC5_2.1";
+---
+> chrII	tmp.gp	exon	407123	407250	.	-	.	gene_id "UBC4"; transcript_id "UBC4"; exon_number "2"; exon_id "UBC4.2";
+> chrIV	tmp.gp	exon	569234	569816	.	-	.	gene_id "UBC5"; transcript_id "UBC5_2"; exon_number "1"; exon_id "UBC5_2.1";
+5209c5149
+< chrIV	tmp.gp	exon	569724	569770	.	-	.	gene_id "UBC5"; transcript_id "UBC5"; exon_number "2"; exon_id "UBC5.2";
+---
+> chrIV	tmp.gp	exon	569724	569816	.	-	.	gene_id "UBC5"; transcript_id "UBC5"; exon_number "2"; exon_id "UBC5.2";
+5212,5213c5152,5153
+< chrV	tmp.gp	exon	131772	132551	.	+	.	gene_id "UBC8"; transcript_id "UBC8_2"; exon_number "1"; exon_id "UBC8_2.1";
+< chrV	tmp.gp	exon	131772	131776	.	+	.	gene_id "UBC8"; transcript_id "UBC8"; exon_number "1"; exon_id "UBC8.1";
+---
+> chrV	tmp.gp	exon	131676	132551	.	+	.	gene_id "UBC8"; transcript_id "UBC8_2"; exon_number "1"; exon_id "UBC8_2.1";
+> chrV	tmp.gp	exon	131676	131776	.	+	.	gene_id "UBC8"; transcript_id "UBC8"; exon_number "1"; exon_id "UBC8.1";
+5215,5216c5155,5156
+< chrIV	tmp.gp	exon	337487	338070	.	+	.	gene_id "UBC9"; transcript_id "UBC9_2"; exon_number "1"; exon_id "UBC9_2.1";
+< chrIV	tmp.gp	exon	337487	337524	.	+	.	gene_id "UBC9"; transcript_id "UBC9"; exon_number "1"; exon_id "UBC9.1";
+---
+> chrIV	tmp.gp	exon	337446	338070	.	+	.	gene_id "UBC9"; transcript_id "UBC9_2"; exon_number "1"; exon_id "UBC9_2.1";
+> chrIV	tmp.gp	exon	337446	337524	.	+	.	gene_id "UBC9"; transcript_id "UBC9"; exon_number "1"; exon_id "UBC9.1";
+5274c5214
+< chrX	tmp.gp	exon	165723	172832	.	-	.	gene_id "URA2"; transcript_id "URA2_2"; exon_number "1"; exon_id "URA2_2.1";
+---
+> chrX	tmp.gp	exon	165723	172940	.	-	.	gene_id "URA2"; transcript_id "URA2_2"; exon_number "1"; exon_id "URA2_2.1";
+5276c5216
+< chrX	tmp.gp	exon	172753	172832	.	-	.	gene_id "URA2"; transcript_id "URA2"; exon_number "2"; exon_id "URA2.2";
+---
+> chrX	tmp.gp	exon	172753	172940	.	-	.	gene_id "URA2"; transcript_id "URA2"; exon_number "2"; exon_id "URA2.2";
+5294c5234
+< chrXVI	tmp.gp	exon	115113	115218	.	+	.	gene_id "USV1"; transcript_id "USV1"; exon_number "1"; exon_id "USV1.1";
+---
+> chrXVI	tmp.gp	exon	114487	115218	.	+	.	gene_id "USV1"; transcript_id "USV1"; exon_number "1"; exon_id "USV1.1";
+5296,5298c5236
+< chrXVI	tmp.gp	exon	115113	116020	.	+	.	gene_id "USV1"; transcript_id "USV1_2"; exon_number "1"; exon_id "USV1_2.1";
+< chrXVI	tmp.gp	exon	115113	115218	.	+	.	gene_id "USV1"; transcript_id "USV1_3"; exon_number "1"; exon_id "USV1_3.1";
+< chrXVI	tmp.gp	exon	115299	116020	.	+	.	gene_id "USV1"; transcript_id "USV1_3"; exon_number "2"; exon_id "USV1_3.2";
+---
+> chrXVI	tmp.gp	exon	114487	116020	.	+	.	gene_id "USV1"; transcript_id "USV1_2"; exon_number "1"; exon_id "USV1_2.1";
+5354c5292
+< chrVIII	tmp.gp	exon	187173	187679	.	-	.	gene_id "VMA10"; transcript_id "VMA10_2"; exon_number "1"; exon_id "VMA10_2.1";
+---
+> chrVIII	tmp.gp	exon	187173	187705	.	-	.	gene_id "VMA10"; transcript_id "VMA10_2"; exon_number "1"; exon_id "VMA10_2.1";
+5356c5294
+< chrVIII	tmp.gp	exon	187677	187679	.	-	.	gene_id "VMA10"; transcript_id "VMA10"; exon_number "2"; exon_id "VMA10.2";
+---
+> chrVIII	tmp.gp	exon	187677	187705	.	-	.	gene_id "VMA10"; transcript_id "VMA10"; exon_number "2"; exon_id "VMA10.2";
+5369,5372c5307,5308
+< chrIII	tmp.gp	exon	107023	107417	.	+	.	gene_id "VMA9"; transcript_id "VMA9_2"; exon_number "1"; exon_id "VMA9_2.1";
+< chrIII	tmp.gp	exon	107023	107033	.	+	.	gene_id "VMA9"; transcript_id "VMA9_3"; exon_number "1"; exon_id "VMA9_3.1";
+< chrIII	tmp.gp	exon	107288	107417	.	+	.	gene_id "VMA9"; transcript_id "VMA9_3"; exon_number "2"; exon_id "VMA9_3.2";
+< chrIII	tmp.gp	exon	107023	107033	.	+	.	gene_id "VMA9"; transcript_id "VMA9"; exon_number "1"; exon_id "VMA9.1";
+---
+> chrIII	tmp.gp	exon	106997	107417	.	+	.	gene_id "VMA9"; transcript_id "VMA9_2"; exon_number "1"; exon_id "VMA9_2.1";
+> chrIII	tmp.gp	exon	106997	107033	.	+	.	gene_id "VMA9"; transcript_id "VMA9"; exon_number "1"; exon_id "VMA9.1";
+5392,5393c5328,5329
+< chrVIII	tmp.gp	exon	129481	130448	.	+	.	gene_id "VPS29"; transcript_id "VPS29_2"; exon_number "1"; exon_id "VPS29_2.1";
+< chrVIII	tmp.gp	exon	129481	129528	.	+	.	gene_id "VPS29"; transcript_id "VPS29"; exon_number "1"; exon_id "VPS29.1";
+---
+> chrVIII	tmp.gp	exon	129459	130448	.	+	.	gene_id "VPS29"; transcript_id "VPS29_2"; exon_number "1"; exon_id "VPS29_2.1";
+> chrVIII	tmp.gp	exon	129459	129528	.	+	.	gene_id "VPS29"; transcript_id "VPS29"; exon_number "1"; exon_id "VPS29.1";
+5425,5426c5361,5362
+< chrXIV	tmp.gp	exon	185460	186349	.	+	.	gene_id "VPS75"; transcript_id "VPS75_2"; exon_number "1"; exon_id "VPS75_2.1";
+< chrXIV	tmp.gp	exon	185460	185491	.	+	.	gene_id "VPS75"; transcript_id "VPS75"; exon_number "1"; exon_id "VPS75.1";
+---
+> chrXIV	tmp.gp	exon	185452	186349	.	+	.	gene_id "VPS75"; transcript_id "VPS75_2"; exon_number "1"; exon_id "VPS75_2.1";
+> chrXIV	tmp.gp	exon	185452	185491	.	+	.	gene_id "VPS75"; transcript_id "VPS75"; exon_number "1"; exon_id "VPS75.1";
+5531,5532c5467,5468
+< chrII	tmp.gp	exon	110594	111244	.	+	.	gene_id "YBL059W"; transcript_id "YBL059W_2"; exon_number "1"; exon_id "YBL059W_2.1";
+< chrII	tmp.gp	exon	110594	110879	.	+	.	gene_id "YBL059W"; transcript_id "YBL059W"; exon_number "1"; exon_id "YBL059W.1";
+---
+> chrII	tmp.gp	exon	110703	111244	.	+	.	gene_id "YBL059W"; transcript_id "YBL059W_2"; exon_number "1"; exon_id "YBL059W_2.1";
+> chrII	tmp.gp	exon	110703	110879	.	+	.	gene_id "YBL059W"; transcript_id "YBL059W"; exon_number "1"; exon_id "YBL059W.1";
+5571c5507
+< chrII	tmp.gp	exon	365976	366600	.	-	.	gene_id "YBR062C"; transcript_id "YBR062C_2"; exon_number "1"; exon_id "YBR062C_2.1";
+---
+> chrII	tmp.gp	exon	365976	366650	.	-	.	gene_id "YBR062C"; transcript_id "YBR062C_2"; exon_number "1"; exon_id "YBR062C_2.1";
+5573c5509
+< chrII	tmp.gp	exon	366585	366600	.	-	.	gene_id "YBR062C"; transcript_id "YBR062C"; exon_number "2"; exon_id "YBR062C.2";
+---
+> chrII	tmp.gp	exon	366585	366650	.	-	.	gene_id "YBR062C"; transcript_id "YBR062C"; exon_number "2"; exon_id "YBR062C.2";
+5582,5586c5518,5520
+< chrII	tmp.gp	exon	426016	426493	.	-	.	gene_id "YBR090C"; transcript_id "YBR090C_2"; exon_number "1"; exon_id "YBR090C_2.1";
+< chrII	tmp.gp	exon	426874	427058	.	-	.	gene_id "YBR090C"; transcript_id "YBR090C_2"; exon_number "2"; exon_id "YBR090C_2.2";
+< chrII	tmp.gp	exon	426016	427058	.	-	.	gene_id "YBR090C"; transcript_id "YBR090C_3"; exon_number "1"; exon_id "YBR090C_3.1";
+< chrII	tmp.gp	exon	426016	426516	.	-	.	gene_id "YBR090C"; transcript_id "YBR090C"; exon_number "1"; exon_id "YBR090C.1";
+< chrII	tmp.gp	exon	426874	427058	.	-	.	gene_id "YBR090C"; transcript_id "YBR090C"; exon_number "2"; exon_id "YBR090C.2";
+---
+> chrII	tmp.gp	exon	426016	426905	.	-	.	gene_id "NHP6B"; transcript_id "NHP6B_2"; exon_number "1"; exon_id "NHP6B_2.1";
+> chrII	tmp.gp	exon	426016	426516	.	-	.	gene_id "NHP6B"; transcript_id "NHP6B"; exon_number "1"; exon_id "NHP6B.1";
+> chrII	tmp.gp	exon	426874	426905	.	-	.	gene_id "NHP6B"; transcript_id "NHP6B"; exon_number "2"; exon_id "NHP6B.2";
+5608d5541
+< chrII	tmp.gp	exon	605966	606277	.	+	.	gene_id "YBR190W"; transcript_id "YBR190W"; exon_number "1"; exon_id "YBR190W.1";
+5618c5551
+< chrII	tmp.gp	exon	662499	663303	.	-	.	gene_id "YBR219C"; transcript_id "YBR219C_2"; exon_number "1"; exon_id "YBR219C_2.1";
+---
+> chrII	tmp.gp	exon	662499	663218	.	-	.	gene_id "YBR219C"; transcript_id "YBR219C_2"; exon_number "1"; exon_id "YBR219C_2.1";
+5620c5553
+< chrII	tmp.gp	exon	663003	663303	.	-	.	gene_id "YBR219C"; transcript_id "YBR219C"; exon_number "2"; exon_id "YBR219C.2";
+---
+> chrII	tmp.gp	exon	663003	663218	.	-	.	gene_id "YBR219C"; transcript_id "YBR219C"; exon_number "2"; exon_id "YBR219C.2";
+5633c5566
+< chrII	tmp.gp	exon	726618	727074	.	-	.	gene_id "YBR255C-A"; transcript_id "YBR255C-A_2"; exon_number "1"; exon_id "YBR255C-A_2.1";
+---
+> chrII	tmp.gp	exon	726618	727100	.	-	.	gene_id "YBR255C-A"; transcript_id "YBR255C-A_2"; exon_number "1"; exon_id "YBR255C-A_2.1";
+5635c5568
+< chrII	tmp.gp	exon	727012	727074	.	-	.	gene_id "YBR255C-A"; transcript_id "YBR255C-A"; exon_number "2"; exon_id "YBR255C-A.2";
+---
+> chrII	tmp.gp	exon	727012	727100	.	-	.	gene_id "YBR255C-A"; transcript_id "YBR255C-A"; exon_number "2"; exon_id "YBR255C-A.2";
+5655c5588
+< chrIII	tmp.gp	exon	110808	111675	.	-	.	gene_id "YCL002C"; transcript_id "YCL002C_2"; exon_number "1"; exon_id "YCL002C_2.1";
+---
+> chrIII	tmp.gp	exon	110808	111700	.	-	.	gene_id "YCL002C"; transcript_id "YCL002C_2"; exon_number "1"; exon_id "YCL002C_2.1";
+5657,5659c5590,5591
+< chrIII	tmp.gp	exon	111634	111675	.	-	.	gene_id "YCL002C"; transcript_id "YCL002C"; exon_number "2"; exon_id "YCL002C.2";
+< chrIII	tmp.gp	exon	106974	107366	.	-	.	gene_id "YCL007C"; transcript_id "YCL007C"; exon_number "1"; exon_id "YCL007C.1";
+< chrIII	tmp.gp	exon	101317	101788	.	-	.	gene_id "YCL012C"; transcript_id "YCL012C_2"; exon_number "1"; exon_id "YCL012C_2.1";
+---
+> chrIII	tmp.gp	exon	111634	111700	.	-	.	gene_id "YCL002C"; transcript_id "YCL002C"; exon_number "2"; exon_id "YCL002C.2";
+> chrIII	tmp.gp	exon	101317	101822	.	-	.	gene_id "YCL012C"; transcript_id "YCL012C_2"; exon_number "1"; exon_id "YCL012C_2.1";
+5661c5593
+< chrIII	tmp.gp	exon	101701	101788	.	-	.	gene_id "YCL012C"; transcript_id "YCL012C"; exon_number "2"; exon_id "YCL012C.2";
+---
+> chrIII	tmp.gp	exon	101701	101822	.	-	.	gene_id "YCL012C"; transcript_id "YCL012C"; exon_number "2"; exon_id "YCL012C.2";
+5722c5654
+< chrIV	tmp.gp	exon	431108	431517	.	-	.	gene_id "YDL012C"; transcript_id "YDL012C_2"; exon_number "1"; exon_id "YDL012C_2.1";
+---
+> chrIV	tmp.gp	exon	431108	431534	.	-	.	gene_id "YDL012C"; transcript_id "YDL012C_2"; exon_number "1"; exon_id "YDL012C_2.1";
+5724c5656
+< chrIV	tmp.gp	exon	431473	431517	.	-	.	gene_id "YDL012C"; transcript_id "YDL012C"; exon_number "2"; exon_id "YDL012C.2";
+---
+> chrIV	tmp.gp	exon	431473	431534	.	-	.	gene_id "YDL012C"; transcript_id "YDL012C"; exon_number "2"; exon_id "YDL012C.2";
+5876c5808
+< chrIV	tmp.gp	exon	1238312	1238850	.	-	.	gene_id "YDR381C-A"; transcript_id "YDR381C-A_2"; exon_number "1"; exon_id "YDR381C-A_2.1";
+---
+> chrIV	tmp.gp	exon	1238312	1238851	.	-	.	gene_id "YDR381C-A"; transcript_id "YDR381C-A_2"; exon_number "1"; exon_id "YDR381C-A_2.1";
+5878c5810
+< chrIV	tmp.gp	exon	1238825	1238850	.	-	.	gene_id "YDR381C-A"; transcript_id "YDR381C-A"; exon_number "2"; exon_id "YDR381C-A.2";
+---
+> chrIV	tmp.gp	exon	1238825	1238851	.	-	.	gene_id "YDR381C-A"; transcript_id "YDR381C-A"; exon_number "2"; exon_id "YDR381C-A.2";
+6056,6057c5988,5989
+< chrVI	tmp.gp	exon	241998	242999	.	+	.	gene_id "YFR045W"; transcript_id "YFR045W_2"; exon_number "1"; exon_id "YFR045W_2.1";
+< chrVI	tmp.gp	exon	241998	242009	.	+	.	gene_id "YFR045W"; transcript_id "YFR045W"; exon_number "1"; exon_id "YFR045W.1";
+---
+> chrVI	tmp.gp	exon	241981	242999	.	+	.	gene_id "YFR045W"; transcript_id "YFR045W_2"; exon_number "1"; exon_id "YFR045W_2.1";
+> chrVI	tmp.gp	exon	241981	242009	.	+	.	gene_id "YFR045W"; transcript_id "YFR045W"; exon_number "1"; exon_id "YFR045W.1";
+6078d6009
+< chrVII	tmp.gp	exon	384502	384651	.	-	.	gene_id "YGL063C-A"; transcript_id "YGL063C-A"; exon_number "1"; exon_id "YGL063C-A.1";
+6086d6016
+< chrVII	tmp.gp	exon	311505	311933	.	-	.	gene_id "YGL102C"; transcript_id "YGL102C"; exon_number "1"; exon_id "YGL102C.1";
+6119,6121c6049
+< chrVII	tmp.gp	exon	497133	498034	.	-	.	gene_id "YGR001C"; transcript_id "YGR001C_2"; exon_number "1"; exon_id "YGR001C_2.1";
+< chrVII	tmp.gp	exon	497133	497365	.	-	.	gene_id "YGR001C"; transcript_id "YGR001C_3"; exon_number "1"; exon_id "YGR001C_3.1";
+< chrVII	tmp.gp	exon	498000	498034	.	-	.	gene_id "YGR001C"; transcript_id "YGR001C_3"; exon_number "2"; exon_id "YGR001C_3.2";
+---
+> chrVII	tmp.gp	exon	497133	498043	.	-	.	gene_id "YGR001C"; transcript_id "YGR001C_2"; exon_number "1"; exon_id "YGR001C_2.1";
+6124c6052
+< chrVII	tmp.gp	exon	498000	498034	.	-	.	gene_id "YGR001C"; transcript_id "YGR001C"; exon_number "3"; exon_id "YGR001C.3";
+---
+> chrVII	tmp.gp	exon	498000	498043	.	-	.	gene_id "YGR001C"; transcript_id "YGR001C"; exon_number "3"; exon_id "YGR001C.3";
+6269c6197
+< chrVIII	tmp.gp	exon	297385	298609	.	-	.	gene_id "YHR097C"; transcript_id "YHR097C_2"; exon_number "1"; exon_id "YHR097C_2.1";
+---
+> chrVIII	tmp.gp	exon	297385	298754	.	-	.	gene_id "YHR097C"; transcript_id "YHR097C_2"; exon_number "1"; exon_id "YHR097C_2.1";
+6271c6199
+< chrVIII	tmp.gp	exon	298485	298609	.	-	.	gene_id "YHR097C"; transcript_id "YHR097C"; exon_number "2"; exon_id "YHR097C.2";
+---
+> chrVIII	tmp.gp	exon	298485	298754	.	-	.	gene_id "YHR097C"; transcript_id "YHR097C"; exon_number "2"; exon_id "YHR097C.2";
+6360,6362c6288,6289
+< chrIX	tmp.gp	exon	47292	47693	.	+	.	gene_id "YIL156W-A"; transcript_id "YIL156W-A"; exon_number "1"; exon_id "YIL156W-A.1";
+< chrIX	tmp.gp	exon	47690	47973	.	+	.	gene_id "YIL156W-B"; transcript_id "YIL156W-B_2"; exon_number "1"; exon_id "YIL156W-B_2.1";
+< chrIX	tmp.gp	exon	47690	47698	.	+	.	gene_id "YIL156W-B"; transcript_id "YIL156W-B"; exon_number "1"; exon_id "YIL156W-B.1";
+---
+> chrIX	tmp.gp	exon	47666	47973	.	+	.	gene_id "YIL156W-B"; transcript_id "YIL156W-B_2"; exon_number "1"; exon_id "YIL156W-B_2.1";
+> chrIX	tmp.gp	exon	47666	47698	.	+	.	gene_id "YIL156W-B"; transcript_id "YIL156W-B"; exon_number "1"; exon_id "YIL156W-B.1";
+6374,6375c6301,6302
+< chrXIV	tmp.gp	exon	545268	545877	.	+	.	gene_id "YIP3"; transcript_id "YIP3_2"; exon_number "1"; exon_id "YIP3_2.1";
+< chrXIV	tmp.gp	exon	545268	545291	.	+	.	gene_id "YIP3"; transcript_id "YIP3"; exon_number "1"; exon_id "YIP3.1";
+---
+> chrXIV	tmp.gp	exon	545196	545877	.	+	.	gene_id "YIP3"; transcript_id "YIP3_2"; exon_number "1"; exon_id "YIP3_2.1";
+> chrXIV	tmp.gp	exon	545196	545291	.	+	.	gene_id "YIP3"; transcript_id "YIP3"; exon_number "1"; exon_id "YIP3.1";
+6456,6457d6382
+< chrX	tmp.gp	exon	448379	448787	.	-	.	gene_id "YJR005C-A"; transcript_id "YJR005C-A_2"; exon_number "1"; exon_id "YJR005C-A_2.1";
+< chrX	tmp.gp	exon	448874	448976	.	-	.	gene_id "YJR005C-A"; transcript_id "YJR005C-A_2"; exon_number "2"; exon_id "YJR005C-A_2.2";
+6547d6471
+< chrXI	tmp.gp	exon	158975	159091	.	-	.	gene_id "YKL156C-A"; transcript_id "YKL156C-A"; exon_number "1"; exon_id "YKL156C-A.1";
+6616,6617d6539
+< chrXII	tmp.gp	exon	243781	244385	.	-	.	gene_id "YLR049C"; transcript_id "YLR049C_2"; exon_number "1"; exon_id "YLR049C_2.1";
+< chrXII	tmp.gp	exon	245150	245197	.	-	.	gene_id "YLR049C"; transcript_id "YLR049C_2"; exon_number "2"; exon_id "YLR049C_2.2";
+6666,6668c6588
+< chrXII	tmp.gp	exon	502364	502772	.	+	.	gene_id "YLR173W"; transcript_id "YLR173W_2"; exon_number "1"; exon_id "YLR173W_2.1";
+< chrXII	tmp.gp	exon	503036	504247	.	+	.	gene_id "YLR173W"; transcript_id "YLR173W_2"; exon_number "2"; exon_id "YLR173W_2.2";
+< chrXII	tmp.gp	exon	502364	504247	.	+	.	gene_id "YLR173W"; transcript_id "YLR173W"; exon_number "1"; exon_id "YLR173W.1";
+---
+> chrXII	tmp.gp	exon	502354	504247	.	+	.	gene_id "YLR173W"; transcript_id "YLR173W"; exon_number "1"; exon_id "YLR173W.1";
+6674,6677c6594
+< chrXII	tmp.gp	exon	550194	550636	.	-	.	gene_id "YLR202C"; transcript_id "YLR202C_2"; exon_number "1"; exon_id "YLR202C_2.1";
+< chrXII	tmp.gp	exon	550194	550458	.	-	.	gene_id "YLR202C"; transcript_id "YLR202C"; exon_number "1"; exon_id "YLR202C.1";
+< chrXII	tmp.gp	exon	550575	550636	.	-	.	gene_id "YLR202C"; transcript_id "YLR202C"; exon_number "2"; exon_id "YLR202C.2";
+< chrXII	tmp.gp	exon	563792	564531	.	-	.	gene_id "YLR211C"; transcript_id "YLR211C_2"; exon_number "1"; exon_id "YLR211C_2.1";
+---
+> chrXII	tmp.gp	exon	563792	564581	.	-	.	gene_id "YLR211C"; transcript_id "YLR211C_2"; exon_number "1"; exon_id "YLR211C_2.1";
+6679c6596
+< chrXII	tmp.gp	exon	564514	564531	.	-	.	gene_id "YLR211C"; transcript_id "YLR211C"; exon_number "2"; exon_id "YLR211C.2";
+---
+> chrXII	tmp.gp	exon	564514	564581	.	-	.	gene_id "YLR211C"; transcript_id "YLR211C"; exon_number "2"; exon_id "YLR211C.2";
+6718d6634
+< chrXII	tmp.gp	exon	765655	766089	.	+	.	gene_id "YLR317W"; transcript_id "YLR317W"; exon_number "1"; exon_id "YLR317W.1";
+6733d6648
+< chrXII	tmp.gp	exon	855538	855843	.	+	.	gene_id "YLR366W"; transcript_id "YLR366W"; exon_number "1"; exon_id "YLR366W.1";
+6748,6749c6663,6664
+< chrXII	tmp.gp	exon	987062	988113	.	+	.	gene_id "YLR426W"; transcript_id "YLR426W_2"; exon_number "1"; exon_id "YLR426W_2.1";
+< chrXII	tmp.gp	exon	987062	987141	.	+	.	gene_id "YLR426W"; transcript_id "YLR426W"; exon_number "1"; exon_id "YLR426W.1";
+---
+> chrXII	tmp.gp	exon	987036	988113	.	+	.	gene_id "YLR426W"; transcript_id "YLR426W_2"; exon_number "1"; exon_id "YLR426W_2.1";
+> chrXII	tmp.gp	exon	987036	987141	.	+	.	gene_id "YLR426W"; transcript_id "YLR426W"; exon_number "1"; exon_id "YLR426W.1";
+6782d6696
+< chrXIII	tmp.gp	exon	209428	209826	.	-	.	gene_id "YML034C-A"; transcript_id "YML034C-A"; exon_number "1"; exon_id "YML034C-A.1";
+6787,6789c6701
+< chrXIII	tmp.gp	exon	168949	169120	.	-	.	gene_id "YML053C"; transcript_id "YML053C_2"; exon_number "1"; exon_id "YML053C_2.1";
+< chrXIII	tmp.gp	exon	169569	169795	.	-	.	gene_id "YML053C"; transcript_id "YML053C_2"; exon_number "2"; exon_id "YML053C_2.2";
+< chrXIII	tmp.gp	exon	168949	169795	.	-	.	gene_id "YML053C"; transcript_id "YML053C"; exon_number "1"; exon_id "YML053C.1";
+---
+> chrXIII	tmp.gp	exon	168949	169822	.	-	.	gene_id "YML053C"; transcript_id "YML053C"; exon_number "1"; exon_id "YML053C.1";
+6811c6723
+< chrXIII	tmp.gp	exon	224406	225365	.	-	.	gene_id "YML6"; transcript_id "YML6_2"; exon_number "1"; exon_id "YML6_2.1";
+---
+> chrXIII	tmp.gp	exon	224406	225407	.	-	.	gene_id "YML6"; transcript_id "YML6_2"; exon_number "1"; exon_id "YML6_2.1";
+6813c6725
+< chrXIII	tmp.gp	exon	225339	225365	.	-	.	gene_id "YML6"; transcript_id "YML6"; exon_number "2"; exon_id "YML6.2";
+---
+> chrXIII	tmp.gp	exon	225339	225407	.	-	.	gene_id "YML6"; transcript_id "YML6"; exon_number "2"; exon_id "YML6.2";
+6854d6765
+< chrXIII	tmp.gp	exon	550911	551135	.	+	.	gene_id "YMR141W-A"; transcript_id "YMR141W-A"; exon_number "1"; exon_id "YMR141W-A.1";
+6870d6780
+< chrXIII	tmp.gp	exon	651072	651458	.	-	.	gene_id "YMR193C-A"; transcript_id "YMR193C-A"; exon_number "1"; exon_id "YMR193C-A.1";
+6930d6839
+< chrXIV	tmp.gp	exon	545589	545909	.	-	.	gene_id "YNL043C"; transcript_id "YNL043C"; exon_number "1"; exon_id "YNL043C.1";
+6932c6841
+< chrXIV	tmp.gp	exon	534079	534982	.	-	.	gene_id "YNL050C"; transcript_id "YNL050C_2"; exon_number "1"; exon_id "YNL050C_2.1";
+---
+> chrXIV	tmp.gp	exon	534079	535030	.	-	.	gene_id "YNL050C"; transcript_id "YNL050C_2"; exon_number "1"; exon_id "YNL050C_2.1";
+6934c6843
+< chrXIV	tmp.gp	exon	534966	534982	.	-	.	gene_id "YNL050C"; transcript_id "YNL050C"; exon_number "2"; exon_id "YNL050C.2";
+---
+> chrXIV	tmp.gp	exon	534966	535030	.	-	.	gene_id "YNL050C"; transcript_id "YNL050C"; exon_number "2"; exon_id "YNL050C.2";
+7071,7072c6980,6981
+< chrXVI	tmp.gp	exon	623527	624202	.	+	.	gene_id "YOP1"; transcript_id "YOP1_2"; exon_number "1"; exon_id "YOP1_2.1";
+< chrXVI	tmp.gp	exon	623527	623577	.	+	.	gene_id "YOP1"; transcript_id "YOP1"; exon_number "1"; exon_id "YOP1.1";
+---
+> chrXVI	tmp.gp	exon	623471	624202	.	+	.	gene_id "YOP1"; transcript_id "YOP1_2"; exon_number "1"; exon_id "YOP1_2.1";
+> chrXVI	tmp.gp	exon	623471	623577	.	+	.	gene_id "YOP1"; transcript_id "YOP1"; exon_number "1"; exon_id "YOP1.1";
+7152c7061
+< chrXV	tmp.gp	exon	911784	912436	.	-	.	gene_id "YOR318C"; transcript_id "YOR318C_2"; exon_number "1"; exon_id "YOR318C_2.1";
+---
+> chrXV	tmp.gp	exon	911784	912547	.	-	.	gene_id "YOR318C"; transcript_id "YOR318C_2"; exon_number "1"; exon_id "YOR318C_2.1";
+7154c7063
+< chrXV	tmp.gp	exon	912433	912436	.	-	.	gene_id "YOR318C"; transcript_id "YOR318C"; exon_number "2"; exon_id "YOR318C.2";
+---
+> chrXV	tmp.gp	exon	912433	912547	.	-	.	gene_id "YOR318C"; transcript_id "YOR318C"; exon_number "2"; exon_id "YOR318C.2";
+7182,7185c7091,7092
+< chrV	tmp.gp	exon	307653	308123	.	+	.	gene_id "YOS1"; transcript_id "YOS1_2"; exon_number "1"; exon_id "YOS1_2.1";
+< chrV	tmp.gp	exon	307653	307746	.	+	.	gene_id "YOS1"; transcript_id "YOS1_3"; exon_number "1"; exon_id "YOS1_3.1";
+< chrV	tmp.gp	exon	308068	308123	.	+	.	gene_id "YOS1"; transcript_id "YOS1_3"; exon_number "2"; exon_id "YOS1_3.2";
+< chrV	tmp.gp	exon	307653	307746	.	+	.	gene_id "YOS1"; transcript_id "YOS1"; exon_number "1"; exon_id "YOS1.1";
+---
+> chrV	tmp.gp	exon	307600	308170	.	+	.	gene_id "YOS1"; transcript_id "YOS1_2"; exon_number "1"; exon_id "YOS1_2.1";
+> chrV	tmp.gp	exon	307600	307746	.	+	.	gene_id "YOS1"; transcript_id "YOS1"; exon_number "1"; exon_id "YOS1.1";
+7187c7094
+< chrV	tmp.gp	exon	308068	308123	.	+	.	gene_id "YOS1"; transcript_id "YOS1"; exon_number "3"; exon_id "YOS1.3";
+---
+> chrV	tmp.gp	exon	308068	308170	.	+	.	gene_id "YOS1"; transcript_id "YOS1"; exon_number "3"; exon_id "YOS1.3";
+7216,7218c7123,7125
+< chrXVI	tmp.gp	exon	345264	347389	.	-	.	gene_id "YPL109C"; transcript_id "YPL109C_2"; exon_number "1"; exon_id "YPL109C_2.1";
+< chrXVI	tmp.gp	exon	345264	345444	.	-	.	gene_id "YPL109C"; transcript_id "YPL109C"; exon_number "1"; exon_id "YPL109C.1";
+< chrXVI	tmp.gp	exon	345597	347389	.	-	.	gene_id "YPL109C"; transcript_id "YPL109C"; exon_number "2"; exon_id "YPL109C.2";
+---
+> chrXVI	tmp.gp	exon	345160	347466	.	-	.	gene_id "YPL109C"; transcript_id "YPL109C_2"; exon_number "1"; exon_id "YPL109C_2.1";
+> chrXVI	tmp.gp	exon	345160	345444	.	-	.	gene_id "YPL109C"; transcript_id "YPL109C"; exon_number "1"; exon_id "YPL109C.1";
+> chrXVI	tmp.gp	exon	345597	347466	.	-	.	gene_id "YPL109C"; transcript_id "YPL109C"; exon_number "2"; exon_id "YPL109C.2";
+7224d7130
+< chrXVI	tmp.gp	exon	282686	283003	.	-	.	gene_id "YPL142C"; transcript_id "YPL142C"; exon_number "1"; exon_id "YPL142C.1";
+7243d7148
+< chrXVI	tmp.gp	exon	75702	75989	.	+	.	gene_id "YPL250W-A"; transcript_id "YPL250W-A"; exon_number "1"; exon_id "YPL250W-A.1";
+7259,7261c7164,7166
+< chrXVI	tmp.gp	exon	582373	582734	.	-	.	gene_id "YPR010C-A"; transcript_id "YPR010C-A_2"; exon_number "1"; exon_id "YPR010C-A_2.1";
+< chrXVI	tmp.gp	exon	582373	582558	.	-	.	gene_id "YPR010C-A"; transcript_id "YPR010C-A"; exon_number "1"; exon_id "YPR010C-A.1";
+< chrXVI	tmp.gp	exon	582702	582734	.	-	.	gene_id "YPR010C-A"; transcript_id "YPR010C-A"; exon_number "2"; exon_id "YPR010C-A.2";
+---
+> chrXVI	tmp.gp	exon	582250	582786	.	-	.	gene_id "YPR010C-A"; transcript_id "YPR010C-A_2"; exon_number "1"; exon_id "YPR010C-A_2.1";
+> chrXVI	tmp.gp	exon	582250	582558	.	-	.	gene_id "YPR010C-A"; transcript_id "YPR010C-A"; exon_number "1"; exon_id "YPR010C-A.1";
+> chrXVI	tmp.gp	exon	582702	582786	.	-	.	gene_id "YPR010C-A"; transcript_id "YPR010C-A"; exon_number "2"; exon_id "YPR010C-A.2";
+7275c7180
+< chrXVI	tmp.gp	exon	677812	678320	.	-	.	gene_id "YPR063C"; transcript_id "YPR063C_2"; exon_number "1"; exon_id "YPR063C_2.1";
+---
+> chrXVI	tmp.gp	exon	677812	678373	.	-	.	gene_id "YPR063C"; transcript_id "YPR063C_2"; exon_number "1"; exon_id "YPR063C_2.1";
+7277c7182
+< chrXVI	tmp.gp	exon	678280	678320	.	-	.	gene_id "YPR063C"; transcript_id "YPR063C"; exon_number "2"; exon_id "YPR063C.2";
+---
+> chrXVI	tmp.gp	exon	678280	678373	.	-	.	gene_id "YPR063C"; transcript_id "YPR063C"; exon_number "2"; exon_id "YPR063C.2";
+7290c7195
+< chrXVI	tmp.gp	exon	728947	729528	.	-	.	gene_id "YPR098C"; transcript_id "YPR098C_2"; exon_number "1"; exon_id "YPR098C_2.1";
+---
+> chrXVI	tmp.gp	exon	728947	729567	.	-	.	gene_id "YPR098C"; transcript_id "YPR098C_2"; exon_number "1"; exon_id "YPR098C_2.1";
+7292c7197
+< chrXVI	tmp.gp	exon	729482	729528	.	-	.	gene_id "YPR098C"; transcript_id "YPR098C"; exon_number "2"; exon_id "YPR098C.2";
+---
+> chrXVI	tmp.gp	exon	729482	729567	.	-	.	gene_id "YPR098C"; transcript_id "YPR098C"; exon_number "2"; exon_id "YPR098C.2";
+7311,7312c7216,7217
+< chrXVI	tmp.gp	exon	833689	834245	.	+	.	gene_id "YPR153W"; transcript_id "YPR153W_2"; exon_number "1"; exon_id "YPR153W_2.1";
+< chrXVI	tmp.gp	exon	833689	833693	.	+	.	gene_id "YPR153W"; transcript_id "YPR153W"; exon_number "1"; exon_id "YPR153W.1";
+---
+> chrXVI	tmp.gp	exon	833640	834245	.	+	.	gene_id "YPR153W"; transcript_id "YPR153W_2"; exon_number "1"; exon_id "YPR153W_2.1";
+> chrXVI	tmp.gp	exon	833640	833693	.	+	.	gene_id "YPR153W"; transcript_id "YPR153W"; exon_number "1"; exon_id "YPR153W.1";
+7319,7322c7224,7226
+< chrXVI	tmp.gp	exon	882983	883318	.	-	.	gene_id "YPR170C"; transcript_id "YPR170C"; exon_number "1"; exon_id "YPR170C.1";
+< chrXVI	tmp.gp	exon	883239	883595	.	+	.	gene_id "YPR170W-B"; transcript_id "YPR170W-B_2"; exon_number "1"; exon_id "YPR170W-B_2.1";
+< chrXVI	tmp.gp	exon	883239	883387	.	+	.	gene_id "YPR170W-B"; transcript_id "YPR170W-B"; exon_number "1"; exon_id "YPR170W-B.1";
+< chrXVI	tmp.gp	exon	883487	883595	.	+	.	gene_id "YPR170W-B"; transcript_id "YPR170W-B"; exon_number "2"; exon_id "YPR170W-B.2";
+---
+> chrXVI	tmp.gp	exon	883200	883700	.	+	.	gene_id "YPR170W-B"; transcript_id "YPR170W-B_2"; exon_number "1"; exon_id "YPR170W-B_2.1";
+> chrXVI	tmp.gp	exon	883200	883387	.	+	.	gene_id "YPR170W-B"; transcript_id "YPR170W-B"; exon_number "1"; exon_id "YPR170W-B.1";
+> chrXVI	tmp.gp	exon	883487	883700	.	+	.	gene_id "YPR170W-B"; transcript_id "YPR170W-B"; exon_number "2"; exon_id "YPR170W-B.2";
+7347,7348c7251,7252
+< chrIV	tmp.gp	exon	1236558	1238004	.	+	.	gene_id "YRA1"; transcript_id "YRA1_2"; exon_number "1"; exon_id "YRA1_2.1";
+< chrIV	tmp.gp	exon	1236558	1236842	.	+	.	gene_id "YRA1"; transcript_id "YRA1"; exon_number "1"; exon_id "YRA1.1";
+---
+> chrIV	tmp.gp	exon	1236460	1238004	.	+	.	gene_id "YRA1"; transcript_id "YRA1_2"; exon_number "1"; exon_id "YRA1_2.1";
+> chrIV	tmp.gp	exon	1236460	1236842	.	+	.	gene_id "YRA1"; transcript_id "YRA1"; exon_number "1"; exon_id "YRA1.1";
+7364c7268
+< chrVIII	tmp.gp	exon	136881	138455	.	-	.	gene_id "YSC84"; transcript_id "YSC84_2"; exon_number "1"; exon_id "YSC84_2.1";
+---
+> chrVIII	tmp.gp	exon	136881	138492	.	-	.	gene_id "YSC84"; transcript_id "YSC84_2"; exon_number "1"; exon_id "YSC84_2.1";
+7366,7368c7270,7272
+< chrVIII	tmp.gp	exon	138409	138455	.	-	.	gene_id "YSC84"; transcript_id "YSC84"; exon_number "2"; exon_id "YSC84.2";
+< chrXIV	tmp.gp	exon	366033	366412	.	+	.	gene_id "YSF3"; transcript_id "YSF3_2"; exon_number "1"; exon_id "YSF3_2.1";
+< chrXIV	tmp.gp	exon	366033	366035	.	+	.	gene_id "YSF3"; transcript_id "YSF3"; exon_number "1"; exon_id "YSF3.1";
+---
+> chrVIII	tmp.gp	exon	138409	138492	.	-	.	gene_id "YSC84"; transcript_id "YSC84"; exon_number "2"; exon_id "YSC84.2";
+> chrXIV	tmp.gp	exon	365965	366412	.	+	.	gene_id "YSF3"; transcript_id "YSF3_2"; exon_number "1"; exon_id "YSF3_2.1";
+> chrXIV	tmp.gp	exon	365965	366035	.	+	.	gene_id "YSF3"; transcript_id "YSF3"; exon_number "1"; exon_id "YSF3.1";
