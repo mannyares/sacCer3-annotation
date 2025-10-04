@@ -9,4 +9,4 @@ The first line provides track information for loading into a UCSC style genome b
 
 Version 13a is now included. The only difference between this version and version 13 is that the name of the OCT1 gene has been edited back to its original license plate name YKL134C. This is because converting output files from various processes to excel files causes OCT1 to be converted to a date by excel.
 
-Version 14 now includes a column describing gene type - "protein coding" "ncRNA" "tRNA"
+Version 14 now includes a column describing gene type - "protein coding" "ncRNA" "tRNA" -however version 14 lacks any tRNA gene annotations. (future plan).
