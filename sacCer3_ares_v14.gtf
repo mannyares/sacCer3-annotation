@@ -1,4 +1,4 @@
-#track name='ares lab xcripts gtf v13' description='transcripts v14' genome=sacCer3 priority=0.021 visibility=pack color=98,166,92  								
+#track name='ares lab xcripts gtf v14' description='transcripts v14' genome=sacCer3 priority=0.021 visibility=pack color=98,166,92  								
 chrXIII	tmp.gp	exon	387315	388244	.	-	.	gene_id "AAC1"; gene_type "protein_coding"; transcript_id "AAC1"; exon_number "1"; exon_id "AAC1.1";
 chrII	tmp.gp	exon	415983	416906	.	+	.	gene_id "AAC3"; gene_type "protein_coding"; transcript_id "AAC3"; exon_number "1"; exon_id "AAC3.1";
 chrX	tmp.gp	exon	727405	728271	.	+	.	gene_id "AAD10"; gene_type "protein_coding"; transcript_id "AAD10"; exon_number "1"; exon_id "AAD10.1";
